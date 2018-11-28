@@ -2,10 +2,10 @@
 
 ## Contents
 - Guide
-    - [What is AI Planning?](./guide/whatisaip)
-        - [Domain independent Planning](./guide/whatisaip#Domain%20Independent%20Planning)
-    - [What is PDDL?](./guide/whatispddl)
-        - [PDDL](./guide/whatispddl#PDDL)
+    - [What is AI Planning?](./guide/whatisaip.md)
+        - [Domain independent Planning](./guide/whatisaip.md#Domain%20Independent%20Planning)
+    - [What is PDDL?](./guide/whatispddl.md)
+        - [PDDL](./guide/whatispddl.md#PDDL)
         - [PDDL 2.1](./guide/whatispddl#PDDL%202%2E1)
         - [PDDL 2.2](./guide/whatispddl#PDDL%202%2E2)
         - [PDDL 3.0](./guide/whatispddl#PDDL%203%2E0)
