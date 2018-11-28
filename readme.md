@@ -6,104 +6,107 @@
         - [Domain independent Planning](./guide/whatisaip.md#Domain%20Independent%20Planning)
     - [What is PDDL?](./guide/whatispddl.md)
         - [PDDL](./guide/whatispddl.md#PDDL)
-        - [PDDL 2.1](./guide/whatispddl#PDDL%202%2E1)
-        - [PDDL 2.2](./guide/whatispddl#PDDL%202%2E2)
-        - [PDDL 3.0](./guide/whatispddl#PDDL%203%2E0)
-        - [PDDL 3.1](./guide/whatispddl#PDDL%203%2E1)
-        - [PDDL+](./guide/whatispddl#PDDL+)
-        - [Other Flavours](./guide/whatispddl#Other%20Flavours%20of%20PDDL)
-    - [What is a planner?](./guide/whatisplanner)
-        - [List of planners](./guide/whatisplanner#List%20of%20Planners)
-        - [Supported Features](./guide/whatisplanner#Planner%20Feature%20Support)
+        - [PDDL 2.1](./guide/whatispddl.md#PDDL%202%2E1)
+        - [PDDL 2.2](./guide/whatispddl.md#PDDL%202%2E2)
+        - [PDDL 3.0](./guide/whatispddl.md#PDDL%203%2E0)
+        - [PDDL 3.1](./guide/whatispddl.md#PDDL%203%2E1)
+        - [PDDL+](./guide/whatispddl.md#PDDL+)
+        - [Other Flavours](./guide/whatispddl.md#Other%20Flavours%20of%20PDDL)
+    - [What is a planner?](./guide/whatisplanner.md)
+        - [List of planners](./guide/whatisplanner.md#List%20of%20Planners)
+        - [Supported Features](./guide/whatisplanner.md#Planner%20Feature%20Support)
 - Reference
-    - [PDDL (1.2)](/reference/PDDL/main)
-        - [Domain](./reference/PDDL/domain)
-            - [Extends](./reference/PDDL/domain#Extends)
-            - [Requirements](./reference/PDDL/domain#Requirements)
-                - [List of supported Requirements](./reference/PDDL/Domain/requirements)
-            - [Object Types](./reference/PDDL/domain#Object%20Types)
-            - [Constants](./reference/PDDL/domain#Constants)
-            - [Predicates](./reference/PDDL/domain#Predicates)
-            - [Timeless Predicates](./reference/PDDL/domain#Timeless%20Predicates)
-            - [Safety Constraints](./reference/PDDL/domain#Safety%20Constraint)
-            - [Actions](./reference/PDDL/domain#Actions)
-            - [Axioms](./reference/PDDL/domain#Axioms)
-        - [Problem](./reference/PDDL/problem)
-            - [Problem Name](./reference/PDDL/problem#Problem%20Name)
-            - [Domain](./reference/PDDL/problem#Domain)
-            - [Situation](./reference/PDDL/problem#Situation)
-            - [Objects](./reference/PDDL/problem#Objects)
-            - [Init (Initial State)](./reference/PDDL/problem#Init)
-            - [Goal](./reference/PDDL/problem#Goal)
-    - PDDL 2.1
-        - Domain
-            - Requirements
-                - :numeric-fluents
-                - :durative-actions
-                - :durative-inequalities
-                - :continuous-effects
-                - :negative-preconditions
-            - Numeric Fluents
-            - Durative Actions
-                - :parameters
-                - :duration
-                - :condition
-                    - at start
-                    - at end
-                    - overall
-                - :effect
-                    - at start
-                    - at end
-        - Problem
-            - Numeric Fluents
-            - Metric
-            - Length (Deprecated)
-    - PDDL 2.2
-        - Domain
-            - Requirements
-                - :derived-predicates
-                - :timed-initial-literals
-        - Problem
-            - Timed initial literals
-    - PDDL 3.0
-        - Domain
-            - Requirements
-                - :preferences
-                - :constraints
-                - :action-costs
-            - Constraints
-        - Problem
-            - Preferences
-                - always
-                - sometime
-                - within
-                - at-most-once
-                - sometime-after
-                - sometime-before
-                - always-within
-                - hold-during
-                - hold-after
-    - PDDL 3.1
-        - Domain
-            - Requirements
-                - :object-fluents
-    - PDDL+
-        - Domain
-            - Requirements
-                - :time
-            - Processes
-                - :parameters
-                - :precondition
-                - :effect
-            - Events
-                - :parameters
-                - :precondition
-                - :effect
-    - Other PDDL Flavours & Syntaxing
-        - Domain
-            - Requirements
-                - :goal-utilities
-                - :constants
-                - :predicates
-                - :functions
-                - :types
+    - PDDL
+        - [PDDL (1.2)](/reference/PDDL/main.md)
+            - [Domain](./reference/PDDL/domain.md)
+                - [Extends](./reference/PDDL/domain.md#Extends)
+                - [Requirements](./reference/PDDL/domain.md#Requirements)
+                    - [List of supported Requirements](./reference/PDDL/Domain/requirements.md)
+                - [Object Types](./reference/PDDL/domain.md#Object%20Types)
+                - [Constants](./reference/PDDL/domain.md#Constants)
+                - [Predicates](./reference/PDDL/domain.md#Predicates)
+                - [Timeless Predicates](./reference/PDDL/domain.md#Timeless%20Predicates)
+                - [Safety Constraints](./reference/PDDL/domain.md#Safety%20Constraint)
+                - [Actions](./reference/PDDL/domain.md#Actions)
+                - [Axioms](./reference/PDDL/domain.md#Axioms)
+            - [Problem](./reference/PDDL/problem.md)
+                - [Problem Name](./reference/PDDL/problem.md#Problem%20Name)
+                - [Domain](./reference/PDDL/problem.md#Domain)
+                - [Situation](./reference/PDDL/problem.md#Situation)
+                - [Objects](./reference/PDDL/problem.md#Objects)
+                - [Init (Initial State)](./reference/PDDL/problem.md#Init)
+                - [Goal](./reference/PDDL/problem.md#Goal)
+        - PDDL 2.1
+            - Domain
+                - Requirements
+                    - :numeric-fluents
+                    - :durative-actions
+                    - :durative-inequalities
+                    - :continuous-effects
+                    - :negative-preconditions
+                - Numeric Fluents
+                - Durative Actions
+                    - :parameters
+                    - :duration
+                    - :condition
+                        - at start
+                        - at end
+                        - overall
+                    - :effect
+                        - at start
+                        - at end
+            - Problem
+                - Numeric Fluents
+                - Metric
+                - Length (Deprecated)
+        - PDDL 2.2
+            - Domain
+                - Requirements
+                    - :derived-predicates
+                    - :timed-initial-literals
+            - Problem
+                - Timed initial literals
+        - PDDL 3.0
+            - Domain
+                - Requirements
+                    - :preferences
+                    - :constraints
+                    - :action-costs
+                - Constraints
+            - Problem
+                - Preferences
+                    - always
+                    - sometime
+                    - within
+                    - at-most-once
+                    - sometime-after
+                    - sometime-before
+                    - always-within
+                    - hold-during
+                    - hold-after
+        - PDDL 3.1
+            - Domain
+                - Requirements
+                    - :object-fluents
+        - PDDL+
+            - Domain
+                - Requirements
+                    - :time
+                - Processes
+                    - :parameters
+                    - :precondition
+                    - :effect
+                - Events
+                    - :parameters
+                    - :precondition
+                    - :effect
+        - Other PDDL Flavours & Syntaxing
+            - Domain
+                - Requirements
+                    - :goal-utilities
+                    - :constants
+                    - :predicates
+                    - :functions
+                    - :types
+    - Planners
+- FAQ

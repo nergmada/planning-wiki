@@ -51,13 +51,13 @@ Usage: <span style="color:green">High</span>
 
 Allows the use of continuous effects on numerics within durative actions. Because durative actions take a period of time, we could model the change in a numeric value as some function of time. In reality support for this shaky. Linear functions are relatively easy for planners but non-linear effects are still an area of research.
 
-## negative Preconditions
+## Negative Preconditions
 Support: <span style="color:red">Low</span>  
 Usage: <span style="color:green">High</span>
 
 `(:requirements :negative-preconditions)`
 
-Allows the use of `not` in preconditions. The way some planners model actions mean they are not capable of handling negative preconditions. This is more an inconvenience that a serious design floor as for every predicate their is an opposing predicate which is true when it's false. I.e.
+Allows the use of `not` in preconditions. The way some planners model actions mean they are not capable of handling negative preconditions. This is more an inconvenience that a serious design flaw as for every predicate their is an opposing predicate which is true when it's false. I.e.
 
 `rover-charged` and `rover-not-charged` are mutually exclusive. In the event where negative preconditions are not support we can introduce a second predicate which represents the negation of the predicate we want to express a negative precondition on.
 

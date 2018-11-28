@@ -14,5 +14,6 @@ There are however a really wide array of planners and some are objective better 
 - UPMurphi
 - FF
 - JavaFF
+- LPG
 
 # Planner Feature Support

@@ -76,11 +76,11 @@ Multiple `:requirements` can be specified through a space separated list e.g.
 
 ### List of Requirements
 The following is a list of requirements that were added by PDDL2.1 to the language of PDDL. 
-- [:fluents](./Domain/requirements#Numeric%20Fluents)
-- [:durative-actions](./Domain/requirements#Durative%20Actions)
-- [:durative-inequalities](./Domain/requirements#Durative%20Inequalities)
-- [:continuous-effects](./Domain/requirements#Continous%20Effects)
-- [:negative-preconditions](./Domain/requirements#Negative%20Preconditions)
+- [:fluents](./Domain/requirements.md#Numeric%20Fluents)
+- [:durative-actions](./Domain/requirements.md#Durative%20Actions)
+- [:durative-inequalities](./Domain/requirements.md#Durative%20Inequalities)
+- [:continuous-effects](./Domain/requirements.md#Continous%20Effects)
+- [:negative-preconditions](./Domain/requirements.md#Negative%20Preconditions)
 
 ## Numeric Fluents
 [back to contents](#Contents)
@@ -225,7 +225,12 @@ A duration can be expressed as either a fixed value or an inequality. It is also
 `:duration (= ?duration 10)`
 
 ### Condition
+Support: <span style="color:green">Universal - where durative actions are available</span>  
+Usage: <span style="color:green">High</span>
 
+`:condition (<logical_temporal_expression>)`
+
+A condition is a condition which must be met in order for a durative action to execute. 
 
 ### Effect
 
