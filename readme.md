@@ -1,0 +1,109 @@
+# PDDL Reference Guide
+
+## Contents
+- Guide
+    - [What is AI Planning?](./guide/whatisaip)
+        - [Domain independent Planning](./guide/whatisaip#Domain%20Independent%20Planning)
+    - [What is PDDL?](./guide/whatispddl)
+        - [PDDL](./guide/whatispddl#PDDL)
+        - [PDDL 2.1](./guide/whatispddl#PDDL%202%2E1)
+        - [PDDL 2.2](./guide/whatispddl#PDDL%202%2E2)
+        - [PDDL 3.0](./guide/whatispddl#PDDL%203%2E0)
+        - [PDDL 3.1](./guide/whatispddl#PDDL%203%2E1)
+        - [PDDL+](./guide/whatispddl#PDDL+)
+        - [Other Flavours](./guide/whatispddl#Other%20Flavours%20of%20PDDL)
+    - [What is a planner?](./guide/whatisplanner)
+        - [List of planners](./guide/whatisplanner#List%20of%20Planners)
+        - [Supported Features](./guide/whatisplanner#Planner%20Feature%20Support)
+- Reference
+    - [PDDL (1.2)](/reference/PDDL/main)
+        - [Domain](./reference/PDDL/domain)
+            - [Extends](./reference/PDDL/domain#Extends)
+            - [Requirements](./reference/PDDL/domain#Requirements)
+                - [List of supported Requirements](./reference/PDDL/Domain/requirements)
+            - [Object Types](./reference/PDDL/domain#Object%20Types)
+            - [Constants](./reference/PDDL/domain#Constants)
+            - [Predicates](./reference/PDDL/domain#Predicates)
+            - [Timeless Predicates](./reference/PDDL/domain#Timeless%20Predicates)
+            - [Safety Constraints](./reference/PDDL/domain#Safety%20Constraint)
+            - [Actions](./reference/PDDL/domain#Actions)
+            - [Axioms](./reference/PDDL/domain#Axioms)
+        - [Problem](./reference/PDDL/problem)
+            - [Problem Name](./reference/PDDL/problem#Problem%20Name)
+            - [Domain](./reference/PDDL/problem#Domain)
+            - [Situation](./reference/PDDL/problem#Situation)
+            - [Objects](./reference/PDDL/problem#Objects)
+            - [Init (Initial State)](./reference/PDDL/problem#Init)
+            - [Goal](./reference/PDDL/problem#Goal)
+    - PDDL 2.1
+        - Domain
+            - Requirements
+                - :numeric-fluents
+                - :durative-actions
+                - :durative-inequalities
+                - :continuous-effects
+                - :negative-preconditions
+            - Numeric Fluents
+            - Durative Actions
+                - :parameters
+                - :duration
+                - :condition
+                    - at start
+                    - at end
+                    - overall
+                - :effect
+                    - at start
+                    - at end
+        - Problem
+            - Numeric Fluents
+            - Metric
+            - Length (Deprecated)
+    - PDDL 2.2
+        - Domain
+            - Requirements
+                - :derived-predicates
+                - :timed-initial-literals
+        - Problem
+            - Timed initial literals
+    - PDDL 3.0
+        - Domain
+            - Requirements
+                - :preferences
+                - :constraints
+                - :action-costs
+            - Constraints
+        - Problem
+            - Preferences
+                - always
+                - sometime
+                - within
+                - at-most-once
+                - sometime-after
+                - sometime-before
+                - always-within
+                - hold-during
+                - hold-after
+    - PDDL 3.1
+        - Domain
+            - Requirements
+                - :object-fluents
+    - PDDL+
+        - Domain
+            - Requirements
+                - :time
+            - Processes
+                - :parameters
+                - :precondition
+                - :effect
+            - Events
+                - :parameters
+                - :precondition
+                - :effect
+    - Other PDDL Flavours & Syntaxing
+        - Domain
+            - Requirements
+                - :goal-utilities
+                - :constants
+                - :predicates
+                - :functions
+                - :types
