@@ -29,12 +29,12 @@ The problem then solidifies this expression by define exactly what objects exist
 ```
 
 ## Contents
-- Problem Name
-- Domain
-- Situation
-- Objects
-- Init (Initial State)
-- Goal
+- [Problem Name](#Problem%20Name)
+- [Domain](#Domain)
+- [Situation](#Situation)
+- [Objects](#Objects)
+- [Init (Initial State)](#Init)
+- [Goal](#Goal)
 
 ## Problem Name
 [back to contents](#Contents)

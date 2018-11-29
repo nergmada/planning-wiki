@@ -4,24 +4,24 @@ PDDL 1.2 formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largel
 
 Problems in PDDL are defined in two parts, a domain and a problem file. The following sections divide respectively, representing constituent parts of the domain and the problem.
 ## Contents
-- [Domain](./domain)
-    - [Extends](./domain#Extends)
-    - [Requirements](./domain#Requirements)
-        - [List of supported Requirements](./Domain/requirements)
-    - [Object Types](./domain#Object%20Types)
-    - [Constants](./domain#Constants)
-    - [Predicates](./domain#Predicates)
-    - [Timeless Predicates](./domain#Timeless%20Predicates)
-    - [Safety Constraints](./domain#Safety%20Constraint)
-    - [Actions](./domain#Actions)
-    - [Axioms](./domain#Axioms)
-- [Problem](./problem)
-    - [Problem Name](./problem#Problem%20Name)
-    - [Domain](./problem#Domain)
-    - [Situation](./problem#Situation)
-    - [Objects](./problem#Objects)
-    - [Init (Initial State)](./problem#Init)
-    - [Goal](./problem#Goal)
+- [Domain](./domain.md)
+    - [Extends](./domain.md#Extends)
+    - [Requirements](./domain.md#Requirements)
+        - [List of supported Requirements](./Domain/requirements.md)
+    - [Object Types](./domain.md#Object%20Types)
+    - [Constants](./domain.md#Constants)
+    - [Predicates](./domain.md#Predicates)
+    - [Timeless Predicates](./domain.md#Timeless%20Predicates)
+    - [Safety Constraints](./domain.md#Safety%20Constraint)
+    - [Actions](./domain.md#Actions)
+    - [Axioms](./domain.md#Axioms)
+- [Problem](./problem.md)
+    - [Problem Name](./problem.md#Problem%20Name)
+    - [Domain](./problem.md#Domain)
+    - [Situation](./problem.md#Situation)
+    - [Objects](./problem.md#Objects)
+    - [Init (Initial State)](./problem.md#Init)
+    - [Goal](./problem.md#Goal)
 
 ## Domain And Problem File
 ### Domain
@@ -33,7 +33,7 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
     (:types 
         site material - object
         bricks cables windows - material
-    )
+    )x
     (:constants mainsite - site)
 
     ;(:domain-variables ) ;deprecated

@@ -5,7 +5,7 @@ PDDL 2.1 was the language of the 2002 AIPS Competition and built upon the syntax
 This guide will only show features that have been changed or added to PDDL 1.2 in order to form 2.1
 
 ## Contents
-- Domain
+- [Domain](./domain.md)
     - Requirements
         - :numeric-fluents
         - :durative-actions
