@@ -9,6 +9,8 @@ This competition, dating from 1998, has defined a general purpose definition lan
 
 In reality, PDDL since it's first incarnation in 1998 has had serious modifications to make it capable of handling the complex tasks we expect of modern autonomous planning and scheduling techniques. 
 
+For more details on PDDL, Planning, the history, the usage and the research, see the guide.
+
 ## Using This Guide
 This guide splits into three main sections, guide, reference and examples. 
 
