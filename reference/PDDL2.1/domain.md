@@ -47,18 +47,13 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
 
 
 ## Contents
-- Requirements
-- Numeric Fluents
-- Durative Actions
-    - :parameters
-    - :duration
-    - :condition
-        - at start
-        - at end
-        - overall
-    - :effect
-        - at start
-        - at end
+- [Requirements](#Requirements)
+- [Numeric Fluents](#Numeric%20Fluents)
+- [Durative Actions](#Durative%20Actions)
+    - [:parameters](#Parameters)
+    - [:duration](#Duration)
+    - [:condition](#Condition)
+    - [:effect](#Effect)
 
 ## Requirements
 [back to contents](#Contents)
@@ -230,9 +225,51 @@ Usage: <span style="color:green">High</span>
 
 `:condition (<logical_temporal_expression>)`
 
-A condition is a condition which must be met in order for a durative action to execute. 
+A condition is a logical and temporal expression which must be met in order for a durative action to execute. Because a durative action occurs over time, we may wish to express that additional conditions be met for the duration or end of the action, not just the start. This gives rise to three new keywords `at start`, `at end` and `over all`.
+
+#### At Start
+An expression or predicate with `at start` prefixed to it, means that the condition must be true at the start of the action in order for the action to be applied. e.g.
+
+`(at start (at ?rover ?from-waypoint)) `
+
+expresses that `at start` the given `rover` is `at` the `from-waypoint`. Confusingly in this particular domain, the `at` is a predicate representing the location of an object `at` a point, whilst `at start` is a keyword. 
+
+`at start` is usually applied per predicate.
+
+#### At End
+An expression or predicate with `at end` prefixed to it, means that the condition must be true at the end of the action in order for the action to be applied e.g.
+
+`(at end (>= (battery-amount ?rover) 0)`
+
+In essence we are saying that whilst this fact doesn't have to be true at the start or during the action, it must be true at the end. In this case, we're expressing that the battery amount at the end of the action must be greater than zero.
+
+#### Over All
+An expression or predicate with an `overall` prefixed to it, means that the condition must be true throughout the action, including at the start and end. e.g.
+
+`(over all (can-move ?from-waypoint ?to-waypoint))`
+
+At all points in the execution of the action the given expression must evaluate to true. In the case above, we are expressing that it must be possible to move from the `from` waypoint to the `to` waypoint all the way through the action. I.e. we don't want to get half way through the action to find that after a certain point a path has become blocked.
 
 ### Effect
+Support: <span style="color:green">Universal - where durative actions are available</span>  
+Usage: <span style="color:green">High</span>
+
+`:effect (<logical_temporal_condition>)`
+
+An effect similar to in traditional actions, is a condition which is made true when an action is applied. Note that the effect is always more restrictive and typically only allows `and` and `not` as logical expressions. 
+
+Temporal expressions, such as `at start` and `at end` are available, however, `over all` is typically not used. because it's not common to express a boolean effect which is true over the duration of the action. Instead you would set it to true at the start, using an `at start` and set it to false at the end using `at end`
+
+```
+:effect
+    (and 
+        (at start (not (at ?rover ?from-waypoint))) 
+        (at start (decrease (battery-amount ?rover) 8)))
+        (at end (at ?rover ?to-waypoint))
+        (at end (been-at ?rover ?to-waypoint))
+```
+
+The above effect is saying that `at start` the rover can no longer be considered as being at the `from` waypoint, and that `at end` it can now be considered as being at the `to` waypoint. It also adds a second predicate `been-at` which indicates that at some point the rover has visited the given waypoint.
 
 ## References
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
