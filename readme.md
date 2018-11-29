@@ -1,4 +1,5 @@
 # A PDDL Reference Guide
+[Go Straight To Contents](#Contents)
 ## Introduction
 This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is hard to quantify under one roof, due to the variety of ongoing research in the field. 
 
@@ -31,7 +32,7 @@ Alternatively, if you are not able to provide a contribution, but maybe think th
 
 Finally, if you have a planner which you think should be included in this reference guide, please ask for collaborator access (if you're the creator of the planner), or create an issue (if you're a user) and we'll try to include it.
 
-Any other issues should be sent to adam.green@kcl.ac.uk
+Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to get back to you ASAP.
 
 ## Contents
 - Guide
