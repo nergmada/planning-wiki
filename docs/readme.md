@@ -1,5 +1,5 @@
 # A PDDL Reference Guide
-[Go Straight To Contents](#Contents)
+[Go Straight To Contents](#contents)
 ## Introduction
 This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is hard to quantify under one roof, due to the variety of ongoing research in the field. 
 
@@ -39,7 +39,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
 ## Contents
 - Guide
     - [What is AI Planning?](./guide/whatisaip.md)
-        - [Domain independent Planning](./guide/whatisaip.md#Domain%20Independent%20Planning)
+        - [Domain independent Planning](./guide/whatisaip.md#domain%20independent%20planning)
     - [What is PDDL?](./guide/whatispddl.md)
         - [PDDL](./guide/whatispddl.md#PDDL)
         - [PDDL 2.1](./guide/whatispddl.md#PDDL%202%2E1)
