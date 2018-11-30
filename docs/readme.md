@@ -53,7 +53,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [Supported Features](./guide/whatisplanner.md#planner-feature-support)
 - Reference
     - PDDL
-        - [PDDL (1.2)](/reference/PDDL/main.md)
+        - [PDDL (1.2)](./reference/PDDL/main.md)
             - [Domain](./reference/PDDL/domain.md)
                 - [Extends](./reference/PDDL/domain.md#extends)
                 - [Requirements](./reference/PDDL/domain.md#requirements)
@@ -72,7 +72,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
                 - [Objects](./reference/PDDL/problem.md#objects)
                 - [Init (Initial State)](./reference/PDDL/problem.md#init)
                 - [Goal](./reference/PDDL/problem.md#goal)
-        - PDDL 2.1
+        - [PDDL 2.1](./reference/PDDL2.1/main.md)
             - [Domain](./PDDL2.1/domain.md)
                 - [Requirements](./PDDL2.1/domain.md#requirements)
                     - [List of PDDL 2.1 Requirements](./PDDL2.1/domain.md#list-of-requirements)
