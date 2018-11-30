@@ -47,16 +47,16 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
 
 
 ## Contents
-- [Requirements](#Requirements)
-- [Numeric Fluents](#Numeric%20Fluents)
-- [Durative Actions](#Durative%20Actions)
-    - [:parameters](#Parameters)
-    - [:duration](#Duration)
-    - [:condition](#Condition)
-    - [:effect](#Effect)
+- [Requirements](#requirements)
+- [Numeric Fluents](#numeric-fluents)
+- [Durative Actions](#durative-actions)
+    - [:parameters](#parameters)
+    - [:duration](#duration)
+    - [:condition](#condition)
+    - [:effect](#effect)
 
 ## Requirements
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -78,7 +78,7 @@ The following is a list of requirements that were added by PDDL2.1 to the langua
 - [:negative-preconditions](./Domain/requirements.md#Negative%20Preconditions)
 
 ## Numeric Fluents
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:yellow">High</span>  
 Usage: <span style="color:green">High</span>
@@ -160,7 +160,7 @@ A scale down effect decreases the value of the numeric variable by the given sca
 `(scale-down (battery-level ?r) (consumption-rate ?r))`
 
 ## Durative Actions
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:yellow">High</span>  
 Usage: <span style="color:green">High</span>

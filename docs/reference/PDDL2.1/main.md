@@ -6,23 +6,14 @@ This guide will only show features that have been changed or added to PDDL 1.2 i
 
 ## Contents
 - [Domain](./domain.md)
-    - Requirements
-        - :numeric-fluents
-        - :durative-actions
-        - :durative-inequalities
-        - :continuous-effects
-        - :negative-preconditions
-    - Numeric Fluents
-    - Durative Actions
-        - :parameters
-        - :duration
-        - :condition
-            - at start
-            - at end
-            - overall
-        - :effect
-            - at start
-            - at end
+    - [Requirements](./domain.md#requirements)
+        - [List of PDDL 2.1 Requirements](./domain.md#list-of-requirements)
+    - [Numeric Fluents](./domain.md#numeric-fluents)
+    - [Durative Actions](./domain.md#durative-actions)
+        - [:parameters](./domain.md#parameters)
+        - [:duration](./domain.md#duration)
+        - [:condition](./domain.md#condition)
+        - [:effect](./domain.md#effect)
 - Problem
     - Numeric Fluents
     - Metric
