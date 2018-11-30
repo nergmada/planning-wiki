@@ -14,7 +14,7 @@ This guide will only show features that have been changed or added to PDDL 1.2 i
         - [:duration](./domain.md#duration)
         - [:condition](./domain.md#condition)
         - [:effect](./domain.md#effect)
-- Problem
-    - Numeric Fluents
-    - Metric
-    - Length (Deprecated)
+- [Problem](./problem.md)
+    - [Numeric Fluents](./problem.md#numeric-fluents)
+    - [Metric](./problem.md#metric)
+    - [Length (Deprecated)](./problem.md#length)

@@ -11,6 +11,7 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
         (recharge-rate ?r - rover)
         (battery-capacity)
         (sample-capacity)
+        (distance-travelled)
     )
     (:predicates
         ... ; Predicates omitted              
@@ -39,7 +40,9 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
 	            (at end (at ?rover ?to-waypoint))
 	            (at end (been-at ?rover ?to-waypoint))
 	            (at start (not (at ?rover ?from-waypoint))) 
-	            (at start (decrease (battery-amount ?rover) 8)))
+	            (at start (decrease (battery-amount ?rover) 8))
+                (at end (increase (distance-travelled) 5))
+                )
 	)
     ... ; Additional actions omitted
 )
@@ -108,6 +111,20 @@ Means that every rover object in the domain has a variable which maintains a val
 ```
 
 Numeric fluents can be altered through the effects of both `action`s and `durative-action`s. There are a number of supported effects for numeric fluents.
+
+### Prefix Maths
+Support: <span style="color:yellow">High</span>  
+Usage: <span style="color:green">High</span>
+#### Add
+`(+ (sample-capacity) (battery-capacity))`
+#### Subtract
+`(- (sample-capacity) (battery-capacity))`
+#### Divide
+`(/ (sample-capacity) (battery-capacity))`
+#### Multiply
+`(* (sample-capacity) (battery-capacity))`
+
+Prefix notation is used to represent maths operations on numeric fluents. We can see the four primarily binary operations we can perform on numeric fluents. In all of these cases, to convert to infix notation we place the operator between the name of the two fluents.
 
 ### Increase
 Support: <span style="color:yellow">High</span>  

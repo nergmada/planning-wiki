@@ -73,28 +73,19 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
                 - [Init (Initial State)](./reference/PDDL/problem.md#init)
                 - [Goal](./reference/PDDL/problem.md#goal)
         - PDDL 2.1
-            - Domain
-                - Requirements
-                    - :numeric-fluents
-                    - :durative-actions
-                    - :durative-inequalities
-                    - :continuous-effects
-                    - :negative-preconditions
-                - Numeric Fluents
-                - Durative Actions
-                    - :parameters
-                    - :duration
-                    - :condition
-                        - at start
-                        - at end
-                        - overall
-                    - :effect
-                        - at start
-                        - at end
-            - Problem
-                - Numeric Fluents
-                - Metric
-                - Length (Deprecated)
+            - [Domain](./PDDL2.1/domain.md)
+                - [Requirements](./PDDL2.1/domain.md#requirements)
+                    - [List of PDDL 2.1 Requirements](./PDDL2.1/domain.md#list-of-requirements)
+                - [Numeric Fluents](./PDDL2.1/domain.md#numeric-fluents)
+                - [Durative Actions](./PDDL2.1/domain.md#durative-actions)
+                    - [:parameters](./PDDL2.1/domain.md#parameters)
+                    - [:duration](./PDDL2.1/domain.md#duration)
+                    - [:condition](./PDDL2.1/domain.md#condition)
+                    - [:effect](./PDDL2.1/domain.md#effect)
+            - [Problem](./PDDL2.1/problem.md)
+                - [Numeric Fluents](./PDDL2.1/problem.md#numeric-fluents)
+                - [Metric](./PDDL2.1/problem.md#metric)
+                - [Length (Deprecated)](./PDDL2.1/problem.md#length)
         - PDDL 2.2
             - Domain
                 - Requirements
