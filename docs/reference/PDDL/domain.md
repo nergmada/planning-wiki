@@ -60,19 +60,19 @@ A domain file in PDDL 1.2 defines the "universal" aspects of a problem. Essentia
 )
 ```
 ## Contents
-- [Domain Name](#Domain%20Name)
-- [Extends](#Extends)
-- [Requirements](#Requirements)
-- [Types](#Object%20Types)
-- [Constants](#Constants)
-- [Predicates](#Predicates)
-- [Timeless Predicates](#Timeless%20Predicates)
-- [Safety Constraint](#Safety%20Constraint)
-- [Actions](#Actions)
-- [Axioms](#Axioms)
+- [Domain Name](#domain-name)
+- [Extends](#extends)
+- [Requirements](#requirements)
+- [Types](#object-types)
+- [Constants](#constants)
+- [Predicates](#predicates)
+- [Timeless Predicates](#timeless-predicates)
+- [Safety Constraint](#safety-constraint)
+- [Actions](#actions)
+- [Axioms](#axioms)
 
 ## Domain Name
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -86,7 +86,7 @@ A domain always begins by being named. Imediately after we open our first bracke
 Note that this name is also used when we're extending a domain. 
 
 ## Extends
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:red">Poor</span>  
 Usage: <span style="color:red">Rare</span>
@@ -102,7 +102,7 @@ The `:extends` argument allows a domain to extend another "parent" domain. When 
 - timeless propositions
 
 ## Requirements
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -139,7 +139,7 @@ The following is a list of requirements as specified in the 1998 technical manua
 - [:ucpop](./Domain/requirements.md#UCPOP)
 
 ## Object Types
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -194,7 +194,7 @@ Alternatively, if we want to use a specific material, such as when we're buildin
 This action above requires that the specific object is a `bricks` type and therefore we can use predicates which use `bricks`. However, because all `bricks` are `materials` we can also use predicates that take materials for example `(material-used)` within our action.
 
 ## Constants
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:yellow">High</span>  
 Usage: <span style="color:orange">Low</span>
@@ -206,6 +206,8 @@ Constants allow us to declare objects that are present across all instances of a
 This isn't particularly common in practice because we would just declare the object repeatedly in each specific problem.
 
 ## Domain Variables
+[back to contents](#contents)
+
 Support: <span style="color:pink">Changed</span>  
 Usage: <span style="color:red">Rare (in this context)</span>
 
@@ -216,7 +218,7 @@ Domain variables are an older way of expressing numerics which is redefined in P
 Further, most planners won't support this syntax.
 
 ## Predicates
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -249,7 +251,7 @@ In another case, let's say with have multiple sites with various materials distr
 To move the bricks we would create an action which indicates that `(on-site bricks1 site1)` is now false and (assuming `site2` is where we're moving them to) that `(on-site bricks1 site2)` is now true.
 
 ## Timeless Predicates
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:red">Poor</span>  
 Usage: <span style="color:red">Rare</span>
@@ -261,7 +263,7 @@ A timeless predicate is a predicate which is always true and cannot be changed b
 `(:timeless (foundations-set mainsite))`
 
 ## Safety Constraint
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:red">Poor</span>  
 Usage: <span style="color:red">Rare</span>
@@ -281,7 +283,7 @@ It's rarely used in any domains/problems I've see. An example is provided below,
 It might be used in order to essentially define global goals, goals which must be met regardless of the specific problem. In reality, these kind of global goals would still be encoded into the problem file.
 
 ## Actions
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -306,10 +308,10 @@ The second is the `:precondition` section. These are typically a series of predi
 The third section is a choice between `:effect` and `:expansion` an action cannot have both. Most domains use `:effect`. No details are provided of how to use `:expansion` as not enough planners support it.
 
 ### Action Contents
-- [Action Example](#Action%20Example)
-- [Parameters](#Parameters)
-- [Preconditions](#Preconditions)
-- [Effects](#Effects)
+- [Action Example](#action-example)
+- [Parameters](#parameters)
+- [Preconditions](#preconditions)
+- [Effects](#effects)
 ### Action Example
 ```
 (:action BUILD-WALL
@@ -490,7 +492,7 @@ Not negates a predicate value or logical expression. In a precondition it expres
 `(not (material-used ?b))`
 
 ## Axioms
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:yellow">High</span>  
 Usage: <span style="color:orange">Low</span>

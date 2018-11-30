@@ -29,15 +29,15 @@ The problem then solidifies this expression by define exactly what objects exist
 ```
 
 ## Contents
-- [Problem Name](#Problem%20Name)
-- [Domain](#Domain)
-- [Situation](#Situation)
-- [Objects](#Objects)
-- [Init (Initial State)](#Init)
-- [Goal](#Goal)
+- [Problem Name](#problem-name)
+- [Domain](#domain)
+- [Situation](#situation)
+- [Objects](#objects)
+- [Init (Initial State)](#init)
+- [Goal](#goal)
 
 ## Problem Name
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -49,7 +49,7 @@ Each problem is given a name, typically this is a unique identifier. This is to 
 `(problem buildingahouse)`
 
 ## Domain
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -61,7 +61,7 @@ The domain argument refers to the domain in which the problem exists (see [Domai
 `(:domain construction)`
 
 ## Situation
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:orange">Low</span>  
 Usage: <span style="color:red">Rare</span>
@@ -75,7 +75,7 @@ The use of situation is not very common and most problem files will define even 
 `(:situation generalbuildingproblem)`
 
 ## Objects
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -111,7 +111,7 @@ Note that whilst conventionally we would just use an abbreviation followed by a 
 ```
 
 ## Init
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
@@ -137,7 +137,7 @@ The initial state (init) defines specifically what predicates are true at the st
 In the case of our domain and problem, the only facts which are true are that the materials we need to build are `on-site`.
 
 ## Goal
-[back to contents](#Contents)
+[back to contents](#contents)
 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
