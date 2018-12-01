@@ -1,4 +1,6 @@
 # Problem
+[return to homepage](../../readme.md) | [return to PDDL main page](./main.md)
+
 A problem forms the other half of a planning problem. In the domain we express the global "worldly" aspects of a problem, such as what actions we can perform and what types of objects exist in the world we're planning in.
 
 The problem then solidifies this expression by define exactly what objects exist, and what is true about them and then finally what the end goal is. What state we want the world to be in once the plan is finished.
