@@ -17,6 +17,8 @@ The way in which this keyword is used to define timed initial literals means how
         (train-not-in-use train1)
         (at 20 (train-not-in-use train2))
     )
+
+    ... goal omitted
 )
 ```
 
