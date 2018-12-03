@@ -93,7 +93,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
                 - [Derived Predicates](./PDDL2.2/domain.md#derived-predicates)
             - [Problem](./PDDL2.2/problem.md)
                 - [Timed initial literals](./PDDL2.2/problem.md#timed-initial-literals)
-        - PDDL 3.0
+        - [PDDL 3.0](./PDDL3.0/main.md)
             - [Domain](./PDDL3.0/domain.md)
                 - [Requirements](./PDDL3.0/domain.md#requirements)
                 - [Constraints](./PDDL3.0/domain.md#constraints)
@@ -118,25 +118,15 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
                     - [hold-during](./problem.md#hold-during)
                     - [hold-after](./problem.md#hold-after)
                 - [Metric](./problem.md#metric)
-        - PDDL+
-            - Domain
-                - Requirements
-                    - :time
-                - Processes
-                    - :parameters
-                    - :precondition
-                    - :effect
-                - Events
-                    - :parameters
-                    - :precondition
-                    - :effect
+        - [PDDL+](./PDDL+/main.md)
+            - [Domain](./PDDL+/domain.md)
+                - [Requirements](./PDDL+/domain.md#requirements)
+                - [Processes](./PDDL+/domain.md#processes)
+                - [Events](./PDDL+/domain.md#events)
         - Other PDDL Flavours & Syntaxing
-            - Domain
-                - Requirements
-                    - :goal-utilities
-                    - :constants
-                    - :predicates
-                    - :functions
-                    - :types
     - Planners
+        - OPTIC
+        - FF
+        - LPRPG-P
+        - UPMurphi
 - FAQ
