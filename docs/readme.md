@@ -26,13 +26,13 @@ Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium<
 For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems. 
 
 ## Contributions, Corrections and Feedback
-Contributions are always welcome!
+[Contributions](./guide/contributing.md) are always welcome!
 
-The best way to provide a contribution is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/pddl-reference). Please **do not** fork this repository, as stale copies of this reference guide will confuse. Further explanation on exactly how to file a contribution, through a branch and pull request are provided in the guide here.
+The best way to provide multiple contributions is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/pddl-reference). You can fork this repository to your GitHub, make changes and file a pull request.
 
 Alternatively, if you are not able to provide a contribution, but maybe think there is something this guide is missing or is incorrect, please add a new issue to [this repo](https://github.com/nergmada/pddl-reference), and a correction, or additional will be made based on priority.
 
-Finally, if you have a planner which you think should be included in this reference guide, please ask for collaborator access (if you're the creator of the planner), or create an issue (if you're a user) and we'll try to include it.
+Finally, if you have a planner which you think should be included in this reference guide, please ask for collaborator access or fork the repository (if you're the creator of the planner), or create an issue (if you're a user) and we'll try to include it.
 
 Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to get back to you ASAP.
 
@@ -51,6 +51,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
     - [What is a planner?](./guide/whatisplanner.md)
         - [List of planners](./guide/whatisplanner.md#list-of-planners)
         - [Supported Features](./guide/whatisplanner.md#planner-feature-support)
+    - [Contributing](./guide/contributing.md)
 - Reference
     - PDDL
         - [PDDL (1.2)](./reference/PDDL/main.md)
