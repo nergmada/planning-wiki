@@ -1,4 +1,6 @@
 # PDDL+
+[return to homepage](../../readme.md)
+
 PDDL+ introduced processes and events, to the domain of PDDL. Where previous updates to PDDL had introduced intractable rules such as `Derived Predicates` and `Constraints`, PDDL+ is the first to consider essentially actions which **must** be applied when their preconditions are met.
 
 `Processes` directly correspond to a durative action and last for as long as their pre-condition is met. A process is something like gravity's effect on a ball, increases the velocity of the ball until it either reaches terminal velocity or indeed, it hits the ground.
