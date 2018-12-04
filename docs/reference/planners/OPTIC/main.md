@@ -8,8 +8,42 @@ Preceded By: LPRPG-P
 OPTIC is a temporal planner for use in problems where plan cost is determined by preferences or time-dependent goal-collection costs. Such problems arise in a range of interesting situations, from scheduling the delivery of perishable goods, to coordinating order-fulfillment activities in warehouses.
 
 ## Support
-OPTIC Supports the following features of PDDL1.2:
+OPTIC Supports the following features:
 
-|Version|:strips|:typing|:disjunctive-preconditions|:equality|:existential-preconditions|:universal-preconditions|:quantified-preconditions|:conditional-effects|:action-expansions|:foreach-expansions|:dag-expansions|:domain-axioms|:subgoal-through-axioms|:safety-constraints|:expression-evaluation|:fluents|:open-world|:true-negation|:adl|:ucpop|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|OPTIC|Yes|Yes|Yes|No|Yes|Yes|No|Maybe|No|Yes|No|No|No|No|No|Not PDDL1.2 Version|No|No|No|No
+|Requirement                    |OPTIC|
+|-------------------------------|-|
+|**PDDL1.2**
+|:strips                        |Yes
+|:typing                        |Yes
+|:disjunctive-preconditions     |Yes
+|:equality                      |Maybe
+|:existential-preconditions     |Yes
+|:universal-preconditions       |Yes
+|:quantified-preconditions      |Yes
+|:conditional-effects           |Yes
+|:action-expansions             |No
+|:foreach-expansions            |No
+|:dag-expansions                |No
+|:domain-axioms                 |No
+|:subgoal-through-axioms        |No
+|:safety-constraints            |No
+|:expression-evaluation         |No
+|:fluents                       |Not PDDL1.2 Definition
+|:open-world                    |No
+|:true-negation                 |No
+|:adl                           |No
+|:ucpop                         |No
+|**PDDL2.1**
+|:fluents                       |Yes
+|:durative-actions              |Yes
+|:durative-inequalities         |Yes
+|:continuous-effects            |Yes
+|:negative-preconditions        |No
+|**PDDL2.2**
+|:derived-predicates            |No
+|:timed-initial-literals        |Yes
+|**PDDL3.0**
+|:preferences                   |Yes
+|:constraints                   |Maybe
+|**PDDL+**
+|:time                          |Yes
