@@ -47,3 +47,6 @@ OPTIC Supports the following features:
 |:constraints                   |Maybe
 |**PDDL+**
 |:time                          |Yes
+
+## Downloading and Compiling OPTIC
+For more information on how to download, compile and use OPTIC, please visit the [OPTIC Homepage](https://nms.kcl.ac.uk/planning/software/optic.html)
