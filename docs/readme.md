@@ -1,7 +1,7 @@
 # A PDDL Reference Guide
 [Go Straight To Contents](#contents)
 ## Introduction
-This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is hard to quantify under one roof, due to the variety of ongoing research in the field. 
+This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is difficult to quantify under one roof, due to the variety of ongoing research in the field. 
 
 The International Conference on Autonomous Planning and Scheduling has in the course of supporting AI Planning research created a competition for the AI Planning Software (Planners) that have been built to solve AI Planning problems.
 
