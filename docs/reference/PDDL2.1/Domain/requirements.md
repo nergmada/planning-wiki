@@ -5,7 +5,7 @@ The following page offers details of requirements defined in PDDL 2.1.
 Support: <span style="color:yellow">High</span>  
 Usage: <span style="color:green">High</span>
 
-`(:requirements :fluents)`
+`(:requirements :numeric-fluents)`
 
 Allows the inclusion of a `:function` block which represent numeric variables in the domain. e.g.
 
