@@ -26,13 +26,13 @@ Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium<
 For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems. 
 
 ## Contributions, Corrections and Feedback
-Contributions are always welcome!
+[Contributions](./guide/contributing.md) are always welcome!
 
-The best way to provide a contribution is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/pddl-reference). Please **do not** fork this repository, as stale copies of this reference guide will confuse. Further explanation on exactly how to file a contribution, through a branch and pull request are provided in the guide here.
+The best way to provide multiple contributions is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/pddl-reference). You can fork this repository to your GitHub, make changes and file a pull request.
 
 Alternatively, if you are not able to provide a contribution, but maybe think there is something this guide is missing or is incorrect, please add a new issue to [this repo](https://github.com/nergmada/pddl-reference), and a correction, or additional will be made based on priority.
 
-Finally, if you have a planner which you think should be included in this reference guide, please ask for collaborator access (if you're the creator of the planner), or create an issue (if you're a user) and we'll try to include it.
+Finally, if you have a planner which you think should be included in this reference guide, please ask for collaborator access or fork the repository (if you're the creator of the planner), or create an issue (if you're a user) and we'll try to include it.
 
 Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to get back to you ASAP.
 
@@ -51,6 +51,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
     - [What is a planner?](./guide/whatisplanner.md)
         - [List of planners](./guide/whatisplanner.md#list-of-planners)
         - [Supported Features](./guide/whatisplanner.md#planner-feature-support)
+    - [Contributing](./guide/contributing.md)
 - Reference
     - PDDL
         - [PDDL (1.2)](./reference/PDDL/main.md)
@@ -73,59 +74,59 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
                 - [Init (Initial State)](./reference/PDDL/problem.md#init)
                 - [Goal](./reference/PDDL/problem.md#goal)
         - [PDDL 2.1](./reference/PDDL2.1/main.md)
-            - [Domain](./PDDL2.1/domain.md)
-                - [Requirements](./PDDL2.1/domain.md#requirements)
-                    - [List of PDDL 2.1 Requirements](./PDDL2.1/domain.md#list-of-requirements)
-                - [Numeric Fluents](./PDDL2.1/domain.md#numeric-fluents)
-                - [Durative Actions](./PDDL2.1/domain.md#durative-actions)
-                    - [:parameters](./PDDL2.1/domain.md#parameters)
-                    - [:duration](./PDDL2.1/domain.md#duration)
-                    - [:condition](./PDDL2.1/domain.md#condition)
-                    - [:effect](./PDDL2.1/domain.md#effect)
-            - [Problem](./PDDL2.1/problem.md)
-                - [Numeric Fluents](./PDDL2.1/problem.md#numeric-fluents)
-                - [Metric](./PDDL2.1/problem.md#metric)
-                - [Length (Deprecated)](./PDDL2.1/problem.md#length)
+            - [Domain](./reference/PDDL2.1/domain.md)
+                - [Requirements](./reference/PDDL2.1/domain.md#requirements)
+                    - [List of PDDL 2.1 Requirements](./reference/PDDL2.1/domain.md#list-of-requirements)
+                - [Numeric Fluents](./reference/PDDL2.1/domain.md#numeric-fluents)
+                - [Durative Actions](./reference/PDDL2.1/domain.md#durative-actions)
+                    - [:parameters](./reference/PDDL2.1/domain.md#parameters)
+                    - [:duration](./reference/PDDL2.1/domain.md#duration)
+                    - [:condition](./reference/PDDL2.1/domain.md#condition)
+                    - [:effect](./reference/PDDL2.1/domain.md#effect)
+            - [Problem](./reference/PDDL2.1/problem.md)
+                - [Numeric Fluents](./reference/PDDL2.1/problem.md#numeric-fluents)
+                - [Metric](./reference/PDDL2.1/problem.md#metric)
+                - [Length (Deprecated)](./reference/PDDL2.1/problem.md#length)
         - [PDDL 2.2](./reference/PDDL2.2/main.md)
-            - [Domain](./PDDL2.2/domain.md)
-                - [Requirements](./PDDL2.2/domain.md#requirements)
-                    - [List of PDDL 2.2 Requirements](./PDDL2.2/domain.md#list-of-requirements)
-                - [Derived Predicates](./PDDL2.2/domain.md#derived-predicates)
-            - [Problem](./PDDL2.2/problem.md)
-                - [Timed initial literals](./PDDL2.2/problem.md#timed-initial-literals)
-        - [PDDL 3.0](./PDDL3.0/main.md)
-            - [Domain](./PDDL3.0/domain.md)
-                - [Requirements](./PDDL3.0/domain.md#requirements)
-                - [Constraints](./PDDL3.0/domain.md#constraints)
-                    - [always](./PDDL3.0/domain.md#always)
-                    - [sometime](./PDDL3.0/domain.md#sometime)
-                    - [within](./PDDL3.0/domain.md#within)
-                    - [at-most-once](./PDDL3.0/domain.md#at-most-once)
-                    - [sometime-after](./PDDL3.0/domain.md#sometime-after)
-                    - [sometime-before](./domain.md#sometime-before)
-                    - [always-within](./domain.md#always-within)
-                    - [hold-during](./domain.md#hold-during)
-                    - [hold-after](./domain.md#hold-after)
-            - [Problem](./problem.md)
-                - [Preferences](./problem.md#preferences)
-                    - [always](./problem.md#always)
-                    - [sometime](./problem.md#sometime)
-                    - [within](./problem.md#within)
-                    - [at-most-once](./problem.md#at-most-once)
-                    - [sometime-after](./problem.md#sometime-after)
-                    - [sometime-before](./problem.md#sometime-before)
-                    - [always-within](./problem.md#always-within)
-                    - [hold-during](./problem.md#hold-during)
-                    - [hold-after](./problem.md#hold-after)
-                - [Metric](./problem.md#metric)
-        - [PDDL+](./PDDL+/main.md)
-            - [Domain](./PDDL+/domain.md)
-                - [Requirements](./PDDL+/domain.md#requirements)
-                - [Processes](./PDDL+/domain.md#processes)
-                - [Events](./PDDL+/domain.md#events)
+            - [Domain](./reference/PDDL2.2/domain.md)
+                - [Requirements](./reference/PDDL2.2/domain.md#requirements)
+                    - [List of PDDL 2.2 Requirements](./reference/PDDL2.2/domain.md#list-of-requirements)
+                - [Derived Predicates](./reference/PDDL2.2/domain.md#derived-predicates)
+            - [Problem](./reference/PDDL2.2/problem.md)
+                - [Timed initial literals](./reference/PDDL2.2/problem.md#timed-initial-literals)
+        - [PDDL 3.0](./reference/PDDL3.0/main.md)
+            - [Domain](./reference/PDDL3.0/domain.md)
+                - [Requirements](./reference/PDDL3.0/domain.md#requirements)
+                - [Constraints](./reference/PDDL3.0/domain.md#constraints)
+                    - [always](./reference/PDDL3.0/domain.md#always)
+                    - [sometime](./reference/PDDL3.0/domain.md#sometime)
+                    - [within](./reference/PDDL3.0/domain.md#within)
+                    - [at-most-once](./reference/PDDL3.0/domain.md#at-most-once)
+                    - [sometime-after](./reference/PDDL3.0/domain.md#sometime-after)
+                    - [sometime-before](./reference/PDDL3.0/domain.md#sometime-before)
+                    - [always-within](./reference/PDDL3.0/domain.md#always-within)
+                    - [hold-during](./reference/PDDL3.0/domain.md#hold-during)
+                    - [hold-after](./reference/PDDL3.0/domain.md#hold-after)
+            - [Problem](./reference/PDDL3.0/problem.md)
+                - [Preferences](./reference/PDDL3.0/problem.md#preferences)
+                    - [always](./reference/PDDL3.0/problem.md#always)
+                    - [sometime](./reference/PDDL3.0/problem.md#sometime)
+                    - [within](./reference/PDDL3.0/problem.md#within)
+                    - [at-most-once](./reference/PDDL3.0/problem.md#at-most-once)
+                    - [sometime-after](./reference/PDDL3.0/problem.md#sometime-after)
+                    - [sometime-before](./reference/PDDL3.0/problem.md#sometime-before)
+                    - [always-within](./reference/PDDL3.0/problem.md#always-within)
+                    - [hold-during](./reference/PDDL3.0/problem.md#hold-during)
+                    - [hold-after](./reference/PDDL3.0/problem.md#hold-after)
+                - [Metric](./reference/PDDL3.0/problem.md#metric)
+        - [PDDL+](./reference/PDDL+/main.md)
+            - [Domain](./reference/PDDL+/domain.md)
+                - [Requirements](./reference/PDDL+/domain.md#requirements)
+                - [Processes](./reference/PDDL+/domain.md#processes)
+                - [Events](./reference/PDDL+/domain.md#events)
         - Other PDDL Flavours & Syntaxing
     - Planners
-        - OPTIC
+        - [OPTIC](./reference/planners/OPTIC/main.md)
         - FF
         - LPRPG-P
         - UPMurphi
