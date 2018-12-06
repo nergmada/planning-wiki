@@ -6,7 +6,7 @@ Year Published: 2012
 
 Paper: [Temporal Planning with Preferences and Time-Dependent Continuous Costs](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS12/paper/view/4699/4708) [Benton, J. Coles, A. Coles, A.]
 
-Preceded By: LPRPG-P
+Preceded By: POPF
 
 OPTIC is a temporal planner for use in problems where plan cost is determined by preferences or time-dependent goal-collection costs. Such problems arise in a range of interesting situations, from scheduling the delivery of perishable goods, to coordinating order-fulfillment activities in warehouses.
 
@@ -18,11 +18,11 @@ OPTIC Supports the following features:
 |**PDDL1.2**
 |:strips                        |Yes
 |:typing                        |Yes
-|:disjunctive-preconditions     |Yes
-|:equality                      |Maybe
-|:existential-preconditions     |Yes
-|:universal-preconditions       |Yes
-|:quantified-preconditions      |Yes
+|:disjunctive-preconditions     |No
+|:equality                      |Yes
+|:existential-preconditions     |No
+|:universal-preconditions       |No
+|:quantified-preconditions      |No
 |:conditional-effects           |Yes
 |:action-expansions             |No
 |:foreach-expansions            |No
@@ -37,7 +37,7 @@ OPTIC Supports the following features:
 |:adl                           |No
 |:ucpop                         |No
 |**PDDL2.1**
-|:fluents                       |Yes
+|:numeric-fluents               |Yes
 |:durative-actions              |Yes
 |:durative-inequalities         |Yes
 |:continuous-effects            |Yes
