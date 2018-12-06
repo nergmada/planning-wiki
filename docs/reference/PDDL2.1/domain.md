@@ -216,9 +216,9 @@ The parameters defines the type of object we're interested in. Note that a param
 
 Therefore it is not up to us as a user to specify the specific object to which an action applies but rather the **type** of objects to which the action applies.
 
-In this case, when we build a wall we need to know what bricks we're using to build it and where we're building it. Our actions are specific to the problem we've chosen to consider and model, therefore there might additional things that other user want/need to model that I don't. 
+In this case, when we build a wall we need to know what bricks we're using to build it and where we're building it. Our actions are specific to the problem we've chosen to consider and model, therefore there might additional things that other user want/need to model that this model doesn't. 
 
-Your domain and problem should only consider and model the aspects of the problem which you're trying to solve. For example here I haven't modelled the person who's actually going to perform the work, but maybe if I was the manager of a larger building site I might want to and therefore I would need to adapt my models.
+Your domain and problem should only consider and model the aspects of the problem which you're trying to solve. For example here we haven't modelled the person who's actually going to perform the work, but maybe if we were the manager of a larger building site we might want to and therefore we would need to adapt my models.
 
 ### Duration
 Support: <span style="color:green">Universal - where durative actions are available</span>  

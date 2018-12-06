@@ -37,9 +37,6 @@ PDDL 3,0 introduced soft constraints to AI planning. A soft constraint is one in
 
 It also assigns a cost to each preference, which is a measure of how much the plan quality decreases if the preference is not met. This allows the user to express Which of their preferences are more important (if any).
 
-## PDDL 3.1
-PDDL 3.1 introduced object fluents. I have yet to find a technical manual or BNF spec for PDDL3.1 so I honestly cannot tell you what on earth an object fluent is, but once i find one, I'll update this
-
 ## PDDL+
 PDDL+ introduced two core concepts, Processes and Events. Both are ways of expressing uncontrollable change in the world we are modelling. A process is something which always happens when it's preconditions are met and as such implements some effect on the domain. 
 
@@ -50,4 +47,4 @@ An event provides an instantaneous version of a process. Something that happens 
 ## Other Flavours of PDDL
 PDDL has a variety of other (more niche) flavours, such as PPDDL, NDDL, MADDL and a whole host of others all of which can be found conveniently listed on Wikipedia. Documenting these are harder as they tend of have more specific use cases and therefore less examples from which to extract behaviour.
 
-given I also have a limited amount of time, I will no explore these flavours in any detail, but I invite contributions to this repo documenting other flavours of PDDL.
+If you wish for more information to be available about these, you should consider contributing to this guide. Alternatively, you should add an issue to the github, so we know there's community demand.

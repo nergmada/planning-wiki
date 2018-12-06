@@ -260,7 +260,7 @@ Usage: <span style="color:red">Rare</span>
 
 `(:timeless (<predicate_name> <arguments>))`
 
-A timeless predicate is a predicate which is always true and cannot be changed by any action in the domain. It's not clear why you would need to model something that is always true and never changes, but it was included in the spec. An example is provided below, but I cannot say for certain if this is accurate.
+A timeless predicate is a predicate which is always true and cannot be changed by any action in the domain. It's not clear why you would need to model something that is always true and never changes, but it was included in the spec. An example is provided below.
 
 `(:timeless (foundations-set mainsite))`
 
@@ -272,9 +272,7 @@ Usage: <span style="color:red">Rare</span>
 
 `(:safety <condition>)`
 
-A safety condition is a condition which for any plan to be valid, must be true at the end of the plan. How this differs from a goal condition I am honestly not sure. 
-
-It's rarely used in any domains/problems I've see. An example is provided below, but I cannot say for certain if this is accurate.
+A safety condition is a condition which for any plan to be valid, must be true at the end of the plan. How this differs from a goal condition is not clear.
 
 ```
 (:safety 
@@ -351,7 +349,7 @@ Therefore it is not up to us as a user to specify the specific object to which a
 
 In this case, when we build a wall we need to know what bricks we're using to build it and where we're building it. Our actions are specific to the problem we've chosen to consider and model, therefore there might additional things that other user want/need to model that I don't. 
 
-Your domain and problem should only consider and model the aspects of the problem which you're trying to solve. For example here I haven't modelled the person who's actually going to perform the work, but maybe if I was the manager of a larger building site I might want to and therefore I would need to adapt my models.
+Your domain and problem should only consider and model the aspects of the problem which you're trying to solve. For example here we haven't modelled the person who's actually going to perform the work, but maybe if we were the manager of a larger building site we might want to and therefore we would need to adapt these models.
 
 #### Either
 Support: <span style="color:yellow">High</span>  
@@ -523,7 +521,7 @@ An axiom is a derived predicate which essentially takes its value as the result 
 
 In the example above, we're saying that for any given building site, if the walls are built (`walls-built`) and the windows are fitted (`windows-fitted`) and the cables installed (`cables-installed`) then this means the site is built (`site-built`). 
 
-This is quite useful if there is a logical expression you're using repeatedly in several locations, as you can simply reduce it to a single predicate. However, I haven't really seen this used in context yet.
+This is quite useful if there is a logical expression you're using repeatedly in several locations, as you can simply reduce it to a single predicate. However, this syntax is not commonly used.
 
 ## References
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]

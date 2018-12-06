@@ -175,7 +175,7 @@ Usage: <span style="color:red">Rare</span>
 
 `(:requirements :safety-constraints)`
 
-A safety constraint is a predicate which must be true by the end of the plan in order for the plan to be considered valid. How this varies from a goal state I am not really sure which would be my guess as to why it rarely seen in defined domains and why support for it has waned.
+A safety constraint is a predicate which must be true by the end of the plan in order for the plan to be considered valid. How this varies from a goal state is not really clear.
 
 ## Expression Evaluation
 Support: <span style="color:red">Poor</span>  

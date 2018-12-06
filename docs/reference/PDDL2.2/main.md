@@ -6,7 +6,7 @@ PDDL 2.2 introduces a key new feature not previously considered in PDDL, Timed I
 
 This is not a realistic way of modelling because it fails to consider facts which may become true later. For example, in dynamic planning, where we are planning and re-planning as the world changes, we may wish to represent resources or states which are in the course of changing which we have no control over.
 
-Imagine for instance, we are planning a rail schedule. We've generated some schedule from a plan, which the trains at this point in time are currently running to (as a Briton this is hard for to imagine but I will try). Something goes wrong, for example a train breaks down. We now have less resources, but what we also have is a state that is currently in motion.
+Imagine for instance, we are planning a rail schedule. We've generated some schedule from a plan, which the trains at this point in time are currently running to. Something goes wrong, for example a train breaks down. We now have less resources, but what we also have is a state that is currently in motion.
 
 So for example we may have another dozen trains currently in use that won't become available until some later stage than the point we're currently planning at. We can't represent these realistically with actions because actions are optional, instead we need some mechanism to represent the uncontrollable change of state at a later point in time.
 
@@ -16,7 +16,7 @@ Now we could arguably jury rig this behaviour with cleverly created durative act
 
 Bottom line, Timed Initial Literals add a simple yet powerful new aspect to planning.
 
-PDDL 2.2 also reintroduces Axioms as derived predicates, with a different simpler syntax to them. To be clear, I am not sure of the distinction between an Axiom and a Derived Predicate. *As far as I can tell, I believe that a derived predicate can only be derived, whereas an Axiom's truth value can also be changed by an action.** 
+PDDL 2.2 also reintroduces Axioms as derived predicates, with a different simpler syntax to them. To be clear, these features are the same but consist of different syntax, typically planners support the newer syntax.
 
 *This is speculative.
 
