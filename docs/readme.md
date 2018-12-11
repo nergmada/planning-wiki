@@ -1,5 +1,5 @@
 # A PDDL Reference Guide
-[Go Straight To Contents](#contents)
+[Go Straight To Contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
 ## Introduction
 This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is difficult to quantify under one roof, due to the variety of ongoing research in the field. 
 
@@ -30,7 +30,7 @@ For planners, this reference will aim to provide indication of what features are
 
 The best way to provide multiple contributions is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/pddl-reference). You can fork this repository to your GitHub, make changes and file a pull request.
 
-Alternatively, if you are not able to provide a contribution, but maybe think there is something this guide is missing or is incorrect, please add a new issue to [this repo](https://github.com/nergmada/pddl-reference), and a correction, or additional will be made based on priority.
+Alternatively, if you are not able to provide a contribution, but maybe think there is something this guide is missing or is incorrect, please add a new issue to [this repo](https://github.com/nergmada/pddl-reference), and a correction, or additional will be made based on priority. Please use the "[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)" button available on most pages.
 
 Finally, if you have a planner which you think should be included in this reference guide, please ask for collaborator access or fork the repository (if you're the creator of the planner), or create an issue (if you're a user) and we'll try to include it.
 
@@ -52,6 +52,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [List of planners](./guide/whatisplanner.md#list-of-planners)
         - [Supported Features](./guide/whatisplanner.md#planner-feature-support)
     - [Contributing](./guide/contributing.md)
+    - [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
 - Reference
     - PDDL
         - [PDDL (1.2)](./reference/PDDL/main.md)

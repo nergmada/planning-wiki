@@ -1,5 +1,5 @@
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md)
+[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) | 
 
 The domain syntax for PDDL2.2 adds very minimal changes to the domain. As with any update to PDDL it introduces new requirements, however, other than that the only new syntax is Derived Predicates, which are defined in a similar way to how actions are defined, and are defined in the same section of the domain file.
 

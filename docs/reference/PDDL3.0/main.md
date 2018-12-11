@@ -1,5 +1,5 @@
 # PDDL 3.0
-[return to homepage](../../readme.md)
+[return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
 
 ## Introduction
 PDDL 3.0 introduced soft goals to planning. As planning has grown to handle larger more complex problem, the way we express goals has had to change. In previous editions a goal was unavoidable. It had to be met in order for a a plan to be considered valid.

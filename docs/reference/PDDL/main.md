@@ -1,5 +1,5 @@
 # PDDL 1.2
-[return to homepage](../../readme.md)
+[return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
 ## Introduction
 PDDL 1.2 formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largely on concepts set out for STRIPS, a sort of precursor languages which used a similar design pattern for describing problems through the use of predicates and actions. 
 

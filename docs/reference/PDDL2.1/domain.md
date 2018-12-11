@@ -1,5 +1,5 @@
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL2.1 main page](./main.md)
+[return to homepage](../../readme.md) | [return to PDDL2.1 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
 
 The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new features, `durative-actions` and `functions` which are referred to as numeric fluents. Additional new requirements were specified on top of the 1.2 spec to allow older planners to identify that they could not solve these neweer domains. 
 

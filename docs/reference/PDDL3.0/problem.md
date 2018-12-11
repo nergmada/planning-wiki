@@ -1,5 +1,5 @@
 # Problem
-[return to homepage](../../readme.md) | [return to PDDL3.0 main page](./main.md)
+[return to homepage](../../readme.md) | [return to PDDL3.0 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
 
 New syntax is added to PDDL problems in PDDL3. This syntax allows us to express preferences as part of the `:goal` section of a problem file.
 

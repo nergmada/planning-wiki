@@ -1,5 +1,5 @@
 # PDDL+
-[return to homepage](../../readme.md)
+[return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
 
 PDDL+ introduced processes and events, to the domain of PDDL. Where previous updates to PDDL had introduced intractable rules such as `Derived Predicates` and `Constraints`, PDDL+ is the first to consider essentially actions which **must** be applied when their preconditions are met.
 
