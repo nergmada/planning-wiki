@@ -1,5 +1,5 @@
 # Requirements (PDDL 1.2)
-[Return to Homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[Return to Homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 The following page offers details of requirements defined in PDDL 1.2.
 

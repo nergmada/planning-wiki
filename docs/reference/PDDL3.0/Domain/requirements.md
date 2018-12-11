@@ -1,5 +1,5 @@
 # Requirements (PDDL 3.0)
-[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 The following page offers details of requirements defined in PDDL 3.0.
 

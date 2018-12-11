@@ -1,5 +1,5 @@
 # Contributing
-[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 ## Introduction
 Contributing to the PDDL reference guide is similar to contributing to other open source projects. You have two options. If you're keen to contribute to this guide a lot, drop me an email at adam.green@kcl.ac.uk, if you're looking to add a single or a few pages, or minor changes, you should instead consider forking the repository, pushing the changes to your fork and filing a pull request with this repo.
 

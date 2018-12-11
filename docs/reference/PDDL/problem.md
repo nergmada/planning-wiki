@@ -1,5 +1,5 @@
 # Problem
-[return to homepage](../../readme.md) | [return to PDDL main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[return to homepage](../../readme.md) | [return to PDDL main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 A problem forms the other half of a planning problem. In the domain we express the global "worldly" aspects of a problem, such as what actions we can perform and what types of objects exist in the world we're planning in.
 

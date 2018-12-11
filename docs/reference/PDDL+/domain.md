@@ -1,5 +1,5 @@
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL2.1 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[return to homepage](../../readme.md) | [return to PDDL2.1 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively. 
 

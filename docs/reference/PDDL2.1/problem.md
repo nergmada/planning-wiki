@@ -46,7 +46,7 @@ An equals prefix notation is used to assign a value to a numeric fluent. Some pl
 `(= (battery-amount r1) 10)`
 
 ## Metric
-[back to contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[back to contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 Support: <span style="color:orange">Medium</span>  
 Usage: <span style="color:green">High</span>

@@ -1,5 +1,5 @@
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL3.0 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[return to homepage](../../readme.md) | [return to PDDL3.0 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 As with all previous installations of PDDL, PDDL 3.0 introduces new requirements. It also introducing syntax for defining constraints. Constraints are form of goal which must be satisfied in all states of the plan. 
 

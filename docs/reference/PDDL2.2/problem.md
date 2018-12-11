@@ -1,5 +1,5 @@
 # Problem
-[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 The problem syntax in PDDL 2.2 is expanded very lightly in order to support Timed Initial Literals. The choice of keyword is an interesting one because `at` is a commonly used predicate name used to indicate that some locatable is in some location i.e. `(at Adam Bush-House)`. 
 

@@ -1,5 +1,5 @@
 # What is AI Planning?
-[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new)
+[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 ## Introduction
 AI Planning is a field of Artificial Intelligence which explores the process of using autonomous techniques to solve planning and scheduling problems. A planning problem is one in which we have some initial starting state, which we wish to transform into a desired goal state through the application of a set of actions.
 
