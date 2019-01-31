@@ -131,4 +131,7 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - FF
         - LPRPG-P
         - UPMurphi
+    - Other Planning Tools
+        - VAL - The Plan Validator
+        - [Eviscerator - The Planner tester](www.github.com/nergmada/eviscerator)
 - FAQ
