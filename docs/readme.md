@@ -133,5 +133,5 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - UPMurphi
     - Other Planning Tools
         - VAL - The Plan Validator
-        - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
+        - <a href="https://www.github.com/nergmada/eviscerator">Eviscerator - The Planner tester</a>
 - FAQ
