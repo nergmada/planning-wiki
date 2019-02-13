@@ -17,37 +17,37 @@ OPTIC Supports the following features according to Eviscerator:
 |Requirement|Supported?|
 | --- | --- |
 |**PDDL1.2** |
-|:strips| Yes |
-|:typing| Yes |
-|:disjunctive-preconditions| No |
-|:equality| Yes |
-|:existential-preconditions| No |
-|:universal-preconditions| Yes |
-|:conditional-effects| No |
-|:domain-axioms| No |
-|:subgoals-through-axioms| No |
-|:safety-constraints| No |
-|:open-world| No |
-|:quantified-preconditions| No |
-|:adl| No |
-|:ucpop| No |
+|:strips | Yes |
+|:typing | Yes |
+|:disjunctive-preconditions | No |
+|:equality | Yes |
+|:existential-preconditions | No |
+|:universal-preconditions | Yes |
+|:conditional-effects | No |
+|:domain-axioms | No |
+|:subgoals-through-axioms | No |
+|:safety-constraints | No |
+|:open-world | No |
+|:quantified-preconditions | No |
+|:adl | No |
+|:ucpop | No |
 |**PDDL2.1** |
-|:numeric-fluents| Yes |
-|:durative-actions| Yes |
-|:duration-inequalities| Yes |
-|:continuous-effects| Yes |
-|:negative-preconditions| No |
+|:numeric-fluents | Yes |
+|:durative-actions | Yes |
+|:duration-inequalities | Yes |
+|:continuous-effects | Yes |
+|:negative-preconditions | No |
 |**PDDL2.2** |
-|:derived-predicates| No |
-|:timed-initial-literals| Yes |
+|:derived-predicates | No |
+|:timed-initial-literals | Yes |
 |**PDDL3.0** |
-|:constraints| Yes |
-|:preferences| Yes |
+|:constraints | Yes |
+|:preferences | Yes |
 |**PDDL3.1** |
-|:action-costs| Yes |
-|:goal-utilities| No |
+|:action-costs | Yes |
+|:goal-utilities | No |
 |**PDDL+** |
-|:time| No |
+|:time | No |
 
 ## Downloading and Compiling OPTIC
 For more information on how to download, compile and use OPTIC, please visit the [OPTIC Homepage](https://nms.kcl.ac.uk/planning/software/optic.html)
