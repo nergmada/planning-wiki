@@ -128,6 +128,10 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - Other PDDL Flavours & Syntaxing
     - Planners
         - [OPTIC](./reference/planners/OPTIC/main.md)
+        - POPF
+        - [ENHSP](./reference/planners/ENHSP/main.md)
+        - [Dino]((./reference/planners/DiNo/main.md))
+        - SMT-Plan
         - FF
         - LPRPG-P
         - UPMurphi

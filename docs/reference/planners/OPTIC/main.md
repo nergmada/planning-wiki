@@ -1,4 +1,4 @@
-# OPTIC+: Optimising Preferences and Time-Dependent Costs
+# OPTIC: Optimising Preferences and Time-Dependent Costs
 [return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 
