@@ -128,10 +128,14 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - Other PDDL Flavours & Syntaxing
     - Planners
         - [OPTIC](./reference/planners/OPTIC/main.md)
-        - FF
+        - [POPF](./reference/planners/POPF/main.md)
+        - [ENHSP](./reference/planners/ENHSP/main.md)
+        - [Dino](./reference/planners/DiNo/main.md)
+        - [SMTPlan+](./reference/planners/SMTPlan/main.md)
+        - [MetricFF](./reference/planners/MetricFF/main.md)
         - LPRPG-P
         - UPMurphi
     - Other Planning Tools
         - VAL - The Plan Validator
-        - <a href="https://www.github.com/nergmada/eviscerator">Eviscerator - The Planner tester</a>
+        - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
 - FAQ
