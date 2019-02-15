@@ -134,10 +134,39 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [SMTPlan+](./reference/planners/SMTPlan/main.md)
         - [MetricFF](./reference/planners/MetricFF/main.md)
         - [COLIN](./reference/planners/COLIN/main.md)
+        - [PaaS - Planning as a Service](http://solver.planning.domains/)
         - LPRPG-P
         - UPMurphi
     - Other Planning Tools
         - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
         - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
         - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
+        - [Visual Studio Code](https://code.visualstudio.com/)
+            - [PDDL Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl)
+        - [Sublime Text Editor](https://www.sublimetext.com/)
+            - [MyPDDL Plugin for Sublime](https://packagecontrol.io/packages/myPDDL)
+        - [Atom Text Editor](https://atom.io/)
+            - [MyPDDL Plugin for Atom](https://atom.io/packages/mypddl)
+        - [Planning.Domains PDDL Editor](http://editor.planning.domains/)
+- Examples
+    - [IPC PDDL Domains](https://github.com/potassco/pddl-instances)
+    - 
 - FAQ
+
+
+## References
+- [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
+- [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
+- [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]
+- [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
+- [PDDL Examples](https://github.com/yarox/pddl-examples)
+- [PDDL2.2: The Language for the Classical Part of the 4th International Planning Competition](https://pdfs.semanticscholar.org/4b3c/0706d2673d817cc7c33e580858e65b134ba2.pdf) [Edelkamp, S. Hoffmann, J.]
+- [Plan Constraints and Preferences in PDDL 3](http://www.cs.yale.edu/homes/dvm/papers/pddl-ipc5.pdf) [Gerevini, A. Long, D.]
+- [BNF Description of PDDL 3.0](http://cs-www.cs.yale.edu/homes/dvm/papers/pddl-bnf.pdf) [Gerevini, A. Long, D.]
+- [Temporal Planning with Preferences and Time-Dependent Continuous Costs](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS12/paper/view/4699/4708) [Benton, J. Coles, A. Coles, A.]
+- [Temporal Planning in Domains with Linear Processes](https://www.ijcai.org/Proceedings/09/Papers/279.pdf) [ Coles, A. J. Coles, A. I. Fox, M. Long, D.]
+- [Heuristic Planning for PDDL+ Domains](https://www.ijcai.org/Proceedings/16/Papers/455.pdf) [Piotrowski, W. Fox, M. Long, D. Magazzeni, D. Mercorio, F.]
+- [Interval-Based Relaxation for General Numeric Planning](https://pdfs.semanticscholar.org/ba88/832bb0d1feddd7032282f3a2837f93a7117e.pdf) [Scala, E. Haslum, P. Thiebaux, S. Ramirez, M.]
+- [The MetricFF Planning System: Translating "Ignoring Delete Lists" to Numeric State Variables](https://jair.org/index.php/jair/article/view/10360/24783) [Hoffmann, J.]
+- [Forward-Chaining Partial-Order Planning](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS10/paper/view/1421/1527) [ Coles,A. J. Coles, A. I. Fox, M. Long, D.]
+- [A Compilation of the Full PDDL+ Language into SMT](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13101/12664) [Cashmore, M. Fox, M. Long, D. Magazzeni, D.]
