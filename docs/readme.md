@@ -190,4 +190,3 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
 - [Forward-Chaining Partial-Order Planning](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS10/paper/view/1421/1527) [ Coles,A. J. Coles, A. I. Fox, M. Long, D.]
 - [A Compilation of the Full PDDL+ Language into SMT](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13101/12664) [Cashmore, M. Fox, M. Long, D. Magazzeni, D.]
 
-
