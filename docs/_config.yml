@@ -3,6 +3,3 @@ google_analytics: UA-78110061-2
 markdown: kramdown
 kramdown:
   input: GFM
-tipue_search:
-  include:
-    pages: true
