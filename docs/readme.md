@@ -37,7 +37,8 @@ Finally, if you have a planner which you think should be included in this refere
 Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to get back to you ASAP.
 
 ## Contents
-- Guide
+- <details open><summary>Guide</summary>
+
     - [What is AI Planning?](./guide/whatisaip.md)
         - [Domain independent Planning](./guide/whatisaip.md#domain%20independent%20planning)
     - [What is PDDL?](./guide/whatispddl.md)
@@ -53,79 +54,98 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [Supported Features](./guide/whatisplanner.md#planner-feature-support)
     - [Contributing](./guide/contributing.md)
     - [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+    </details>
 - Reference
-    - PDDL
-        - [PDDL (1.2)](./reference/PDDL/main.md)
-            - [Domain](./reference/PDDL/domain.md)
-                - [Extends](./reference/PDDL/domain.md#extends)
-                - [Requirements](./reference/PDDL/domain.md#requirements)
-                    - [List of PDDL 1.2 Requirements](./reference/PDDL/Domain/requirements.md)
-                - [Object Types](./reference/PDDL/domain.md#object-types)
-                - [Constants](./reference/PDDL/domain.md#constants)
-                - [Predicates](./reference/PDDL/domain.md#predicates)
-                - [Timeless Predicates](./reference/PDDL/domain.md#timeless-predicates)
-                - [Safety Constraints](./reference/PDDL/domain.md#safety-constraint)
-                - [Actions](./reference/PDDL/domain.md#actions)
-                - [Axioms](./reference/PDDL/domain.md#axioms)
-            - [Problem](./reference/PDDL/problem.md)
-                - [Problem Name](./reference/PDDL/problem.md#problem-name)
-                - [Domain](./reference/PDDL/problem.md#domain)
-                - [Situation](./reference/PDDL/problem.md#situation)
-                - [Objects](./reference/PDDL/problem.md#objects)
-                - [Init (Initial State)](./reference/PDDL/problem.md#init)
-                - [Goal](./reference/PDDL/problem.md#goal)
-        - [PDDL 2.1](./reference/PDDL2.1/main.md)
-            - [Domain](./reference/PDDL2.1/domain.md)
-                - [Requirements](./reference/PDDL2.1/domain.md#requirements)
-                    - [List of PDDL 2.1 Requirements](./reference/PDDL2.1/domain.md#list-of-requirements)
-                - [Numeric Fluents](./reference/PDDL2.1/domain.md#numeric-fluents)
-                - [Durative Actions](./reference/PDDL2.1/domain.md#durative-actions)
-                    - [:parameters](./reference/PDDL2.1/domain.md#parameters)
-                    - [:duration](./reference/PDDL2.1/domain.md#duration)
-                    - [:condition](./reference/PDDL2.1/domain.md#condition)
-                    - [:effect](./reference/PDDL2.1/domain.md#effect)
-            - [Problem](./reference/PDDL2.1/problem.md)
-                - [Numeric Fluents](./reference/PDDL2.1/problem.md#numeric-fluents)
-                - [Metric](./reference/PDDL2.1/problem.md#metric)
-                - [Length (Deprecated)](./reference/PDDL2.1/problem.md#length)
-        - [PDDL 2.2](./reference/PDDL2.2/main.md)
-            - [Domain](./reference/PDDL2.2/domain.md)
-                - [Requirements](./reference/PDDL2.2/domain.md#requirements)
-                    - [List of PDDL 2.2 Requirements](./reference/PDDL2.2/domain.md#list-of-requirements)
-                - [Derived Predicates](./reference/PDDL2.2/domain.md#derived-predicates)
-            - [Problem](./reference/PDDL2.2/problem.md)
-                - [Timed initial literals](./reference/PDDL2.2/problem.md#timed-initial-literals)
-        - [PDDL 3.0](./reference/PDDL3.0/main.md)
-            - [Domain](./reference/PDDL3.0/domain.md)
-                - [Requirements](./reference/PDDL3.0/domain.md#requirements)
-                - [Constraints](./reference/PDDL3.0/domain.md#constraints)
-                    - [always](./reference/PDDL3.0/domain.md#always)
-                    - [sometime](./reference/PDDL3.0/domain.md#sometime)
-                    - [within](./reference/PDDL3.0/domain.md#within)
-                    - [at-most-once](./reference/PDDL3.0/domain.md#at-most-once)
-                    - [sometime-after](./reference/PDDL3.0/domain.md#sometime-after)
-                    - [sometime-before](./reference/PDDL3.0/domain.md#sometime-before)
-                    - [always-within](./reference/PDDL3.0/domain.md#always-within)
-                    - [hold-during](./reference/PDDL3.0/domain.md#hold-during)
-                    - [hold-after](./reference/PDDL3.0/domain.md#hold-after)
-            - [Problem](./reference/PDDL3.0/problem.md)
-                - [Preferences](./reference/PDDL3.0/problem.md#preferences)
-                    - [always](./reference/PDDL3.0/problem.md#always)
-                    - [sometime](./reference/PDDL3.0/problem.md#sometime)
-                    - [within](./reference/PDDL3.0/problem.md#within)
-                    - [at-most-once](./reference/PDDL3.0/problem.md#at-most-once)
-                    - [sometime-after](./reference/PDDL3.0/problem.md#sometime-after)
-                    - [sometime-before](./reference/PDDL3.0/problem.md#sometime-before)
-                    - [always-within](./reference/PDDL3.0/problem.md#always-within)
-                    - [hold-during](./reference/PDDL3.0/problem.md#hold-during)
-                    - [hold-after](./reference/PDDL3.0/problem.md#hold-after)
-                - [Metric](./reference/PDDL3.0/problem.md#metric)
-        - [PDDL+](./reference/PDDL+/main.md)
-            - [Domain](./reference/PDDL+/domain.md)
-                - [Requirements](./reference/PDDL+/domain.md#requirements)
-                - [Processes](./reference/PDDL+/domain.md#processes)
-                - [Events](./reference/PDDL+/domain.md#events)
-        - Other PDDL Flavours & Syntaxing
+
+    - <details open><summary>PDDL</summary>
+        
+        <details><summary><a href="./reference/PDDL/main.md">PDDL (1.2)</a></summary>
+
+        - [Domain](./reference/PDDL/domain.md)
+            - [Extends](./reference/PDDL/domain.md#extends)
+            - [Requirements](./reference/PDDL/domain.md#requirements)
+                - [List of PDDL 1.2 Requirements](./reference/PDDL/Domain/requirements.md)
+            - [Object Types](./reference/PDDL/domain.md#object-types)
+            - [Constants](./reference/PDDL/domain.md#constants)
+            - [Predicates](./reference/PDDL/domain.md#predicates)
+            - [Timeless Predicates](./reference/PDDL/domain.md#timeless-predicates)
+            - [Safety Constraints](./reference/PDDL/domain.md#safety-constraint)
+            - [Actions](./reference/PDDL/domain.md#actions)
+            - [Axioms](./reference/PDDL/domain.md#axioms)
+        - [Problem](./reference/PDDL/problem.md)
+            - [Problem Name](./reference/PDDL/problem.md#problem-name)
+            - [Domain](./reference/PDDL/problem.md#domain)
+            - [Situation](./reference/PDDL/problem.md#situation)
+            - [Objects](./reference/PDDL/problem.md#objects)
+            - [Init (Initial State)](./reference/PDDL/problem.md#init)
+            - [Goal](./reference/PDDL/problem.md#goal)
+        </details>
+
+        <details><summary><a href="./reference/PDDL2.1/main.md">PDDL 2.1</a></summary>
+
+        - [Domain](./reference/PDDL2.1/domain.md)
+            - [Requirements](./reference/PDDL2.1/domain.md#requirements)
+                - [List of PDDL 2.1 Requirements](./reference/PDDL2.1/domain.md#list-of-requirements)
+            - [Numeric Fluents](./reference/PDDL2.1/domain.md#numeric-fluents)
+            - [Durative Actions](./reference/PDDL2.1/domain.md#durative-actions)
+                - [:parameters](./reference/PDDL2.1/domain.md#parameters)
+                - [:duration](./reference/PDDL2.1/domain.md#duration)
+                - [:condition](./reference/PDDL2.1/domain.md#condition)
+                - [:effect](./reference/PDDL2.1/domain.md#effect)
+        - [Problem](./reference/PDDL2.1/problem.md)
+            - [Numeric Fluents](./reference/PDDL2.1/problem.md#numeric-fluents)
+            - [Metric](./reference/PDDL2.1/problem.md#metric)
+            - [Length (Deprecated)](./reference/PDDL2.1/problem.md#length)
+        </details>
+
+        <details><summary><a href="./reference/PDDL2.2/main.md">PDDL 2.2</a></summary>
+
+        - [Domain](./reference/PDDL2.2/domain.md)
+            - [Requirements](./reference/PDDL2.2/domain.md#requirements)
+                - [List of PDDL 2.2 Requirements](./reference/PDDL2.2/domain.md#list-of-requirements)
+            - [Derived Predicates](./reference/PDDL2.2/domain.md#derived-predicates)
+        - [Problem](./reference/PDDL2.2/problem.md)
+            - [Timed initial literals](./reference/PDDL2.2/problem.md#timed-initial-literals)
+        </details>
+
+        <details><summary><a href="./reference/PDDL3.0/main.md">PDDL 3.0</a></summary>
+
+        - [Domain](./reference/PDDL3.0/domain.md)
+            - [Requirements](./reference/PDDL3.0/domain.md#requirements)
+            - [Constraints](./reference/PDDL3.0/domain.md#constraints)
+                - [always](./reference/PDDL3.0/domain.md#always)
+                - [sometime](./reference/PDDL3.0/domain.md#sometime)
+                - [within](./reference/PDDL3.0/domain.md#within)
+                - [at-most-once](./reference/PDDL3.0/domain.md#at-most-once)
+                - [sometime-after](./reference/PDDL3.0/domain.md#sometime-after)
+                - [sometime-before](./reference/PDDL3.0/domain.md#sometime-before)
+                - [always-within](./reference/PDDL3.0/domain.md#always-within)
+                - [hold-during](./reference/PDDL3.0/domain.md#hold-during)
+                - [hold-after](./reference/PDDL3.0/domain.md#hold-after)
+        - [Problem](./reference/PDDL3.0/problem.md)
+            - [Preferences](./reference/PDDL3.0/problem.md#preferences)
+                - [always](./reference/PDDL3.0/problem.md#always)
+                - [sometime](./reference/PDDL3.0/problem.md#sometime)
+                - [within](./reference/PDDL3.0/problem.md#within)
+                - [at-most-once](./reference/PDDL3.0/problem.md#at-most-once)
+                - [sometime-after](./reference/PDDL3.0/problem.md#sometime-after)
+                - [sometime-before](./reference/PDDL3.0/problem.md#sometime-before)
+                - [always-within](./reference/PDDL3.0/problem.md#always-within)
+                - [hold-during](./reference/PDDL3.0/problem.md#hold-during)
+                - [hold-after](./reference/PDDL3.0/problem.md#hold-after)
+            - [Metric](./reference/PDDL3.0/problem.md#metric)
+        </details>
+
+        <details><summary><a href="./reference/PDDL+/main.md">PDDL+</a></summary>
+
+        - [Domain](./reference/PDDL+/domain.md)
+            - [Requirements](./reference/PDDL+/domain.md#requirements)
+            - [Processes](./reference/PDDL+/domain.md#processes)
+            - [Events](./reference/PDDL+/domain.md#events)
+        </details>
+        <details><summary>Other PDDL Flavours & Syntaxing</summary></details>
+    </details>
+
     - Planners
         - [OPTIC](./reference/planners/OPTIC/main.md)
         - [POPF](./reference/planners/POPF/main.md)
@@ -153,7 +173,6 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
     - 
 - FAQ
 
-
 ## References
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
@@ -170,3 +189,4 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
 - [The MetricFF Planning System: Translating "Ignoring Delete Lists" to Numeric State Variables](https://jair.org/index.php/jair/article/view/10360/24783) [Hoffmann, J.]
 - [Forward-Chaining Partial-Order Planning](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS10/paper/view/1421/1527) [ Coles,A. J. Coles, A. I. Fox, M. Long, D.]
 - [A Compilation of the Full PDDL+ Language into SMT](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13101/12664) [Cashmore, M. Fox, M. Long, D. Magazzeni, D.]
+

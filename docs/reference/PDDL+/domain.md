@@ -120,3 +120,5 @@ Note that the distinctive nature of an event is that whilst it can occur more th
 
 In the case above we see that the condition of hitting the ground is that velocity is greater than 0, and the effect is that velocity is negated, which ensures that - at least for a period - this event cannot run again.
 
+## Reference
+- [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]

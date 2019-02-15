@@ -14,3 +14,6 @@ PDDL+ introduced processes and events, to the domain of PDDL. Where previous upd
     - [Requirements](./domain.md#requirements)
     - [Processes](./domain.md#processes)
     - [Events](./domain.md#events)
+
+## Reference
+- [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]
