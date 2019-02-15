@@ -133,9 +133,11 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [Dino](./reference/planners/DiNo/main.md)
         - [SMTPlan+](./reference/planners/SMTPlan/main.md)
         - [MetricFF](./reference/planners/MetricFF/main.md)
+        - [COLIN](./reference/planners/COLIN/main.md)
         - LPRPG-P
         - UPMurphi
     - Other Planning Tools
-        - VAL - The Plan Validator
+        - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
+        - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
         - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
 - FAQ
