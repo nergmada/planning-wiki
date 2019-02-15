@@ -120,7 +120,7 @@ Allows for the usage of `when` in expressing action effects. Essentially saying 
 Here we express that when a person has a hot chocolate with marshmallows in, there is additional effect that the person is happy, which might not otherwise be true had we given them a different beverage or indeed a hot chocolate without marshmallows.
 
 ## Action Expansions
-Support: <span style="color:red">Poor</span>  
+Support: <span style="color:red">None</span>  
 Usage: <span style="color:red">Rare</span>
 
 `(:requirements :action-expansions)`
@@ -130,7 +130,7 @@ Allows for usage of action expansions. This allows for the definition of variant
 This has be rendered redundant as we would instead just express multiple actions such as `MOVE-BY-PLANE` and `MOVE-BY-TRAIN`.
 
 ## Foreach Expansions
-Support: <span style="color:red">Poor</span>  
+Support: <span style="color:red">None</span>  
 Usage: <span style="color:red">Rare</span>
 
 `(:requirements :foreach-expansions)`
@@ -142,7 +142,7 @@ This requirement implies the existence of the `:action-expansions` requirement a
 `(:requirements :action-expansions :foreach-expansions)`
 
 ## DAG Expansions
-Support: <span style="color:red">Poor</span>  
+Support: <span style="color:red">None</span>  
 Usage: <span style="color:red">Rare</span>
 
 `(:requirements :dag-expansions)`
