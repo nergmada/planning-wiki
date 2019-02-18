@@ -1,4 +1,4 @@
-# POPF: Partial Order Planning Forwards
+# COLIN: COntinuous LINear planner
 [return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 
@@ -8,8 +8,17 @@ Paper: [Temporal Planning in Domains with Linear Processes](https://www.ijcai.or
 
 Preceded By: Crikey3
 
-POPF is forwards-chaining temporal planner. Its name derives from the fact that it incorporates ideas from partial-order planning — during search, when applying an action to a state, it seeks to introduce only the ordering constraints needed to resolve threats, rather than insisting the new action occurs after all of those already in the plan. Its implementation is built on that for the planner COLIN, and it retains the ability to handle domains with linear continuous numeric effects.
+COLIN is a forward-chaining heuristic search planner, capable of reasoning with COntinuous LINear numeric change, in addition to the full temporal semantics of PDDL2.1.
 
 ## Support
 
-POPF has several versions and this guide provides support tables for versions 1.1 and 2
+COLIN has not been tested with eviscerator as it has now been superceded by POPF and OPTIC. If you have compiled and tested COLIN on eviscerator, feel free to pull this page and
+submit a pull request.
+
+
+## Downloading and Compiling POPF
+[POPF's main KCL Planning page](https://nms.kcl.ac.uk/planning/software/colin.html) provides more detail about the COLIN Planner and where the source code can be found.
+
+## Additional Notes
+COLIN only supports linear continuous effects, hence the name.
+
