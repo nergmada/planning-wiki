@@ -1,31 +1,36 @@
 # A PDDL Reference Guide
+
 [Go Straight To Contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+
 ## Introduction
-This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is difficult to quantify under one roof, due to the variety of ongoing research in the field. 
+
+This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is difficult to quantify under one roof, due to the variety of ongoing research in the field.
 
 The International Conference on Autonomous Planning and Scheduling has in the course of supporting AI Planning research created a competition for the AI Planning Software (Planners) that have been built to solve AI Planning problems.
 
 This competition, dating from 1998, has defined a general purpose definition language, Planning Domain Definition Language (PDDL), which is designed to be capable of specifying any planning or scheduling problem you could come across.
 
-In reality, PDDL since it's first incarnation in 1998 has had serious modifications to make it capable of handling the complex tasks we expect of modern autonomous planning and scheduling techniques. 
+In reality, PDDL since it's first incarnation in 1998 has had serious modifications to make it capable of handling the complex tasks we expect of modern autonomous planning and scheduling techniques.
 
 For more details on PDDL, Planning, the history, the usage and the research, see the guide.
 
 ## Using This Guide
-This guide splits into three main sections, guide, reference and examples. 
+
+This guide splits into three main sections, guide, reference and examples.
 
 The guide section is here to help the uninitiated get an idea of what planning is and how it can be used. It glazes over technical details where they're complex and difficult to understand. *This is not intended to be a substitute to the copious academic literature written in the subject*.
 
-The reference guide itself splits into two sections, one for the language of planners, PDDL. The other section for the planners which can read and solve PDDL problems. 
+The reference guide itself splits into two sections, one for the language of planners, PDDL. The other section for the planners which can read and solve PDDL problems.
 
 The nature of AI planning and the language means that **not** all features are supported by all planners and not all techniques are used as often as others. The reference here aims to help with that by firstly showing next to each definition an indication of how well supported the feature is and how commonly used it is.
 
->Support: <span style="color:green">Universal</span>, <span style="color:yellow">High</span>, <span style="color:orange">Medium</span>, <span style="color:red">Poor</span>  
+>Support: <span style="color:green">Universal</span>, <span style="color:yellow">High</span>, <span style="color:orange">Medium</span>, <span style="color:red">Poor</span>
 Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium</span>, <span style="color:orange">Low</span>, <span style="color:red">Rare</span>
 
-For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems. 
+For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems.
 
 ## Contributions, Corrections and Feedback
+
 [Contributions](./guide/contributing.md) are always welcome!
 
 The best way to provide multiple contributions is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/pddl-reference). You can fork this repository to your GitHub, make changes and file a pull request.
@@ -37,6 +42,7 @@ Finally, if you have a planner which you think should be included in this refere
 Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to get back to you ASAP.
 
 ## Contents
+
 - Guide
     - [What is AI Planning?](./guide/whatisaip.md)
         - [Domain independent Planning](./guide/whatisaip.md#domain%20independent%20planning)
@@ -150,11 +156,11 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [Planning.Domains PDDL Editor](http://editor.planning.domains/)
 - Examples
     - [IPC PDDL Domains](https://github.com/potassco/pddl-instances)
-    - 
+    -
 - FAQ
 
-
 ## References
+
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
 - [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]

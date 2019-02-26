@@ -1,6 +1,6 @@
 # POPF: Partial Order Planning Forwards
-[return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
+[return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 Year Published: 2010
 
@@ -91,7 +91,9 @@ POPF has several versions and this guide provides support tables for versions 1.
 |:time| No
 
 ## Downloading and Compiling POPF
+
 [POPF's main KCL Planning page](https://nms.kcl.ac.uk/planning/software/popf.html) provides more detail about the POPF Planner and where the source code can be found.
 
 ## Additional Notes
+
 POPF only supports linear continuous effects

@@ -1,13 +1,14 @@
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) | 
+
+[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) |
 
 The domain syntax for PDDL2.2 adds very minimal changes to the domain. As with any update to PDDL it introduces new requirements, however, other than that the only new syntax is Derived Predicates, which are defined in a similar way to how actions are defined, and are defined in the same section of the domain file.
 
-```
+```LISP
 (define
     (domain railways)
     (:requirements :derived-predicates :timed-initial-literals)
-    (:types 
+    (:types
         train station - object
     )
     (:predicates
@@ -35,13 +36,15 @@ The domain syntax for PDDL2.2 adds very minimal changes to the domain. As with a
 ```
 
 ## Contents
+
 - Requirements
 - Derived Predicates
 
 ## Requirements
+
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>  
+Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
 `(:requirements <requirement_name>)`
@@ -53,24 +56,26 @@ Multiple `:requirements` can be specified through a space separated list e.g.
 `(:requirements :strips :adl :typing)`
 
 ### List of Requirements
+
 This is a list of requirements that were added by PDDL2.2 to the language of PDDL.
 
 - [:derived-predicates](./Domain/requirements.md#derived-predicates)
 - [:timed-initial-literals](./Domain/requirements.md#timed-initial-literals)
 
 ## Derived Predicates
+
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>  
+Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:orange">Low</span>
 
 `(:derived <predicate_name> <logical_expression>)`
 
-A derived predicate is declared by naming the predicate who's result is being derived, and a logical expression which is evaluated to work out the value. 
+A derived predicate is declared by naming the predicate who's result is being derived, and a logical expression which is evaluated to work out the value.
 
 Note, that a derived predicate is declared similarly to actions, in that we use the `:derived` keyword for each declaration of a derived predicate.
 
-```
+```LISP
 (:derived (train-usable ?t - train)
     (and
         (train-has-guard ?t)
@@ -79,9 +84,10 @@ Note, that a derived predicate is declared similarly to actions, in that we use 
 )
 ```
 
-The example above specifies that a train is only usable if it has a train and a driver. 
+The example above specifies that a train is only usable if it has a train and a driver.
 
 ## References
+
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
 - [PDDL2.2: The Language for the Classical Part of the 4th International Planning Competition](https://pdfs.semanticscholar.org/4b3c/0706d2673d817cc7c33e580858e65b134ba2.pdf) [Edelkamp, S. Hoffmann, J.]

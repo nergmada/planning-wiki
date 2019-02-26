@@ -1,4 +1,5 @@
 # PDDL 3.0
+
 [return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 ## Introduction
@@ -13,6 +14,7 @@ PDDL 3.0 also introduced constraints, a form of strong goal, which essentially c
 This allows us to express things such as facts that must become true after another, or facts which must always be true. See the keywords included in the Constraints and Preferences sections below.
 
 ## Contents
+
 - [Domain](./domain.md)
     - [Requirements](./domain.md#requirements)
     - [Constraints](./domain.md#constraints)
@@ -39,6 +41,7 @@ This allows us to express things such as facts that must become true after anoth
     - [Metric](./problem.md#metric)
 
 ## Reference
+
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
 - [PDDL2.2: The Language for the Classical Part of the 4th International Planning Competition](https://pdfs.semanticscholar.org/4b3c/0706d2673d817cc7c33e580858e65b134ba2.pdf) [Edelkamp, S. Hoffmann, J.]
