@@ -1,7 +1,9 @@
 # PDDL 2.2
+
 [return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 ## Introduction
+
 PDDL 2.2 introduces a key new feature not previously considered in PDDL, Timed Initial Literals. In previous versions, we assumed that a predicate was either true or false at the start.
 
 This is not a realistic way of modelling because it fails to consider facts which may become true later. For example, in dynamic planning, where we are planning and re-planning as the world changes, we may wish to represent resources or states which are in the course of changing which we have no control over.
@@ -21,6 +23,7 @@ PDDL 2.2 also reintroduces Axioms as derived predicates, with a different simple
 *This is speculative.
 
 ## Contents
+
 - [Domain](./domain.md)
     - [Requirements](./domain.md#requirements)
         - [List of PDDL 2.2 Requirements](./domain.md#list-of-requirements)
@@ -29,6 +32,7 @@ PDDL 2.2 also reintroduces Axioms as derived predicates, with a different simple
     - [Timed initial literals](./problem.md#timed-initial-literals)
 
 ## References
+
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
 - [PDDL2.2: The Language for the Classical Part of the 4th International Planning Competition](https://pdfs.semanticscholar.org/4b3c/0706d2673d817cc7c33e580858e65b134ba2.pdf) [Edelkamp, S. Hoffmann, J.]

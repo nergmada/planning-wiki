@@ -1,11 +1,12 @@
 # Problem
+
 [return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
-The problem syntax in PDDL 2.2 is expanded very lightly in order to support Timed Initial Literals. The choice of keyword is an interesting one because `at` is a commonly used predicate name used to indicate that some locatable is in some location i.e. `(at Adam Bush-House)`. 
+The problem syntax in PDDL 2.2 is expanded very lightly in order to support Timed Initial Literals. The choice of keyword is an interesting one because `at` is a commonly used predicate name used to indicate that some locatable is in some location i.e. `(at Adam Bush-House)`.
 
 The way in which this keyword is used to define timed initial literals means however that it *should not* conflict with domains that make use of `at` as a predicate name. However, this is entirely dependent on how the planner parses a plan.
 
-```
+```LISP
 (define
     (problem trainplanning1)
     (:domain railways)
@@ -23,12 +24,14 @@ The way in which this keyword is used to define timed initial literals means how
 ```
 
 ## Contents
+
 - Timed initial literals
 
 ## Timed Initial Literals
+
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>  
+Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:yellow">Medium</span>
 
 `(at <time_value> <predicate>)`
@@ -44,6 +47,7 @@ Ultimately it is the responsibility of the modelling user to determine what scal
 The statement above expresses that at some time 20, the train `train2` will no longer be in use.
 
 ## References
+
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
 - [PDDL2.2: The Language for the Classical Part of the 4th International Planning Competition](https://pdfs.semanticscholar.org/4b3c/0706d2673d817cc7c33e580858e65b134ba2.pdf) [Edelkamp, S. Hoffmann, J.]

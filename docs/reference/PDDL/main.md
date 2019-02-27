@@ -1,10 +1,15 @@
 # PDDL 1.2
+
 [return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+
 ## Introduction
-PDDL 1.2 formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largely on concepts set out for STRIPS, a sort of precursor languages which used a similar design pattern for describing problems through the use of predicates and actions. 
+
+PDDL 1.2 formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largely on concepts set out for STRIPS, a sort of precursor languages which used a similar design pattern for describing problems through the use of predicates and actions.
 
 Problems in PDDL are defined in two parts, a domain and a problem file. The following sections divide respectively, representing constituent parts of the domain and the problem.
+
 ## Contents
+
 - [Domain](./domain.md)
     - [Extends](./domain.md#extends)
     - [Requirements](./domain.md#requirements)
@@ -25,16 +30,18 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
     - [Goal](./problem.md#goal)
 
 ## Domain And Problem File
+
 ### Domain
-```PDDL
+
+```LISP
 (define
     (domain construction)
     (:extends building)
     (:requirements :strips :typing)
-    (:types 
+    (:types
         site material - object
         bricks cables windows - material
-    )x
+    )
     (:constants mainsite - site)
 
     ;(:domain-variables ) ;deprecated
@@ -51,9 +58,9 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
 
     (:timeless (foundations-set mainsite))
 
-    ;(:safety 
-        (forall 
-            (?s - site) (walls-built ?s)))
+    ;(:safety
+        ;(forall
+        ;    (?s - site) (walls-built ?s)))
         ;deprecated
 
     (:action BUILD-WALL
@@ -71,7 +78,7 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
         ; :expansion ;deprecated
     )
 
-    ;(:axiom
+    (:axiom
         :vars (?s - site)
         :context (and
             (walls-built ?s)
@@ -86,15 +93,16 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
 ```
 
 ### Problem File
-```PDDL
+
+```LISP
 (define
     (problem buildingahouse)
     (:domain construction)
     ;(:situation <situation_name>) ;deprecated
-    (:objects 
-        s1 - site 
-        b - bricks 
-        w - windows 
+    (:objects
+        s1 - site
+        b - bricks
+        w - windows
         c - cables
     )
     (:init
@@ -112,5 +120,6 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
 ```
 
 ## References
+
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
