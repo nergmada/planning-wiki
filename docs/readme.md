@@ -25,7 +25,8 @@ The reference guide itself splits into two sections, one for the language of pla
 The nature of AI planning and the language means that **not** all features are supported by all planners and not all techniques are used as often as others. The reference here aims to help with that by firstly showing next to each definition an indication of how well supported the feature is and how commonly used it is.
 
 >Support: <span style="color:green">Universal</span>, <span style="color:yellow">High</span>, <span style="color:orange">Medium</span>, <span style="color:red">Poor</span>
-Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium</span>, <span style="color:orange">Low</span>, <span style="color:red">Rare</span>
+
+> Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium</span>, <span style="color:orange">Low</span>, <span style="color:red">Rare</span>
 
 For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems.
 
@@ -143,21 +144,31 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [PaaS - Planning as a Service](http://solver.planning.domains/)
         - LPRPG-P
         - UPMurphi
-    - Other Planning Tools
-        - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
-        - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
-        - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
-        - [Visual Studio Code](https://code.visualstudio.com/)
-            - [PDDL Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl)
-        - [Sublime Text Editor](https://www.sublimetext.com/)
-            - [MyPDDL Plugin for Sublime](https://packagecontrol.io/packages/myPDDL)
-        - [Atom Text Editor](https://atom.io/)
-            - [MyPDDL Plugin for Atom](https://atom.io/packages/mypddl)
-        - [Planning.Domains PDDL Editor](http://editor.planning.domains/)
-- Examples
-    - [IPC PDDL Domains](https://github.com/potassco/pddl-instances)
-    -
+- Examples (Coming Soon)
 - FAQ
+
+## Additional Resources
+Below you can find a collection of resources for writing, learning and using PDDL and planning. For more information on what these tools and resources are and how they can help, please visit the [additional resources](./guide/additionalresources.md) page.
+
+- [Planning.Domains](http://planning.domains/)
+- Planner Tools
+    - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
+    - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
+    - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
+- PDDL Tools
+    - [Visual Studio Code](https://code.visualstudio.com/)
+        - [PDDL Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl)
+    - [Sublime Text Editor](https://www.sublimetext.com/)
+        - [MyPDDL Plugin for Sublime](https://packagecontrol.io/packages/myPDDL)
+    - [Atom Text Editor](https://atom.io/)
+        - [MyPDDL Plugin for Atom](https://atom.io/packages/mypddl)
+    - [Planning.Domains PDDL Editor](http://editor.planning.domains/)
+- Learning Resources
+    - [Learn PDDL by Fares K. Alaboud](https://fareskalaboud.github.io/LearnPDDL/)
+    - [Introduction to AI Planning. Part I. (video)](https://www.youtube.com/watch?v=EeQcCs9SnhU)
+    - [Introduction to AI Planning. Part II. (video)](https://www.youtube.com/watch?v=FS95UjrICy0)
+- Publicly Available PDDL Domains
+    - [IPC PDDL Domains](https://github.com/potassco/pddl-instances)
 
 ## References
 
