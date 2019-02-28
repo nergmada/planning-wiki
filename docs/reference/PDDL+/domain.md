@@ -1,9 +1,9 @@
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL2.1 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+[return to homepage](../../readme.md) | [return to PDDL+ main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
-PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively. 
+PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively.
 
-```
+```LISP
 (define
     (domain ballphysics)
     (:requirements :time :typing)
@@ -19,13 +19,13 @@ PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes`
     )
     (:process FALLING
         :parameters (?b - ball)
-        :precondition (and 
+        :precondition (and
             (not (held ?b))
             (< (velocity ?b) 100)
         )
-        :effect (and 
+        :effect (and
             (increase (velocity ?b) (* #t 9.8))
-            (decrease (distance-to-floor ?b) (* #t (velocity ?b)))    
+            (decrease (distance-to-floor ?b) (* #t (velocity ?b)))
         )
     )
     (:event HIT-GROUND
@@ -45,14 +45,16 @@ PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes`
 ```
 
 ## Contents
+
 - [Requirements](#requirements)
 - [Processes](#processes)
 - [Events](#events)
 
 ## Requirements
+
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>  
+Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
 `(:requirements <requirement_name>)`
@@ -68,39 +70,40 @@ Only one additional requirement is necessary in order to include **both** proces
 `(:requirements :time)`
 
 ## Processes
+
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>  
+Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:orange">Low</span>
 
-
-```
+```LISP
 (:process FALLING
     :parameters (?b - ball)
-    :precondition (and 
+    :precondition (and
         (not (held ?b))
         (< (velocity ?b) 100)
     )
-    :effect (and 
+    :effect (and
         (increase (velocity ?b) (* #t 9.8))
-        (decrease (distance-to-floor ?b) (* #t (velocity ?b)))    
+        (decrease (distance-to-floor ?b) (* #t (velocity ?b)))
     )
 )
 ```
 
-A process is defined in three sections, `:parameters`, `:precondition` and `:effect` which define what a process is acting upon, when a process is acting upon it and what effect that process has when it acts. These directly correspond with the definition of an [action](../PDDL/domain.md#actions) found in PDDL 1.2, but can include the expressivity of numerics as seen in PDDL 2.1. 
+A process is defined in three sections, `:parameters`, `:precondition` and `:effect` which define what a process is acting upon, when a process is acting upon it and what effect that process has when it acts. These directly correspond with the definition of an [action](../PDDL/domain.md#actions) found in PDDL 1.2, but can include the expressivity of numerics as seen in PDDL 2.1.
 
 Confusingly despite bearing similar behaviour to a durative action, a process conditions over it's duration, therefore the precondition can be thought of more like an `over all` condition in PDDL 2.1
 
 `#t` represents the time of the process, it is used to calculate continuous numeric effects, therefore, if about halfway through the process some action might wish to run which conditions on one of the numeric fluents affected by the process, `#t` can be used to calculate the intermediate value of such a numeric fluent.
 
 ## Events
+
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>  
+Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:orange">Low</span>
 
-```
+```LISP
 (:event HIT-GROUND
     :parameters (?b - ball)
     :precondition (and
@@ -121,4 +124,5 @@ Note that the distinctive nature of an event is that whilst it can occur more th
 In the case above we see that the condition of hitting the ground is that velocity is greater than 0, and the effect is that velocity is negated, which ensures that - at least for a period - this event cannot run again.
 
 ## Reference
+
 - [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]
