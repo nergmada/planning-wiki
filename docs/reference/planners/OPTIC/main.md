@@ -15,9 +15,9 @@ Documentation of OPTIC is an on-going area of interest and as such, documentatio
 
 There are two existing strands of OPTIC. OPTIC (Legacy) is the version of OPTIC currently available from KCL Planning. OPTIC+ is a rewritten version of OPTIC (sometimes referred to as rewrite). The rewritten version of OPTIC provides significant improvement on the performance of the scheduler through custom memory management. OPTIC+ is not currently publicly available. 
 
-- OPTIC (Legacy)
+- OPTIC (Legacy) [Public]
     - [Compiling](./Legacy/compiling.md)
-- OPTIC+
+- OPTIC+ [Private]
     - [Compiling](./Plus/compiling.md)
 
 ## Support
