@@ -143,21 +143,31 @@ Any other issues/concerns should be sent to adam.green@kcl.ac.uk and I'll try to
         - [PaaS - Planning as a Service](http://solver.planning.domains/)
         - LPRPG-P
         - UPMurphi
-    - Other Planning Tools
-        - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
-        - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
-        - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
-        - [Visual Studio Code](https://code.visualstudio.com/)
-            - [PDDL Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl)
-        - [Sublime Text Editor](https://www.sublimetext.com/)
-            - [MyPDDL Plugin for Sublime](https://packagecontrol.io/packages/myPDDL)
-        - [Atom Text Editor](https://atom.io/)
-            - [MyPDDL Plugin for Atom](https://atom.io/packages/mypddl)
-        - [Planning.Domains PDDL Editor](http://editor.planning.domains/)
-- Examples
-    - [IPC PDDL Domains](https://github.com/potassco/pddl-instances)
-    -
+- Examples (Coming Soon)
 - FAQ
+
+## Additional Resources
+Below you can find a collection of resources for writing, learning and using PDDL and planning. For more information on what these tools and resources are and how they can help, please visit the [additional resources](./guide/additionalresources.md) page.
+
+- [Planning.Domains](http://planning.domains/)
+- Planner Tools
+    - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
+    - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
+    - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
+- PDDL Tools
+    - [Visual Studio Code](https://code.visualstudio.com/)
+        - [PDDL Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl)
+    - [Sublime Text Editor](https://www.sublimetext.com/)
+        - [MyPDDL Plugin for Sublime](https://packagecontrol.io/packages/myPDDL)
+    - [Atom Text Editor](https://atom.io/)
+        - [MyPDDL Plugin for Atom](https://atom.io/packages/mypddl)
+    - [Planning.Domains PDDL Editor](http://editor.planning.domains/)
+- Learning Resources
+    - [Learn PDDL by Fares K. Alaboud](https://fareskalaboud.github.io/LearnPDDL/)
+    - [Introduction to AI Planning. Part I. (video)](https://www.youtube.com/watch?v=EeQcCs9SnhU)
+    - [Introduction to AI Planning. Part II. (video)](https://www.youtube.com/watch?v=FS95UjrICy0)
+- Publicly Available PDDL Domains
+    - [IPC PDDL Domains](https://github.com/potassco/pddl-instances)
 
 ## References
 
