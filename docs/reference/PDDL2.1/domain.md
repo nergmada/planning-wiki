@@ -39,6 +39,7 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
 
         :effect
 	        (and
+                (decrease (fuel-level ?t) (* 2 #t))
 	            (at end (at ?rover ?to-waypoint))
 	            (at end (been-at ?rover ?to-waypoint))
 	            (at start (not (at ?rover ?from-waypoint)))
@@ -59,6 +60,7 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
     - [:duration](#duration)
     - [:condition](#condition)
     - [:effect](#effect)
+- [Continuous Effects](#continuous-effects)
 
 ## Requirements
 
@@ -375,6 +377,50 @@ Temporal expressions, such as `at start` and `at end` are available, however, `o
 ```
 
 The above effect is saying that `at start` the rover can no longer be considered as being at the `from` waypoint, and that `at end` it can now be considered as being at the `to` waypoint. It also adds a second predicate `been-at` which indicates that at some point the rover has visited the given waypoint.
+
+## Continuous Effects
+Support: <span style="color:orange">Medium</span>
+Usage: <span style="color:green">High</span>
+
+```LISP
+(increase (fuel ?tank) #t)
+```
+
+```LISP
+(decrease (battery ?battery) (* 5 #t))
+```
+
+Continuous effects are an additional way of defining effects, which merit their own dedicated section. A continous effect defines an effect on a numeric variable which is continuous through the application of a durative action. Put simply, it defines that a variable changes continously over the duration of the action.
+
+We can see these kind of effects in real world fuel and battery problems. As we drive for longer, we consume more fuel, therefore can be modelled using a continous effect. Furthermore, continuous effects allow planning models to consider the application of an action prior to the termination of a durative action.
+
+Imagine we have a `recharge` action which charges 1% of a battery for every unit of time, we would model it with this line within the effects block of an action
+
+```LISP
+(increase (battery ?b) #t)
+```
+
+The `#t` acts a numeric variable representing the current point in time within the action so a function such as `(* 2 #t)` we are saying, for every time unit of an action, the value of the change is multiplied by 2.
+
+Lets say that our recharge action is half way through being applied and by that point the battery has recharged enough for us to apply another action which may consume some battery, without continuous effects, we would most likely apply the change at the end of the recharge action, meaning any action which wished to consume battery would have to wait for recharge to complete before it can be applied
+
+```
+Without Continuous effects (plan length: 15)
+
+b=0
+    |--(recharge[10])--|      |--(drive[5]--| 
+                    (b+=10) (b>5)         (b-=5)
+
+With Continuous effects (plan length: 10)
+
+b=0
+    |--(recharge[10])--|
+           (b+=#t)
+              |--(drive[5])--|
+            (b>5)          (b-=5)
+```
+
+With continous effects, the battery has recharge to a level that is satisfies the drive action's precondition half way through recharging. Without, we have to wait until the recharge effect of the recharge action is applied, before we can apply the drive action, resulting in a longer (and arguably sub-optimal) solution.
 
 ## References
 
