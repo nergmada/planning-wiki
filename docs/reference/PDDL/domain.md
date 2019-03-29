@@ -3,7 +3,7 @@
 
 A domain file in PDDL 1.2 defines the "universal" aspects of a problem. Essentially, these are the aspects that do not change regardless of what specific situation we're trying to solve. In PDDL 1.2 this is mostly the object types, predicates and actions that can exist within the the model.
 
-```PDDL
+```LISP
 (define
     (domain construction)
     (:extends building)
