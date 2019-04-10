@@ -140,8 +140,8 @@ This site breaks down into two major content sections
         - [Events](./reference/PDDL+/domain.md#events)
 - Other PDDL Flavours & Syntaxing
 #### Planners
-- A-Z of Planners
-- All tags
+- [A-Z of Planners](./reference/planners/atoz.md)
+- [All tags](./reference/planners/alltags.md)
     - Classical Planners
     - Temporal Planners
     - Probabilistic Planners
