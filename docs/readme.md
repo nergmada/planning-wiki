@@ -2,6 +2,14 @@
 
 [Go Straight To Contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
+## Help Wanted
+
+![](https://media3.giphy.com/media/l1AsUvwEEBorHpMpG/giphy.gif?cid=790b76115cda8f413467714645c3ac04&rid=giphy.gif)
+
+The PDDL reference guide needs your help
+1. Upload and complete a [survey](https://forms.gle/maqWPvxaJFsQgYus9) on the PDDL you use
+2. Help us close issues and improve this guide, see [how to contribute](./guide/contributing.md)
+
 ## Introduction
 
 This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is difficult to quantify under one roof, due to the variety of ongoing research in the field.
