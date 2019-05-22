@@ -1,6 +1,6 @@
 # A PDDL Reference Guide
 
-[Go Straight To Contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+[Go Straight To Contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose) | **[Join Planning & PDDL Group on Slack](https://join.slack.com/t/planningpddlgroup/shared_invite/enQtNjQyNDY0MTA0ODUyLTNlYWY3ODQ5ZTU0YWMyOGRiYzVmNmNlNjhmZThlZmU4MzQ0MTRlOTc1ZThmZjEyOWZjODBiMzEyYzg0MjIxNDc)**
 
 ## Help Wanted
 
@@ -37,6 +37,10 @@ The nature of AI planning and the language means that **not** all features are s
 > Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium</span>, <span style="color:orange">Low</span>, <span style="color:red">Rare</span>
 
 For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems.
+
+## Community
+
+To help grow the community and support available to new and experienced users alike, we've launched a slack chat, to help connect people working and using planning & PDDL. [Drop in and say hello](https://join.slack.com/t/planningpddlgroup/shared_invite/enQtNjQyNDY0MTA0ODUyLTNlYWY3ODQ5ZTU0YWMyOGRiYzVmNmNlNjhmZThlZmU4MzQ0MTRlOTc1ZThmZjEyOWZjODBiMzEyYzg0MjIxNDc)
 
 ## Contributions, Corrections and Feedback
 
