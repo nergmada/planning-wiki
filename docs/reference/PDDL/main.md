@@ -1,39 +1,24 @@
+---
+layout: page
+title: PDDL
+has_children: true
+parent: Reference
+permalink: /ref/pddl
+nav_order: 0
+---
+
 # PDDL 1.2
-
-[return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
-
 ## Introduction
 
 PDDL 1.2 formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largely on concepts set out for STRIPS, a sort of precursor languages which used a similar design pattern for describing problems through the use of predicates and actions.
 
 Problems in PDDL are defined in two parts, a domain and a problem file. The following sections divide respectively, representing constituent parts of the domain and the problem.
 
-## Contents
-
-- [Domain](./domain.md)
-    - [Extends](./domain.md#extends)
-    - [Requirements](./domain.md#requirements)
-        - [List of supported Requirements](./Domain/requirements.md)
-    - [Object Types](./domain.md#object-types)
-    - [Constants](./domain.md#constants)
-    - [Predicates](./domain.md#predicates)
-    - [Timeless Predicates](./domain.md#timeless-predicates)
-    - [Safety Constraints](./domain.md#safety-constraint)
-    - [Actions](./domain.md#actions)
-    - [Axioms](./domain.md#axioms)
-- [Problem](./problem.md)
-    - [Problem Name](./problem.md#problem-name)
-    - [Domain](./problem.md#domain)
-    - [Situation](./problem.md#situation)
-    - [Objects](./problem.md#objects)
-    - [Init (Initial State)](./problem.md#init)
-    - [Goal](./problem.md#goal)
-
 ## Domain And Problem File
 
 ### Domain
 
-```LISP
+```cl
 (define
     (domain construction)
     (:extends building)
@@ -94,7 +79,7 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
 
 ### Problem File
 
-```LISP
+```cl
 (define
     (problem buildingahouse)
     (:domain construction)

@@ -1,9 +1,15 @@
+---
+layout: page
+title: PDDL 2.1 Domain
+has_children: true
+parent: PDDL 2.1
+grand_parent: Reference
+permalink: /ref/pddl21/domain
+---
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL2.1 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
-
 The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new features, `durative-actions` and `functions` which are referred to as numeric fluents. Additional new requirements were specified on top of the 1.2 spec to allow older planners to identify that they could not solve these neweer domains.
 
-```LISP
+```cl
 (define (domain rover-domain)
     (:requirements :durative-actions :fluents :duration-inequalities)
     (:types rover waypoint)
@@ -69,7 +75,7 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:requirements <requirement_name>)
 ```
 
@@ -77,7 +83,7 @@ Requirements are similar to import/include statements in programming languages, 
 
 Multiple `:requirements` can be specified through a space separated list e.g.
 
-```LISP
+```cl
 (:requirements :strips :adl :typing)
 ```
 
@@ -98,7 +104,7 @@ The following is a list of requirements that were added by PDDL2.1 to the langua
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:functions
     (<variable_name> <parameter_name> - <object_type>)
     ...
@@ -108,7 +114,7 @@ Usage: <span style="color:green">High</span>
 
 A numeric fluent, similar to a predicate, is a variable which applies to zero or more objects and maintains a value throughout the duration of the plan. It is declared with a name followed by the object type to which it applies. e.g.
 
-```LISP
+```cl
 (:functions
     (battery-level ?r - rover)
 )
@@ -116,7 +122,7 @@ A numeric fluent, similar to a predicate, is a variable which applies to zero or
 
 Means that every rover object in the domain has a variable which maintains a value for `battery-level`. A function can apply to zero or more objects, meaning we could also use it to represent a numeric value between two values, for example a distance.
 
-```LISP
+```cl
 (:functions
     (distance ?wp1 - waypoint ?wp2 - waypoint)
 )
@@ -131,25 +137,25 @@ Usage: <span style="color:green">High</span>
 
 #### Add
 
-```LISP
+```cl
 (+ (sample-capacity) (battery-capacity))
 ```
 
 #### Subtract
 
-```LISP
+```cl
 (- (sample-capacity) (battery-capacity))
 ```
 
 #### Divide
 
-```LISP
+```cl
 (/ (sample-capacity) (battery-capacity))
 ```
 
 #### Multiply
 
-```LISP
+```cl
 (* (sample-capacity) (battery-capacity))
 ```
 
@@ -160,13 +166,13 @@ Prefix notation is used to represent maths operations on numeric fluents. We can
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (increase (battery-level ?r) 10)
 ```
 
 An increase effect increases the value of a numeric variable by the given amount. It is possible to use another numeric variable as the increase value for example.
 
-```LISP
+```cl
 (increase (battery-level ?r) (charge-available - ?solarpanel))
 ```
 
@@ -175,13 +181,13 @@ An increase effect increases the value of a numeric variable by the given amount
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (decrease (battery-level ?r) 10)
 ```
 
 A decrease effect decreases the value of a numeric variable by the given amount. It is possible to use another numeric variable as the decrease value for example.
 
-```LISP
+```cl
 (decrease (battery-level ?r) (power-needed-for-work - ?task))
 ```
 
@@ -190,13 +196,13 @@ A decrease effect decreases the value of a numeric variable by the given amount.
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (assign (battery-level ?r) 10)
 ```
 
 An assign effect assigns the value of a numeric variable to the given amount. It is possible to use another numeric variable as the assign value for example.
 
-```LISP
+```cl
 (assign (battery-level ?r) (max-charge ?r))
 ```
 
@@ -205,13 +211,13 @@ An assign effect assigns the value of a numeric variable to the given amount. It
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:red">Rare</span>
 
-```LISP
+```cl
 (scale-up (battery-level ?r) 2)
 ```
 
 A scale up effect increases the value of the numeric variable by the given scale factor. The scale factor can be another numeric variable.
 
-```LISP
+```cl
 (scale-up (battery-level ?r) (charge-rate ?r))
 ```
 
@@ -220,13 +226,13 @@ A scale up effect increases the value of the numeric variable by the given scale
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:red">Rare</span>
 
-```LISP
+```cl
 (scale-down (battery-level ?r) 2)
 ```
 
 A scale down effect decreases the value of the numeric variable by the given scale factor. The scale factor can be another numeric variable.
 
-```LISP
+```cl
 (scale-down (battery-level ?r) (consumption-rate ?r))
 ```
 
@@ -237,7 +243,7 @@ A scale down effect decreases the value of the numeric variable by the given sca
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:durative-action <action_name>
     :parameters (<arguments>)
     :duration (= ?duration <duration_number>)
@@ -255,11 +261,11 @@ This semantic change is designed to represent that a durative action may not jus
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 :parameters (argument_1 ... argument_n)
 ```
 
-```LISP
+```cl
 :parameters (?s -site ?b - bricks)
 ```
 
@@ -285,21 +291,21 @@ Usage: <span style="color:green">High</span>
 
 #### Fixed Value:
 
-```LISP
+```cl
 :duration (= ?duration <duration_number>)
 ```
 
 #### Inequality Value
 
-```LISP
+```cl
 :duration (> ?duration <duration_number>)
 ```
 
-```LISP
+```cl
 :duration (< ?duration <duration_number>)
 ```
 
-```LISP
+```cl
 :duration (and
     (> ?duration <duration_number>)
     (< ?duration <duration_number>))
@@ -307,7 +313,7 @@ Usage: <span style="color:green">High</span>
 
 A duration can be expressed as either a fixed value or an inequality. It is also possible to express duration as the value of a Numeric Fluent, which means an action such as `move` can have a `duration` dependent on say `distance` between two points.
 
-```LISP
+```cl
 :duration (= ?duration 10)
 ```
 
@@ -316,7 +322,7 @@ A duration can be expressed as either a fixed value or an inequality. It is also
 Support: <span style="color:green">Universal - where durative actions are available</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 :condition (<logical_temporal_expression>)
 ```
 
@@ -326,7 +332,7 @@ A condition is a logical and temporal expression which must be met in order for 
 
 An expression or predicate with `at start` prefixed to it, means that the condition must be true at the start of the action in order for the action to be applied. e.g.
 
-```LISP
+```cl
 (at start (at ?rover ?from-waypoint))
 ```
 
@@ -338,7 +344,7 @@ expresses that `at start` the given `rover` is `at` the `from-waypoint`. Confusi
 
 An expression or predicate with `at end` prefixed to it, means that the condition must be true at the end of the action in order for the action to be applied e.g.
 
-```LISP
+```cl
 (at end (>= (battery-amount ?rover) 0)
 ```
 
@@ -348,7 +354,7 @@ In essence we are saying that whilst this fact doesn't have to be true at the st
 
 An expression or predicate with an `overall` prefixed to it, means that the condition must be true throughout the action, including at the start and end. e.g.
 
-```LISP
+```cl
 (over all (can-move ?from-waypoint ?to-waypoint))
 ```
 
@@ -359,7 +365,7 @@ At all points in the execution of the action the given expression must evaluate 
 Support: <span style="color:green">Universal - where durative actions are available</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 :effect (<logical_temporal_condition>)
 ```
 
@@ -367,7 +373,7 @@ An effect similar to in traditional actions, is a condition which is made true w
 
 Temporal expressions, such as `at start` and `at end` are available, however, `over all` is typically not used. because it's not common to express a boolean effect which is true over the duration of the action. Instead you would set it to true at the start, using an `at start` and set it to false at the end using `at end`
 
-```LISP
+```cl
 :effect
     (and
         (at start (not (at ?rover ?from-waypoint)))
@@ -382,11 +388,11 @@ The above effect is saying that `at start` the rover can no longer be considered
 Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (increase (fuel ?tank) #t)
 ```
 
-```LISP
+```cl
 (decrease (battery ?battery) (* 5 #t))
 ```
 
@@ -396,7 +402,7 @@ We can see these kind of effects in real world fuel and battery problems. As we 
 
 Imagine we have a `recharge` action which charges 1% of a battery for every unit of time, we would model it with this line within the effects block of an action
 
-```LISP
+```cl
 (increase (battery ?b) #t)
 ```
 

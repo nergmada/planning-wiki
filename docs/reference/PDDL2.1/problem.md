@@ -1,10 +1,16 @@
+---
+layout: page
+title: PDDL 2.1 Problem
+has_children: true
+parent: PDDL 2.1
+grand_parent: Reference
+permalink: /ref/pddl21/problem
+---
 # Problem
-
-[return to homepage](../../readme.md) | [return to PDDL2.1 main page](./main.md)
 
 The problem syntax in PDDL 2.1 has to be extended in order to complement the syntax of the domain file. One interesting extension to the syntax in PDDL 2.1 is the addition of a metric. A metric, which behaves like an optimisation function, defines a cost value for a plan. We then express whether we want this metric to be maximised (like in football) or minimised (like in golf).
 
-```LISP
+```cl
 (define
     (problem rover1)
     (:domain rover-domain)

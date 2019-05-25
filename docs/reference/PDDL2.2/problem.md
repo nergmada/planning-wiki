@@ -6,7 +6,7 @@ The problem syntax in PDDL 2.2 is expanded very lightly in order to support Time
 
 The way in which this keyword is used to define timed initial literals means however that it *should not* conflict with domains that make use of `at` as a predicate name. However, this is entirely dependent on how the planner parses a plan.
 
-```LISP
+```cl
 (define
     (problem trainplanning1)
     (:domain railways)

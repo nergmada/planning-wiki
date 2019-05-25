@@ -1,10 +1,16 @@
+---
+layout: page
+title: PDDL 2.2 Domain
+has_children: true
+parent: PDDL 2.2
+grand_parent: Reference
+permalink: /ref/pddl22/domain
+---
 # Domain
-
-[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) |
 
 The domain syntax for PDDL2.2 adds very minimal changes to the domain. As with any update to PDDL it introduces new requirements, however, other than that the only new syntax is Derived Predicates, which are defined in a similar way to how actions are defined, and are defined in the same section of the domain file.
 
-```LISP
+```cl
 (define
     (domain railways)
     (:requirements :derived-predicates :timed-initial-literals)
@@ -75,7 +81,7 @@ A derived predicate is declared by naming the predicate who's result is being de
 
 Note, that a derived predicate is declared similarly to actions, in that we use the `:derived` keyword for each declaration of a derived predicate.
 
-```LISP
+```cl
 (:derived (train-usable ?t - train)
     (and
         (train-has-guard ?t)

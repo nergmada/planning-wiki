@@ -1,9 +1,16 @@
+---
+layout: page
+title: PDDL Domain
+has_children: true
+parent: PDDL
+grand_parent: Reference
+permalink: /ref/pddl/domain
+---
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
-
+{: .no_toc }
 A domain file in PDDL 1.2 defines the "universal" aspects of a problem. Essentially, these are the aspects that do not change regardless of what specific situation we're trying to solve. In PDDL 1.2 this is mostly the object types, predicates and actions that can exist within the the model.
 
-```PDDL
+```cl
 (define
     (domain construction)
     (:extends building)
@@ -63,6 +70,10 @@ A domain file in PDDL 1.2 defines the "universal" aspects of a problem. Essentia
 ```
 
 ## Contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 - [Domain Name](#domain-name)
 - [Extends](#extends)
@@ -122,10 +133,10 @@ Multiple `:requirements` can be specified through a space separated list e.g.
 `(:requirements :strips :adl :typing)`
 
 ### List of Requirements
-
+{: .no_toc }
 The following is a list of requirements as specified in the 1998 technical manual for the AIPS competition, however, not all are supported anymore.
 
-- [:strips](./Domain/requirements.md#STRIPS)
+- [:strips](./req#STRIPS)
 - [:typing](./Domain/requirements.md#typing)
 - [:disjunctive-preconditions](./Domain/requirements.md#Disjunctive%20Preconditions)
 - [:equality](./Domain/requirements.md#Equality)
@@ -153,7 +164,7 @@ The following is a list of requirements as specified in the 1998 technical manua
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:types
     <type_name_1> ... <type_name_n> - object
     <sub_name_1> ... <sub_name_n> - <type_name_1>
@@ -162,7 +173,7 @@ Usage: <span style="color:green">High</span>
 
 Typing allows us to create basic and subtypes to which we can apply predicates. We use types to restrict what objects can form the parameters of an action. Types and subtypes allow us to declare both general and specific actions and predicates e.g.
 
-```LISP
+```cl
 (:types
     site material - object
     bricks cables windows - material
@@ -185,7 +196,7 @@ Which only apply to a specific sub-type.
 
 We can go further and do the same with actions for example.
 
-```LISP
+```cl
 (:action MOVE-MATERIAL
     :parameters (?s1 - site ?s2 - site ?m -material)
     ...
@@ -196,7 +207,7 @@ Where we wish to express for example the movement of any material from one site 
 
 Alternatively, if we want to use a specific material, such as when we're building a wall we might declare an action like so
 
-```LISP
+```cl
 (:action BUILD-WALL
     :parameters (?s - site ?b - bricks)
     ...
@@ -238,7 +249,7 @@ Further, most planners won't support this syntax.
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:predicates
     (<predicate_name> <argument_1> ... <argument_n>)
 )
@@ -248,7 +259,7 @@ Predicates apply to a specific type of object, or to all objects. Predicates are
 
 An example of a predicate declaration can be seen below. In most cases predicate normally take only one or two objects as arguments. But this is not a restriction and predicates can (in theory) take as many arguments as the user wishes.
 
-```LISP
+```cl
 (:predicates
     (walls-built ?s - site)
     (windows-fitted ?s - site)
@@ -290,7 +301,7 @@ Usage: <span style="color:red">Rare</span>
 
 A safety condition is a condition which for any plan to be valid, must be true at the end of the plan. How this differs from a goal condition is not clear.
 
-```LISP
+```cl
 (:safety
     (forall
         (?s - site) (walls-built ?s)))
@@ -305,7 +316,7 @@ It might be used in order to essentially define global goals, goals which must b
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:action <action_name>
     :parameters (<argument_1> ... <argument_n>)
     :precondition (<logical_expression>)
@@ -325,15 +336,15 @@ The second is the `:precondition` section. These are typically a series of predi
 The third section is a choice between `:effect` and `:expansion` an action cannot have both. Most domains use `:effect`. No details are provided of how to use `:expansion` as not enough planners support it.
 
 ### Action Contents
-
+{: .no_toc }
 - [Action Example](#action-example)
 - [Parameters](#parameters)
 - [Preconditions](#preconditions)
 - [Effects](#effects)
 
 ### Action Example
-
-```LISP
+{: .no_toc }
+```cl
 (:action BUILD-WALL
     :parameters (?s - site ?b - bricks)
     :precondition (and
@@ -351,7 +362,7 @@ The third section is a choice between `:effect` and `:expansion` an action canno
 
 
 ### Parameters
-
+{: .no_toc }
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
@@ -375,7 +386,7 @@ In this case, when we build a wall we need to know what bricks we're using to bu
 Your domain and problem should only consider and model the aspects of the problem which you're trying to solve. For example here we haven't modelled the person who's actually going to perform the work, but maybe if we were the manager of a larger building site we might want to and therefore we would need to adapt these models.
 
 #### Either
-
+{: .no_toc }
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:red">Rare</span>
 
@@ -386,15 +397,15 @@ The `either` term expresses that a parameter may have one of any type within the
 This functionality is rarely used in favour of subtyping. However, it might be the case where with direct inheritance it's not possible to group two distinctly different types.
 
 ### Preconditions
-
+{: .no_toc }
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 :precondition (<logical_expression>)
 ```
 
-```LISP
+```cl
 :precondition (and
     (on-site ?b ?s)
     (foundations-set ?s)
@@ -412,7 +423,7 @@ The statement above is a conjunction and can be thought of as shown below
 In PDDL `and` and `or` apply across all the predicates within them. For more details on logic keywords see below
 
 #### And
-
+{: .no_toc }
 `(and (predicate_1) ... (predicate_n))`
 
 A conjunction of predicates, expressing that all values must be true in order to evaluate to true. e.g.
@@ -420,7 +431,7 @@ A conjunction of predicates, expressing that all values must be true in order to
 `(and (walls-built ?s) (windows-fitted ?s))`
 
 #### Or
-
+{: .no_toc }
 `(or (predicate_1) ... (predicate_n))`
 
 A disjunction of predicates, expressing at least one of the values must be true in order to evaluate true. e.g.
@@ -428,7 +439,7 @@ A disjunction of predicates, expressing at least one of the values must be true 
 `(or (windows-fitted ?s) (cables-installed ?s))`
 
 #### Imply
-
+{: .no_toc }
 `(imply (antecedent_predicate) (consequent_predicate))`
 
 An implies across an antecedent predicate and a consequence predicate. An implies evaluates true whenever the antecedent is false, or the antecedent and consequent are true. e.g.
@@ -436,7 +447,7 @@ An implies across an antecedent predicate and a consequence predicate. An implie
 `(imply (walls-built ?s) (foundations-set ?s))`
 
 #### Not
-
+{: .no_toc }
 `(not (logical_expression/predicate_name))`
 
 Not negates a predicate value or logical expression. In a precondition it expresses that some predicate value or logical expression is false. In an effect it assigns false to a predicate value.
@@ -444,12 +455,12 @@ Not negates a predicate value or logical expression. In a precondition it expres
 `(not (material-used ?b))`
 
 #### Forall
-
+{: .no_toc }
 `(forall (argument) logical_expression)`
 
 Forall takes an argument and expresses that some logical expression holds true across it. In this case that all brick objects in the domain have not been used.
 
-```LISP
+```cl
 (forall (?b - bricks)
     (not (material-used ?b))
 )
@@ -458,8 +469,8 @@ Forall takes an argument and expresses that some logical expression holds true a
 Forall **cannot** be used as an effect.
 
 ##### When
-
-```LISP
+{: .no_toc }
+```cl
 (forall (argument)
     when (inclusion_expression)
         logical expression
@@ -470,7 +481,7 @@ When extends a forall condition to specify an inclusion condition. Essentially i
 
 e.g.
 
-```LISP
+```cl
 (forall (?c - bricks)
     when (on-site ?c ?s)
         (material-used ?c)
@@ -480,14 +491,14 @@ e.g.
 Is expressing that `forall` bricks, that meet the condition `on-site ?c ?s` they must also meet the condition that they've been used `material-used ?c`.
 
 #### Exists
-
+{: .no_toc }
 `(exists (argument) logical_expression)`
 
 Exists expresses the same as `forall` except rather than expressing that every object of a given type meet a logical expression, it expresses that at least one meets the logical expression.
 
 e.g.
 
-```LISP
+```cl
 (exists
     (?c - bricks)
         (not (material-used ?c))
@@ -497,13 +508,13 @@ e.g.
 Exists **cannot** be used as an effect.
 
 ### Effects
-
+{: .no_toc }
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
 `:effect (logical_expression)`
 
-```LISP
+```cl
 :effect (and
     (walls-built ?s)
     (material-used ?b)
@@ -515,7 +526,7 @@ An effect consists of a conjunctive logical expression, which defines which valu
 This limits us to using `and` and `not` to express the effects of an action. Although in theory we could also use `forall` as well, this is not supported and does not fit well with the modelling process as typically we take all of the objects (and therefore predicates) which we are planning to have an `effect` on as `parameters`.
 
 #### And
-
+{: .no_toc }
 `(and (predicate_1) ... (predicate_n))`
 
 A conjunction of predicates, expressing that all values must be true in order to evaluate to true. e.g.
@@ -523,7 +534,7 @@ A conjunction of predicates, expressing that all values must be true in order to
 `(and (walls-built ?s) (windows-fitted ?s))`
 
 #### Not
-
+{: .no_toc }
 `(not (logical_expression/predicate_name))`
 
 Not negates a predicate value or logical expression. In a precondition it expresses that some predicate value or logical expression is false. In an effect it assigns false to a predicate value.
@@ -531,13 +542,13 @@ Not negates a predicate value or logical expression. In a precondition it expres
 `(not (material-used ?b))`
 
 ## Axioms
-
+{: .no_toc }
 [back to contents](#contents)
 
 Support: <span style="color:yellow">High</span>
 Usage: <span style="color:orange">Low</span>
 
-```LISP
+```cl
 (:axiom
     :vars (arguments)
     :context (logical_expression)
@@ -545,7 +556,7 @@ Usage: <span style="color:orange">Low</span>
 )
 ```
 
-```LISP
+```cl
 (:axiom
     :vars (?s - site)
     :context (and

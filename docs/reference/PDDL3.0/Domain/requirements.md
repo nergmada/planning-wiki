@@ -22,7 +22,7 @@ Usage: <span style="color:orange">Low</span>
 
 Allows for the use of constraints within domain definitions (goals which must be satisfied in every state). e.g.
 
-```LISP
+```cl
 (:constraints
     (and
         (forall (?l - lorry ?loc - location) (at-most-once (at ?l ?loc)))

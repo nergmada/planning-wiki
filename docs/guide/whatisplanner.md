@@ -1,3 +1,9 @@
+---
+layout: page
+title: What is a planner?
+parent: Guide
+permalink: /guide/whatis/planner
+---
 # What is a planner?
 ## Introduction
 [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)

@@ -4,7 +4,7 @@
 
 New syntax is added to PDDL problems in PDDL3. This syntax allows us to express preferences as part of the `:goal` section of a problem file.
 
-```LISP
+```cl
 (define
     (problem logistics1)
     (:domain logistics)
@@ -53,7 +53,7 @@ A preference is a soft goal, which often uses a state-trajectory constraint to e
 
 The syntax of a preference is defined such that it can be used as part of a conjunctive goal definition, meaning we can define preferences and goals together. An example preference below shows that `lorry1` would ideally visit `london` before it visits `glasgow`
 
-```LISP
+```cl
 (preference visitLDNthenGLS
     (sometime-after (at lorry1 london) (at lorry1 glasgow))
 )
@@ -155,7 +155,7 @@ In some cases, users may wish to weight certain preferences as being more costly
 
 e.g. Imagine we have two preferences, `visitLDNthenGLS` and `lorryEndsAtDepot` we can define a metric something like this
 
-```LISP
+```cl
 (:metric
     (+
         (* (is-violated visitLDNthenGLS) 10)

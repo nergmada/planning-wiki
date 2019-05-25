@@ -11,7 +11,7 @@ Usage: <span style="color:orange">Low</span>
 
 Allows the usage of derived predicates in domains. e.g.
 
-```LISP
+```cl
 (:derived (train-usable ?t - train)
     (and
         (train-has-guard ?t)

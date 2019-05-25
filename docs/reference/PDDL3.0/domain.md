@@ -6,7 +6,7 @@ As with all previous installations of PDDL, PDDL 3.0 introduces new requirements
 
 As an additional curiosity note, whilst it may seem that a constraint adds more complexity to a state space, in general it allows us to reduce it significantly, by increasing the number of invalid states.
 
-```LISP
+```cl
 (define
     (domain logistics)
     (:requirements :preferences :constraints)
@@ -71,7 +71,7 @@ This is a list of requirements that were added by PDDL3.0 to the language of PDD
 Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:orange">Low</span>
 
-```LISP
+```cl
 (:constraints
     <logical_expression>
 )
@@ -81,7 +81,7 @@ Constraints are a conjunction of various `forall`/`exists` statements, which can
 
 Essentially a constraint expresses something we want to always be true, or some state-trajectory constraint (A constraint on how the state changes over time) . e.g.
 
-```LISP
+```cl
 (:constraints
     (and
         (forall (?l - lorry ?loc - location) (at-most-once (at ?l ?loc)))

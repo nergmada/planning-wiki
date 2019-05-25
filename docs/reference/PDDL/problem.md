@@ -1,12 +1,18 @@
+---
+layout: page
+title: PDDL Problem
+has_children: true
+parent: PDDL
+grand_parent: Reference
+permalink: /ref/pddl/problem
+---
 # Problem
-
-[return to homepage](../../readme.md) | [return to PDDL main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 A problem forms the other half of a planning problem. In the domain we express the global "worldly" aspects of a problem, such as what actions we can perform and what types of objects exist in the world we're planning in.
 
 The problem then solidifies this expression by define exactly what objects exist, and what is true about them and then finally what the end goal is. What state we want the world to be in once the plan is finished.
 
-```LISP
+```cl
 (define
     (problem buildingahouse)
     (:domain construction)
@@ -88,7 +94,7 @@ The use of situation is not very common and most problem files will define even 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:objects
     object_name_1 ... object_name_n - some_object_type
     ...
@@ -98,7 +104,7 @@ Usage: <span style="color:green">High</span>
 
 The objects block allows us to declare a set of objects which exist within our problem. each object name must be unique, and should be typed. If not typed then they will typically take on the properties of the base type `object` (see [Domain - Object Types](./domain#Object%20Types) for details)
 
-```LISP
+```cl
 (:objects
     s1 s2 s3 - site
     ba bb bc - bricks
@@ -109,7 +115,7 @@ The objects block allows us to declare a set of objects which exist within our p
 
 Note that whilst conventionally we would just use an abbreviation followed by a number, we are not required to, and can use even ridiculously unhelpful names (as shown above).
 
-```LISP
+```cl
 (:objects 
     s1 - site 
     b - bricks 
@@ -125,7 +131,7 @@ Note that whilst conventionally we would just use an abbreviation followed by a 
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:init
     <predicate>
     ...
@@ -135,7 +141,7 @@ Usage: <span style="color:green">High</span>
 
 The initial state (init) defines specifically what predicates are true at the start of the problem. This is **not** a logical expression because it is simply a list of predicates which are true. Unless the planner or domain specify otherwise all problems have the "closed world" assumption applied meaning anything not specified as true is considered false. Therefore we only need to list things which are true.
 
-```LISP
+```cl
 (:init
     (on-site b s1)
     (on-site c s1)
@@ -152,7 +158,7 @@ In the case of our domain and problem, the only facts which are true are that th
 Support: <span style="color:green">Universal</span>  
 Usage: <span style="color:green">High</span>
 
-```LISP
+```cl
 (:goal logical_expression)
 ```
 
@@ -160,7 +166,7 @@ The goal is a logical expression of predicates which must be satisfied in order 
 
 Note that all standard logical operators such as `or` and `forall` are available as part of the goal, which means we can express multiple different goal states all of which are acceptable.
 
-```LISP
+```cl
 (:goal (and
         (walls-built ?s1)
         (cables-installed ?s1)
@@ -209,7 +215,7 @@ Not negates a predicate value or logical expression. In a precondition it expres
 
 Forall takes an argument and expresses that some logical expression holds true across it. In this case that all brick objects in the domain have not been used.
 
-```LISP
+```cl
 (forall (?b - bricks) 
     (not (material-used ?b))
 )
@@ -217,7 +223,7 @@ Forall takes an argument and expresses that some logical expression holds true a
 
 ##### When
 
-```LISP
+```cl
 (forall (argument) 
     when (inclusion_expression)
         logical expression
@@ -228,7 +234,7 @@ When extends a forall condition to specify an inclusion condition. Essentially i
 
 e.g.
 
-```LISP
+```cl
 (forall (?c - bricks) 
     when (on-site ?c ?s)
         (material-used ?c)
@@ -245,7 +251,7 @@ Exists expresses the same as `forall` except rather than expressing that every o
 
 e.g.
 
-```LISP
+```cl
 (exists
     (?c - bricks)
         (not (material-used ?c))

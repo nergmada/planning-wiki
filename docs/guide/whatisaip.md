@@ -1,3 +1,9 @@
+---
+layout: page
+title: What is AI Planning?
+parent: Guide
+permalink: /guide/whatis/aip
+---
 # What is AI Planning?
 [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 ## Introduction

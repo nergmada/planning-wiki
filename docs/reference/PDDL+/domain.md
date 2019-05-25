@@ -3,7 +3,7 @@
 
 PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively.
 
-```LISP
+```cl
 (define
     (domain ballphysics)
     (:requirements :time :typing)
@@ -76,7 +76,7 @@ Only one additional requirement is necessary in order to include **both** proces
 Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:orange">Low</span>
 
-```LISP
+```cl
 (:process FALLING
     :parameters (?b - ball)
     :precondition (and
@@ -103,7 +103,7 @@ Confusingly despite bearing similar behaviour to a durative action, a process co
 Support: <span style="color:orange">Medium</span>
 Usage: <span style="color:orange">Low</span>
 
-```LISP
+```cl
 (:event HIT-GROUND
     :parameters (?b - ball)
     :precondition (and
