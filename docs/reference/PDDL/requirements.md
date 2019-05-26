@@ -4,7 +4,7 @@ title: PDDL Requirements
 has_children: true
 parent: PDDL
 grand_parent: Reference
-permalink: /ref/pddl/req
+permalink: /ref/pddl/requirements
 ---
 # Requirements (PDDL 1.2)
 

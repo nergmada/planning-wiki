@@ -75,38 +75,39 @@ A domain file in PDDL 1.2 defines the "universal" aspects of a problem. Essentia
 - TOC
 {:toc}
 
-- [Domain Name](#domain-name)
-- [Extends](#extends)
-- [Requirements](#requirements)
-- [Types](#object-types)
-- [Constants](#constants)
-- [Predicates](#predicates)
-- [Timeless Predicates](#timeless-predicates)
-- [Safety Constraint](#safety-constraint)
-- [Actions](#actions)
-- [Axioms](#axioms)
-
 ## Domain Name
+
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-`(domain <name>)`
+```cl
+    (domain <name>)
+```
 
 A domain always begins by being named. Imediately after we open our first brackets and write `(define` the next argument should be `(domain <name>)`. Although most planners take the domain from the file you pass them on the command line and won't bother checking if the domain name in the domain file corresponds to the domain name in the problem file, some will. It is best practice to include this name, just in case.
 
-`(domain construction)`
+```cl
+    (domain construction)
+```
 
 Note that this name is also used when we're extending a domain.
 
 ## Extends
+
 [back to contents](#contents)
 
-Support: <span style="color:red">Poor</span>
-Usage: <span style="color:red">Rare</span>
+Support: Poor
+{: .label .label-red }
+Usage: Rare/None
+{: .label .label-purple }
 
-`(:extends <domain_name>)`
+```cl
+    (:extends <domain_name>)
+```
 
 The `:extends` argument allows a domain to extend another "parent" domain. When the `:extends` argument is used, a domain inherits the following from it's parent
 
@@ -121,48 +122,57 @@ The `:extends` argument allows a domain to extend another "parent" domain. When 
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-`(:requirements <requirement_name>)`
+
+```cl
+    (:requirements <requirement_name>)
+```
 
 Requirements are similar to import/include statements in programming languages, however as PDDL is a kind of declarative language, it is a `:requirement` as a given planner is "required" to facilitate some aspect of the language.
 
 Multiple `:requirements` can be specified through a space separated list e.g.
 
-`(:requirements :strips :adl :typing)`
+```cl
+    (:requirements :strips :adl :typing)
+```
 
 ### List of Requirements
 {: .no_toc }
 The following is a list of requirements as specified in the 1998 technical manual for the AIPS competition, however, not all are supported anymore.
 
-- [:strips](./req#STRIPS)
-- [:typing](./Domain/requirements.md#typing)
-- [:disjunctive-preconditions](./Domain/requirements.md#Disjunctive%20Preconditions)
-- [:equality](./Domain/requirements.md#Equality)
-- [:existential-preconditions](./Domain/requirements.md#Existential%20Preconditions)
-- [:universal-preconditions](./Domain/requirements.md#Universal%20Preconditions)
-- [:quantified-preconditions](./Domain/requirements.md#Quantified%20Preconditions)
-- [:conditional-effects](./Domain/requirements.md#Conditional%20Effects)
-- [:action-expansions](./Domain/requirements.md#Action%20Expansions)
-- [:foreach-expansions](./Domain/requirements.md#Foreach%20Expansions)
-- [:dag-expansions](./Domain/requirements.md#DAG%20Expansions)
-- [:domain-axioms](./Domain/requirements.md#Domain%20Axioms)
-- [:subgoal-through-axioms](./Domain/requirements.md#Subgoals%20Through%20Axioms)
-- [:safety-constraints](./Domain/requirements.md#Safety%20Constraints)
-- [:expression-evaluation](./Domain/requirements.md#Expression%20Evaluation)
-- [:fluents](./Domain/requirements.md#Fluents)
-- [:open-world](./Domain/requirements.md#Open%20World)
-- [:true-negation](./Domain/requirements.md#True%20Negation)
-- [:adl](./Domain/requirements.md#ADL)
-- [:ucpop](./Domain/requirements.md#UCPOP)
+- [:strips](./requirements#strips)
+- [:typing](./requirements#typing)
+- [:disjunctive-preconditions](./requirements#disjunctive-preconditions)
+- [:equality](./requirements#equality)
+- [:existential-preconditions](./requirements#existential-preconditions)
+- [:universal-preconditions](./requirements#universal-preconditions)
+- [:quantified-preconditions](./requirements#quantified-preconditions)
+- [:conditional-effects](./requirements#conditional-effects)
+- [:action-expansions](./requirements#action-expansions)
+- [:foreach-expansions](./requirements#foreach-expansions)
+- [:dag-expansions](./requirements#dag-expansions)
+- [:domain-axioms](./requirements#domain-axioms)
+- [:subgoal-through-axioms](./requirements#subgoals-through-axioms)
+- [:safety-constraints](./requirements#safety-constraints)
+- [:expression-evaluation](./requirements#expression-evaluation)
+- [:fluents](./requirements#fluents)
+- [:open-world](./requirements#open-world)
+- [:true-negation](./requirements#true-negation)
+- [:adl](./requirements#adl)
+- [:ucpop](./requirements#ucpop)
 
 ## Object Types
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (:types
@@ -186,11 +196,15 @@ We then declare sub types `bricks`, `cables` and `windows` which are all types o
 
 We can declare general predicates which apply to any base type e.g.
 
-`(material-used ?m - material)`
+```cl
+    (material-used ?m - material)
+```
 
 which applys to anything of a material type. Or we can create specific predicates, such as
 
-`(windows-clean ?w - windows)`
+```cl
+    (windows-clean ?w - windows)
+```
 
 Which only apply to a specific sub-type.
 
@@ -220,10 +234,14 @@ This action above requires that the specific object is a `bricks` type and there
 
 [back to contents](#contents)
 
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:orange">Low</span>
+Support: High
+{: .label .label-green }
+Usage: Low
+{: .label .label-red }
 
-`(:constants mainsite - site)`
+```cl
+    (:constants mainsite - site)
+```
 
 Constants allow us to declare objects that are present across all instances of a problem. In the example above we assume that all problems contain a `mainsite` and some may then also contain additional building sites.
 
@@ -233,10 +251,12 @@ This isn't particularly common in practice because we would just declare the obj
 
 [back to contents](#contents)
 
-Support: <span style="color:pink">Changed</span>
-Usage: <span style="color:red">Rare (in this context)</span>
+Support: Changed
+Usage: Rare (in this context)
 
-`(:domain-variables (numthings 2) - integer)`
+```cl
+    (:domain-variables (numthings 2) - integer)
+```
 
 Domain variables are an older way of expressing numerics which is redefined in PDDL2.1. You likely won't see domains declared like this in favour of the simpler more expressive format used in PDDL2.1.
 
@@ -246,8 +266,10 @@ Further, most planners won't support this syntax.
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (:predicates
@@ -281,23 +303,33 @@ To move the bricks we would create an action which indicates that `(on-site bric
 
 [back to contents](#contents)
 
-Support: <span style="color:red">Poor</span>
-Usage: <span style="color:red">Rare</span>
+Support: Poor
+{: .label .label-red }
+Usage: Rare/None
+{: .label .label-purple }
 
-`(:timeless (<predicate_name> <arguments>))`
+```cl
+    (:timeless (<predicate_name> <arguments>))
+```
 
 A timeless predicate is a predicate which is always true and cannot be changed by any action in the domain. It's not clear why you would need to model something that is always true and never changes, but it was included in the spec. An example is provided below.
 
-`(:timeless (foundations-set mainsite))`
+```cl
+    (:timeless (foundations-set mainsite))
+```
 
 ## Safety Constraint
 
 [back to contents](#contents)
 
-Support: <span style="color:red">Poor</span>
-Usage: <span style="color:red">Rare</span>
+Support: Poor
+{: .label .label-red }
+Usage: Rare/None
+{: .label .label-purple }
 
-`(:safety <condition>)`
+```cl
+    (:safety <condition>)
+```
 
 A safety condition is a condition which for any plan to be valid, must be true at the end of the plan. How this differs from a goal condition is not clear.
 
@@ -313,8 +345,10 @@ It might be used in order to essentially define global goals, goals which must b
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (:action <action_name>
@@ -337,6 +371,7 @@ The third section is a choice between `:effect` and `:expansion` an action canno
 
 ### Action Contents
 {: .no_toc }
+
 - [Action Example](#action-example)
 - [Parameters](#parameters)
 - [Preconditions](#preconditions)
@@ -344,6 +379,7 @@ The third section is a choice between `:effect` and `:expansion` an action canno
 
 ### Action Example
 {: .no_toc }
+
 ```cl
 (:action BUILD-WALL
     :parameters (?s - site ?b - bricks)
@@ -363,21 +399,30 @@ The third section is a choice between `:effect` and `:expansion` an action canno
 
 ### Parameters
 {: .no_toc }
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
 
-`:parameters (argument_1 ... argument_n)`
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-`:parameters (?s -site ?b - bricks)`
+```cl
+    :parameters (argument_1 ... argument_n)
+```
+
+```cl
+    :parameters (?s -site ?b - bricks)
+```
 
 The parameters defines the type of object we're interested in. Note that a parameter can take any type or subtype. If we have for example three instances of site such as `s1`, `s2` and `s3` and we have two instances of bricks `b1`, `b2`, our planner considers all possible actions such as:
 
-`(BUILD-WALL s1 b1)`
-`(BUILD-WALL s2 b1)`
-`(BUILD-WALL s3 b1)`
-`(BUILD-WALL s1 b2)`
-`(BUILD-WALL s2 b2)`
-`(BUILD-WALL s3 b2)`
+```cl
+    (BUILD-WALL s1 b1)
+    (BUILD-WALL s2 b1)
+    (BUILD-WALL s3 b1)
+    (BUILD-WALL s1 b2)
+    (BUILD-WALL s2 b2)
+    (BUILD-WALL s3 b2)
+```
 
 Therefore it is not up to us as a user to specify the specific object to which an action applies but rather the **type** of objects to which the action applies.
 
@@ -387,10 +432,15 @@ Your domain and problem should only consider and model the aspects of the proble
 
 #### Either
 {: .no_toc }
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:red">Rare</span>
 
-`:parameters (?x - (either bricks windows))`
+Support: High
+{: .label .label-green }
+Usage: Rare/None
+{: .label .label-purple }
+
+```cl
+    :parameters (?x - (either bricks windows))
+```
 
 The `either` term expresses that a parameter may have one of any type within the either expression. In the example above, `?x` can be of either type `bricks` or type `windows`.
 
@@ -398,8 +448,11 @@ This functionality is rarely used in favour of subtyping. However, it might be t
 
 ### Preconditions
 {: .no_toc }
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 :precondition (<logical_expression>)
@@ -418,45 +471,70 @@ Preconditions are conditions which must be met in order for an action to be poss
 
 The statement above is a conjunction and can be thought of as shown below
 
-`os(b, s) /\ fs(s) /\ ¬wb(s) /\ ¬mu(b)`
+```
+    os(b, s) /\ fs(s) /\ ¬wb(s) /\ ¬mu(b)
+```
 
 In PDDL `and` and `or` apply across all the predicates within them. For more details on logic keywords see below
 
 #### And
 {: .no_toc }
-`(and (predicate_1) ... (predicate_n))`
+
+```cl
+    (and (predicate_1) ... (predicate_n))
+```
 
 A conjunction of predicates, expressing that all values must be true in order to evaluate to true. e.g.
 
-`(and (walls-built ?s) (windows-fitted ?s))`
+```cl
+    (and (walls-built ?s) (windows-fitted ?s))
+```
 
 #### Or
 {: .no_toc }
-`(or (predicate_1) ... (predicate_n))`
+
+```cl
+    (or (predicate_1) ... (predicate_n))
+```
 
 A disjunction of predicates, expressing at least one of the values must be true in order to evaluate true. e.g.
 
-`(or (windows-fitted ?s) (cables-installed ?s))`
+```cl
+    (or (windows-fitted ?s) (cables-installed ?s))
+```
 
 #### Imply
 {: .no_toc }
-`(imply (antecedent_predicate) (consequent_predicate))`
+
+```cl
+    (imply (antecedent_predicate) (consequent_predicate))
+```
 
 An implies across an antecedent predicate and a consequence predicate. An implies evaluates true whenever the antecedent is false, or the antecedent and consequent are true. e.g.
 
-`(imply (walls-built ?s) (foundations-set ?s))`
+```
+    (imply (walls-built ?s) (foundations-set ?s))
+```
 
 #### Not
 {: .no_toc }
-`(not (logical_expression/predicate_name))`
+
+```cl
+    (not (logical_expression/predicate_name))
+```
 
 Not negates a predicate value or logical expression. In a precondition it expresses that some predicate value or logical expression is false. In an effect it assigns false to a predicate value.
 
-`(not (material-used ?b))`
+```cl
+    (not (material-used ?b))
+```
 
 #### Forall
 {: .no_toc }
-`(forall (argument) logical_expression)`
+
+```cl
+    (forall (argument) logical_expression)
+```
 
 Forall takes an argument and expresses that some logical expression holds true across it. In this case that all brick objects in the domain have not been used.
 
@@ -470,6 +548,7 @@ Forall **cannot** be used as an effect.
 
 ##### When
 {: .no_toc }
+
 ```cl
 (forall (argument)
     when (inclusion_expression)
@@ -492,7 +571,10 @@ Is expressing that `forall` bricks, that meet the condition `on-site ?c ?s` they
 
 #### Exists
 {: .no_toc }
-`(exists (argument) logical_expression)`
+
+```cl
+    (exists (argument) logical_expression)
+```
 
 Exists expresses the same as `forall` except rather than expressing that every object of a given type meet a logical expression, it expresses that at least one meets the logical expression.
 
@@ -509,8 +591,11 @@ Exists **cannot** be used as an effect.
 
 ### Effects
 {: .no_toc }
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
     :effect (logical_expression)
@@ -529,6 +614,7 @@ This limits us to using `and` and `not` to express the effects of an action. Alt
 
 #### And
 {: .no_toc }
+
 ```cl
     (and (predicate_1) ... (predicate_n))
 ```
@@ -541,20 +627,24 @@ A conjunction of predicates, expressing that all values must be true in order to
 
 #### Not
 {: .no_toc }
+
 ```cl
     (not (logical_expression/predicate_name))
 ```
 
 Not negates a predicate value or logical expression. In a precondition it expresses that some predicate value or logical expression is false. In an effect it assigns false to a predicate value.
 
-`(not (material-used ?b))`
+```cl
+    (not (material-used ?b))
+```
 
 ## Axioms
 {: .no_toc }
+
 [back to contents](#contents)
 
 Support: High
-{: .label .label-yellow }
+{: .label .label-green }
 Usage: Low
 {: .label .label-red }
 
