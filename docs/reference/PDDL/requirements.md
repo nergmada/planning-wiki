@@ -7,8 +7,15 @@ grand_parent: Reference
 permalink: /ref/pddl/requirements
 ---
 # Requirements (PDDL 1.2)
+{: .no_toc }
 
 The following page offers details of requirements defined in PDDL 1.2.
+
+## Contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc }
 
 ## STRIPS
 
