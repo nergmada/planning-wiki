@@ -512,7 +512,9 @@ Exists **cannot** be used as an effect.
 Support: <span style="color:green">Universal</span>
 Usage: <span style="color:green">High</span>
 
-`:effect (logical_expression)`
+```cl
+    :effect (logical_expression)
+```
 
 ```cl
 :effect (and
@@ -527,15 +529,21 @@ This limits us to using `and` and `not` to express the effects of an action. Alt
 
 #### And
 {: .no_toc }
-`(and (predicate_1) ... (predicate_n))`
+```cl
+    (and (predicate_1) ... (predicate_n))
+```
 
 A conjunction of predicates, expressing that all values must be true in order to evaluate to true. e.g.
 
-`(and (walls-built ?s) (windows-fitted ?s))`
+```cl
+    (and (walls-built ?s) (windows-fitted ?s))
+```
 
 #### Not
 {: .no_toc }
-`(not (logical_expression/predicate_name))`
+```cl
+    (not (logical_expression/predicate_name))
+```
 
 Not negates a predicate value or logical expression. In a precondition it expresses that some predicate value or logical expression is false. In an effect it assigns false to a predicate value.
 
@@ -545,8 +553,11 @@ Not negates a predicate value or logical expression. In a precondition it expres
 {: .no_toc }
 [back to contents](#contents)
 
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:orange">Low</span>
+Support: High
+{: .label .label-yellow }
+Usage: Low
+{: .label .label-red }
+
 
 ```cl
 (:axiom

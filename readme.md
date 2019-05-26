@@ -1,7 +1,6 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: Home
 permalink: /
@@ -41,9 +40,28 @@ The reference guide itself splits into two sections, one for the language of pla
 
 The nature of AI planning and the language means that **not** all features are supported by all planners and not all techniques are used as often as others. The reference here aims to help with that by firstly showing next to each definition an indication of how well supported the feature is and how commonly used it is.
 
->Support: <span style="color:green">Universal</span>, <span style="color:yellow">High</span>, <span style="color:orange">Medium</span>, <span style="color:red">Poor</span>
+**Support**:
 
-> Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium</span>, <span style="color:orange">Low</span>, <span style="color:red">Rare</span>
+Universal
+{: .label .label-blue }
+High
+{: .label .label-green }
+Medium
+{: .label .label-yellow }
+Poor
+{: .label .label-red }
+
+
+**Usage**: 
+
+High
+{: .label .label-green }
+Medium
+{: .label .label-yellow }
+Low
+{: .label .label-red }
+Rare/None
+{: .label .label-purple }
 
 For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems.
 

@@ -16,17 +16,6 @@ This means that in some cases a newer planner may not be capable of running an o
 
 There are however a really wide array of planners and some are objectively better or worse than others either unilaterally or in solving specific instances. This guide again will focus primarily on the best general purpose planners, in order to complement the focus on general purpose syntax.
 
-## List of Planners
-- [OPTIC](../reference/planners/OPTIC/main.md)
-- [POPF](../reference/planners/POPF/main.md)
-- [ENHSP](../reference/planners/ENHSP/main.md)
-- [Dino](../reference/planners/DiNo/main.md)
-- [SMTPlan+](../reference/planners/SMTPlan/main.md)
-- [MetricFF](../reference/planners/MetricFF/main.md)
-- [COLIN](../reference/planners/COLIN/main.md)
-- LPRPG-P
-- UPMurphi
-
 ## Using AI Planners
 
 Almost all AI planners are built with linux based compilation in mind. Some planners have been successfully ported to Windows and Mac and in some cases, the way in which their source code is written makes them easy to port (such as the Java based planner JavaFF). Planners aren't often distributed in binary form and so often have to be compiled. This guide does not provide approaches for compiling planners. Any guidance on how to compile a planner is provided as guidance only and the planner's creator should be contacted directly if help is needed with compilation.

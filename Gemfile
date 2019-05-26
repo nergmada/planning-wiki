@@ -29,5 +29,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "just-the-docs"
 
 # HTML Proof reading for dead links
-#gem 'rake'
-#gem 'html-proofer'
+gem 'rake'
+gem 'html-proofer'
