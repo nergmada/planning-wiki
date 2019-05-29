@@ -1,3 +1,11 @@
+---
+layout: page
+title: PDDL 3 Requirements
+has_children: true
+parent: PDDL 3
+grand_parent: Reference
+permalink: /ref/pddl3/requirements
+---
 # Requirements (PDDL 3.0)
 
 The following page offers details of requirements defined in PDDL 3.0.
