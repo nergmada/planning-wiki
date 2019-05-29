@@ -14,9 +14,12 @@ The following page offers details of requirements defined in PDDL 2.2.
 
 Support: Medium
 {: .label .label-yellow }
-Usage: <span style="color:orange">Low</span>
+Usage: Low
+{: .label .label-red }
 
-`(:requirements :derived-predicates)`
+```cl
+    (:requirements :derived-predicates)
+```
 
 Allows the usage of derived predicates in domains. e.g.
 
@@ -33,10 +36,15 @@ Allows the usage of derived predicates in domains. e.g.
 
 Support: Medium
 {: .label .label-yellow }
-Usage: <span style="color:yellow">Medium</span>
+Usage: Medium
+{: .label .label-yellow }
 
-`(:requirements :timed-initial-literals)`
+```cl
+    (:requirements :timed-initial-literals)
+```
 
 Allows the use of Timed Initial Literals when defining problems. e.g.
 
-`(at 10 (train-not-in-use t1))`
+```cl
+    (at 10 (train-not-in-use t1))
+```

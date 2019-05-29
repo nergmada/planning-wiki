@@ -1,16 +1,17 @@
 # Requirements (PDDL 3.0)
 
-[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
-
 The following page offers details of requirements defined in PDDL 3.0.
 
 ## Preferences
 
 Support: Medium
 {: .label .label-yellow }
-Usage: <span style="color:yellow">Medium</span>
+Usage: Medium
+{: .label .label-yellow }
 
-`(:requirements :preferences)`
+```cl
+    (:requirements :preferences)
+```
 
 Allows for the usage of preferences within problem definitions (soft goals).
 
@@ -18,9 +19,12 @@ Allows for the usage of preferences within problem definitions (soft goals).
 
 Support: Medium
 {: .label .label-yellow }
-Usage: <span style="color:orange">Low</span>
+Usage: Low
+{: .label .label-red }
 
-`(:requirements :constraints)`
+```cl
+    (:requirements :constraints)
+```
 
 Allows for the use of constraints within domain definitions (goals which must be satisfied in every state). e.g.
 
