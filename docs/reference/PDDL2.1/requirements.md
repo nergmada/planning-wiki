@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PDDL 2.1 Requirements
-has_children: true
 parent: PDDL 2.1
 grand_parent: Reference
 permalink: /ref/pddl21/req

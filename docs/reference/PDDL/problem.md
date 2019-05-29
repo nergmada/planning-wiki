@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PDDL Problem
-has_children: true
 parent: PDDL
 grand_parent: Reference
 permalink: /ref/pddl/problem

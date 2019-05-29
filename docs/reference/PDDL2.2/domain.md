@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PDDL 2.2 Domain
-has_children: true
 parent: PDDL 2.2
 grand_parent: Reference
 permalink: /ref/pddl22/domain

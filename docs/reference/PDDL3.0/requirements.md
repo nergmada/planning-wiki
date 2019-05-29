@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PDDL 3 Requirements
-has_children: true
 parent: PDDL 3
 grand_parent: Reference
 permalink: /ref/pddl3/requirements
