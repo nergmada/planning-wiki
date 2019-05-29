@@ -1,6 +1,12 @@
+---
+layout: page
+title: PDDL+ Domain
+parent: PDDL+
+grand_parent: Reference
+permalink: /ref/pddlplus/domain
+---
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL+ main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
-
+{: .no_toc }
 PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively.
 
 ```cl
@@ -45,10 +51,10 @@ PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes`
 ```
 
 ## Contents
+{: .no_toc .text-delta }
 
-- [Requirements](#requirements)
-- [Processes](#processes)
-- [Events](#events)
+- TOC
+{:toc}
 
 ## Requirements
 
@@ -59,17 +65,23 @@ Support: Universal
 Usage: High
 {: .label .label-green }
 
-`(:requirements <requirement_name>)`
+```cl
+    (:requirements <requirement_name>)
+```
 
 Requirements are similar to import/include statements in programming languages, however as PDDL is a kind of declarative language, it is a `:requirement` as a given planner is "required" to facilitate some aspect of the language.
 
 Multiple `:requirements` can be specified through a space separated list e.g.
 
-`(:requirements :strips :adl :typing)`
+```cl
+    (:requirements :strips :adl :typing)
+```
 
 Only one additional requirement is necessary in order to include **both** processes and events, this requirement is `:time`, as shown below
 
-`(:requirements :time)`
+```cl
+    (:requirements :time)
+```
 
 ## Processes
 
@@ -77,7 +89,8 @@ Only one additional requirement is necessary in order to include **both** proces
 
 Support: Medium
 {: .label .label-yellow }
-Usage: <span style="color:orange">Low</span>
+Usage: Low
+{: .label .label-red }
 
 ```cl
 (:process FALLING
@@ -105,7 +118,8 @@ Confusingly despite bearing similar behaviour to a durative action, a process co
 
 Support: Medium
 {: .label .label-yellow }
-Usage: <span style="color:orange">Low</span>
+Usage: Low
+{: .label .label-red }
 
 ```cl
 (:event HIT-GROUND
