@@ -44,7 +44,8 @@ New syntax is added to PDDL problems in PDDL3. This syntax allows us to express 
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
+Support: Medium
+{: .label .label-yellow }
 Usage: <span style="color:yellow">Medium</span>
 
 `preference <name> <goal>`

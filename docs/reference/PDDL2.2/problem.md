@@ -31,7 +31,8 @@ The way in which this keyword is used to define timed initial literals means how
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
+Support: Medium
+{: .label .label-yellow }
 Usage: <span style="color:yellow">Medium</span>
 
 `(at <time_value> <predicate>)`

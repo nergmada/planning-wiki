@@ -7,6 +7,8 @@ grand_parent: Reference
 permalink: /ref/pddl21/domain
 ---
 # Domain
+{: .no_toc }
+
 The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new features, `durative-actions` and `functions` which are referred to as numeric fluents. Additional new requirements were specified on top of the 1.2 spec to allow older planners to identify that they could not solve these neweer domains.
 
 ```cl
@@ -58,22 +60,19 @@ The domain syntax in PDDL2.1 extended upon version 1.2 to include two key new fe
 ```
 
 ## Contents
+{: .no_toc .text-delta }
 
-- [Requirements](#requirements)
-- [Numeric Fluents](#numeric-fluents)
-- [Durative Actions](#durative-actions)
-    - [:parameters](#parameters)
-    - [:duration](#duration)
-    - [:condition](#condition)
-    - [:effect](#effect)
-- [Continuous Effects](#continuous-effects)
+- TOC
+{:toc }
 
 ## Requirements
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (:requirements <requirement_name>)
@@ -101,8 +100,10 @@ The following is a list of requirements that were added by PDDL2.1 to the langua
 
 [back to contents](#contents)
 
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:green">High</span>
+Support: High
+{: .label .label-green }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (:functions
@@ -131,30 +132,32 @@ Means that every rover object in the domain has a variable which maintains a val
 Numeric fluents can be altered through the effects of both `action`s and `durative-action`s. There are a number of supported effects for numeric fluents.
 
 ### Prefix Maths (Numeric Expressions)
-
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: High
+{: .label .label-green }
+Usage: High
+{: .label .label-green }
 
 #### Add
-
+{: .no_toc }
 ```cl
 (+ (sample-capacity) (battery-capacity))
 ```
 
 #### Subtract
-
+{: .no_toc }
 ```cl
 (- (sample-capacity) (battery-capacity))
 ```
 
 #### Divide
-
+{: .no_toc }
 ```cl
 (/ (sample-capacity) (battery-capacity))
 ```
 
 #### Multiply
-
+{: .no_toc }
 ```cl
 (* (sample-capacity) (battery-capacity))
 ```
@@ -162,9 +165,11 @@ Usage: <span style="color:green">High</span>
 Prefix notation is used to represent maths operations on numeric fluents. We can see the four primarily binary operations we can perform on numeric fluents. In all of these cases, to convert to infix notation we place the operator between the name of the two fluents.
 
 ### Increase
-
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: High
+{: .label .label-green }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (increase (battery-level ?r) 10)
@@ -177,9 +182,11 @@ An increase effect increases the value of a numeric variable by the given amount
 ```
 
 ### Decrease
-
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: High
+{: .label .label-green }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (decrease (battery-level ?r) 10)
@@ -192,9 +199,11 @@ A decrease effect decreases the value of a numeric variable by the given amount.
 ```
 
 ### Assign
-
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: High
+{: .label .label-green }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (assign (battery-level ?r) 10)
@@ -207,8 +216,9 @@ An assign effect assigns the value of a numeric variable to the given amount. It
 ```
 
 ### Scale Up
-
-Support: <span style="color:yellow">High</span>
+{: .no_toc }
+Support: High
+{: .label .label-green }
 Usage: <span style="color:red">Rare</span>
 
 ```cl
@@ -222,8 +232,9 @@ A scale up effect increases the value of the numeric variable by the given scale
 ```
 
 ### Scale Down
-
-Support: <span style="color:yellow">High</span>
+{: .no_toc }
+Support: High
+{: .label .label-green }
 Usage: <span style="color:red">Rare</span>
 
 ```cl
@@ -240,8 +251,10 @@ A scale down effect decreases the value of the numeric variable by the given sca
 
 [back to contents](#contents)
 
-Support: <span style="color:yellow">High</span>
-Usage: <span style="color:green">High</span>
+Support: High
+{: .label .label-green }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (:durative-action <action_name>
@@ -257,9 +270,11 @@ A durative action is an action which represents an action which takes an amount 
 This semantic change is designed to represent that a durative action may not just condition when the action starts, but may have conditions which need to be true at the end or over the duration of the action. A good example of this can be found in flight planning, where an action `fly` requires that a runway be free at the start and end of an action, in order for the plane to take off and land, whilst the runway does not need to be free whilst the plane is flying.
 
 ### Parameters
-
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 :parameters (argument_1 ... argument_n)
@@ -285,18 +300,20 @@ In this case, when we build a wall we need to know what bricks we're using to bu
 Your domain and problem should only consider and model the aspects of the problem which you're trying to solve. For example here we haven't modelled the person who's actually going to perform the work, but maybe if we were the manager of a larger building site we might want to and therefore we would need to adapt my models.
 
 ### Duration
-
-Support: <span style="color:green">Universal - where durative actions are available</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: Universal (in temporal planners)
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 #### Fixed Value:
-
+{: .no_toc }
 ```cl
 :duration (= ?duration <duration_number>)
 ```
 
 #### Inequality Value
-
+{: .no_toc }
 ```cl
 :duration (> ?duration <duration_number>)
 ```
@@ -318,9 +335,11 @@ A duration can be expressed as either a fixed value or an inequality. It is also
 ```
 
 ### Condition
-
-Support: <span style="color:green">Universal - where durative actions are available</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: Universal - in temporal planners
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 :condition (<logical_temporal_expression>)
@@ -329,7 +348,7 @@ Usage: <span style="color:green">High</span>
 A condition is a logical and temporal expression which must be met in order for a durative action to execute. Because a durative action occurs over time, we may wish to express that additional conditions be met for the duration or end of the action, not just the start. This gives rise to three new keywords `at start`, `at end` and `over all`.
 
 #### At Start
-
+{: .no_toc }
 An expression or predicate with `at start` prefixed to it, means that the condition must be true at the start of the action in order for the action to be applied. e.g.
 
 ```cl
@@ -341,7 +360,7 @@ expresses that `at start` the given `rover` is `at` the `from-waypoint`. Confusi
 `at start` is usually applied per predicate.
 
 #### At End
-
+{: .no_toc }
 An expression or predicate with `at end` prefixed to it, means that the condition must be true at the end of the action in order for the action to be applied e.g.
 
 ```cl
@@ -351,7 +370,7 @@ An expression or predicate with `at end` prefixed to it, means that the conditio
 In essence we are saying that whilst this fact doesn't have to be true at the start or during the action, it must be true at the end. In this case, we're expressing that the battery amount at the end of the action must be greater than zero.
 
 #### Over All
-
+{: .no_toc }
 An expression or predicate with an `overall` prefixed to it, means that the condition must be true throughout the action, including at the start and end. e.g.
 
 ```cl
@@ -361,9 +380,11 @@ An expression or predicate with an `overall` prefixed to it, means that the cond
 At all points in the execution of the action the given expression must evaluate to true. In the case above, we are expressing that it must be possible to move from the `from` waypoint to the `to` waypoint all the way through the action. I.e. we don't want to get half way through the action to find that after a certain point a path has become blocked.
 
 ### Effect
-
-Support: <span style="color:green">Universal - where durative actions are available</span>
-Usage: <span style="color:green">High</span>
+{: .no_toc }
+Support: Universal - in temporal planners
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 ```cl
 :effect (<logical_temporal_condition>)
@@ -385,8 +406,11 @@ Temporal expressions, such as `at start` and `at end` are available, however, `o
 The above effect is saying that `at start` the rover can no longer be considered as being at the `from` waypoint, and that `at end` it can now be considered as being at the `to` waypoint. It also adds a second predicate `been-at` which indicates that at some point the rover has visited the given waypoint.
 
 ## Continuous Effects
-Support: <span style="color:orange">Medium</span>
-Usage: <span style="color:green">High</span>
+
+Support: Medium
+{: .label .label-yellow }
+Usage: High
+{: .label .label-green }
 
 ```cl
 (increase (fuel ?tank) #t)

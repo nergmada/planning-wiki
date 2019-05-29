@@ -53,7 +53,7 @@ Support: Universal
 Usage: High
 {: .label .label-green }
 
-```
+```cl
     (problem <name>)
 ```
 

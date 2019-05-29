@@ -6,7 +6,8 @@ The following page offers details of requirements defined in PDDL 3.0.
 
 ## Preferences
 
-Support: <span style="color:orange">Medium</span>
+Support: Medium
+{: .label .label-yellow }
 Usage: <span style="color:yellow">Medium</span>
 
 `(:requirements :preferences)`
@@ -15,7 +16,8 @@ Allows for the usage of preferences within problem definitions (soft goals).
 
 ## Constraints
 
-Support: <span style="color:orange">Medium</span>
+Support: Medium
+{: .label .label-yellow }
 Usage: <span style="color:orange">Low</span>
 
 `(:requirements :constraints)`

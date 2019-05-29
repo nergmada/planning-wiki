@@ -50,8 +50,10 @@ The domain syntax for PDDL2.2 adds very minimal changes to the domain. As with a
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 `(:requirements <requirement_name>)`
 
@@ -72,7 +74,8 @@ This is a list of requirements that were added by PDDL2.2 to the language of PDD
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
+Support: Medium
+{: .label .label-yellow }
 Usage: <span style="color:orange">Low</span>
 
 `(:derived <predicate_name> <logical_expression>)`

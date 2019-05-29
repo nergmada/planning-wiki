@@ -54,8 +54,10 @@ PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes`
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
 `(:requirements <requirement_name>)`
 
@@ -73,7 +75,8 @@ Only one additional requirement is necessary in order to include **both** proces
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
+Support: Medium
+{: .label .label-yellow }
 Usage: <span style="color:orange">Low</span>
 
 ```cl
@@ -100,7 +103,8 @@ Confusingly despite bearing similar behaviour to a durative action, a process co
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
+Support: Medium
+{: .label .label-yellow }
 Usage: <span style="color:orange">Low</span>
 
 ```cl

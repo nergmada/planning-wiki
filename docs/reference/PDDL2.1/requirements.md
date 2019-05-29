@@ -9,10 +9,14 @@ permalink: /ref/pddl21/req
 # Requirements (PDDL 2.1)
 ## Numeric Fluents
 
-Support: <span style="color:yellow">High</span>  
-Usage: <span style="color:green">High</span>
+Support: High
+{: .label .label-green }  
+Usage: High
+{: .label .label-green }
 
-`(:requirements :numeric-fluents)`
+```cl
+    (:requirements :numeric-fluents)
+```
 
 Allows the inclusion of a `:function` block which represent numeric variables in the domain. e.g.
 
@@ -26,10 +30,14 @@ Note that this overrides the definition in PDDL1.2 in most planners.
 
 ## Durative Actions
 
-Support: <span style="color:yellow">High</span>  
-Usage: <span style="color:green">High</span>
+Support: High
+{: .label .label-green }  
+Usage: High
+{: .label .label-green }
 
-`(:requirements :durative-actions)`
+```cl
+    (:requirements :durative-actions)
+```
 
 Allows the use of `durative-action` in the domain definition. Durative actions are actions which have a duration they take to complete.
 
@@ -46,28 +54,40 @@ Note that this does **not** imply `:fluents`
 
 ## Durative Inequalities
 
-Support: <span style="color:yellow">High</span>  
-Usage: <span style="color:green">High</span>
+Support: High
+{: .label .label-green }  
+Usage: High
+{: .label .label-green }
 
-`(:requirements :durative-inequalities)`
+```cl
+    (:requirements :durative-inequalities)
+```
 
 Allows the use of inequalities to express a duration. Rather than expressing that an action has a fixed length of time we can express that an action has a duration range using an inequality.
 
 ## Continuous Effects
 
-Support: <span style="color:orange">Medium</span>  
-Usage: <span style="color:green">High</span>
+Support: Medium
+{: .label .label-yellow }  
+Usage: High
+{: .label .label-green }
 
-`(:requirements :continuous-effects)`
+```cl
+    (:requirements :continuous-effects)
+```
 
 Allows the use of continuous effects on numerics within durative actions. Because durative actions take a period of time, we could model the change in a numeric value as some function of time. In reality support for this shaky. Linear functions are relatively easy for planners but non-linear effects are still an area of research.
 
 ## Negative Preconditions
 
-Support: <span style="color:red">Low</span>  
-Usage: <span style="color:green">High</span>
+Support: Low
+{: .label .label-red }  
+Usage: High
+{: .label .label-green }
 
-`(:requirements :negative-preconditions)`
+```cl
+    (:requirements :negative-preconditions)
+```
 
 Allows the use of `not` in preconditions. The way some planners model actions mean they are not capable of handling negative preconditions. This is more an inconvenience that a serious design flaw as for every predicate their is an opposing predicate which is true when it's false. I.e.
 
