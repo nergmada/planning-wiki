@@ -1,3 +1,11 @@
+---
+layout: page
+title: PDDL 2.2 Requirements
+has_children: true
+parent: PDDL 2.2
+grand_parent: Reference
+permalink: /ref/pddl22/requirements
+---
 # Requirements (PDDL 2.2)
 
 The following page offers details of requirements defined in PDDL 2.2.

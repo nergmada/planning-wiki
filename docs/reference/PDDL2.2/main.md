@@ -27,15 +27,6 @@ PDDL 2.2 also reintroduces Axioms as derived predicates, with a different simple
 
 *This is speculative.
 
-## Contents
-
-- [Domain](./domain.md)
-    - [Requirements](./domain.md#requirements)
-        - [List of PDDL 2.2 Requirements](./domain.md#list-of-requirements)
-    - [Derived Predicates](./domain.md#derived-predicates)
-- [Problem](./problem.md)
-    - [Timed initial literals](./problem.md#timed-initial-literals)
-
 ## References
 
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]

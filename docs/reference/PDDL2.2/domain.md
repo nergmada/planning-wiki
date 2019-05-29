@@ -7,7 +7,7 @@ grand_parent: Reference
 permalink: /ref/pddl22/domain
 ---
 # Domain
-
+{: .no_toc }
 The domain syntax for PDDL2.2 adds very minimal changes to the domain. As with any update to PDDL it introduces new requirements, however, other than that the only new syntax is Derived Predicates, which are defined in a similar way to how actions are defined, and are defined in the same section of the domain file.
 
 ```cl
@@ -42,9 +42,10 @@ The domain syntax for PDDL2.2 adds very minimal changes to the domain. As with a
 ```
 
 ## Contents
+{: .no_toc .text-delta }
 
-- Requirements
-- Derived Predicates
+- TOC
+{:toc }
 
 ## Requirements
 
@@ -55,20 +56,25 @@ Support: Universal
 Usage: High
 {: .label .label-green }
 
-`(:requirements <requirement_name>)`
+```cl
+    (:requirements <requirement_name>)
+```
 
 Requirements are similar to import/include statements in programming languages, however as PDDL is a kind of declarative language, it is a `:requirement` as a given planner is "required" to facilitate some aspect of the language.
 
 Multiple `:requirements` can be specified through a space separated list e.g.
 
-`(:requirements :strips :adl :typing)`
+```cl
+    (:requirements :strips :adl :typing)
+```
 
 ### List of Requirements
+{: .no_toc }
 
 This is a list of requirements that were added by PDDL2.2 to the language of PDDL.
 
-- [:derived-predicates](./Domain/requirements.md#derived-predicates)
-- [:timed-initial-literals](./Domain/requirements.md#timed-initial-literals)
+- [:derived-predicates](./requirements#derived-predicates)
+- [:timed-initial-literals](./requirements#timed-initial-literals)
 
 ## Derived Predicates
 
@@ -76,9 +82,12 @@ This is a list of requirements that were added by PDDL2.2 to the language of PDD
 
 Support: Medium
 {: .label .label-yellow }
-Usage: <span style="color:orange">Low</span>
+Usage: Low
+{: .label .label-red }
 
-`(:derived <predicate_name> <logical_expression>)`
+```cl
+    (:derived <predicate_name> <logical_expression>)
+```
 
 A derived predicate is declared by naming the predicate who's result is being derived, and a logical expression which is evaluated to work out the value.
 
