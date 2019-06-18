@@ -1,6 +1,14 @@
-# A PDDL Reference Guide
+---
+layout: home
+title: Home
+permalink: /
+nav_order: 0
+---
+# Planning.Wiki - The AI Planning & PDDL Wiki
 
-[Go Straight To Contents](#contents) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose) | **[Join Planning & PDDL Group on Slack](https://join.slack.com/t/planningpddlgroup/shared_invite/enQtNjQyNDY0MTA0ODUyLTNlYWY3ODQ5ZTU0YWMyOGRiYzVmNmNlNjhmZThlZmU4MzQ0MTRlOTc1ZThmZjEyOWZjODBiMzEyYzg0MjIxNDc)**
+Contributors: {% git_author %} 
+
+**[Join Planning & PDDL Group on Slack](https://join.slack.com/t/planningpddlgroup/shared_invite/enQtNjQyNDY0MTA0ODUyLTNlYWY3ODQ5ZTU0YWMyOGRiYzVmNmNlNjhmZThlZmU4MzQ0MTRlOTc1ZThmZjEyOWZjODBiMzEyYzg0MjIxNDc)**
 
 ## Help Wanted
 
@@ -32,9 +40,28 @@ The reference guide itself splits into two sections, one for the language of pla
 
 The nature of AI planning and the language means that **not** all features are supported by all planners and not all techniques are used as often as others. The reference here aims to help with that by firstly showing next to each definition an indication of how well supported the feature is and how commonly used it is.
 
->Support: <span style="color:green">Universal</span>, <span style="color:yellow">High</span>, <span style="color:orange">Medium</span>, <span style="color:red">Poor</span>
+**Support**:
 
-> Usage: <span style="color:green">High</span>, <span style="color:yellow">Medium</span>, <span style="color:orange">Low</span>, <span style="color:red">Rare</span>
+Universal
+{: .label .label-blue }
+High
+{: .label .label-green }
+Medium
+{: .label .label-yellow }
+Poor
+{: .label .label-red }
+
+
+**Usage**: 
+
+High
+{: .label .label-green }
+Medium
+{: .label .label-yellow }
+Low
+{: .label .label-red }
+Rare/None
+{: .label .label-purple }
 
 For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems.
 
@@ -60,118 +87,6 @@ This site breaks down into two major content sections
 - the guide - Focuses on what planning is and using planning and planners to solve planning problems
 - the reference - Provides a "handbook" to the language and the planners which solve the problems modelled in said language.
 
-### Guide
-
-- [What is AI Planning?](./guide/whatisaip.md)
-    - [Domain independent Planning](./guide/whatisaip.md#domain%20independent%20planning)
-- [What is PDDL?](./guide/whatispddl.md)
-    - [PDDL](./guide/whatispddl.md#pddl)
-    - [PDDL 2.1](./guide/whatispddl.md#pddl-21)
-    - [PDDL 2.2](./guide/whatispddl.md#pddl-22)
-    - [PDDL 3.0](./guide/whatispddl.md#pddl-3)
-    - [PDDL 3.1](./guide/whatispddl.md#pddl-31)
-    - [PDDL+](./guide/whatispddl.md#pddl-1)
-    - [Other Flavours](./guide/whatispddl.md#other-flavours-of-pddl)
-- [What is a planner?](./guide/whatisplanner.md)
-    - [List of planners](./guide/whatisplanner.md#list-of-planners)
-    - [Supported Features](./guide/whatisplanner.md#planner-feature-support)
-- [Contributing](./guide/contributing.md)
-- [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
-
-### Reference
-#### PDDL
-- [PDDL (1.2)](./reference/PDDL/main.md)
-    - [Domain](./reference/PDDL/domain.md)
-        - [Extends](./reference/PDDL/domain.md#extends)
-        - [Requirements](./reference/PDDL/domain.md#requirements)
-            - [List of PDDL 1.2 Requirements](./reference/PDDL/Domain/requirements.md)
-        - [Object Types](./reference/PDDL/domain.md#object-types)
-        - [Constants](./reference/PDDL/domain.md#constants)
-        - [Predicates](./reference/PDDL/domain.md#predicates)
-        - [Timeless Predicates](./reference/PDDL/domain.md#timeless-predicates)
-        - [Safety Constraints](./reference/PDDL/domain.md#safety-constraint)
-        - [Actions](./reference/PDDL/domain.md#actions)
-        - [Axioms](./reference/PDDL/domain.md#axioms)
-    - [Problem](./reference/PDDL/problem.md)
-        - [Problem Name](./reference/PDDL/problem.md#problem-name)
-        - [Domain](./reference/PDDL/problem.md#domain)
-        - [Situation](./reference/PDDL/problem.md#situation)
-        - [Objects](./reference/PDDL/problem.md#objects)
-        - [Init (Initial State)](./reference/PDDL/problem.md#init)
-        - [Goal](./reference/PDDL/problem.md#goal)
-- [PDDL 2.1](./reference/PDDL2.1/main.md)
-    - [Domain](./reference/PDDL2.1/domain.md)
-        - [Requirements](./reference/PDDL2.1/domain.md#requirements)
-            - [List of PDDL 2.1 Requirements](./reference/PDDL2.1/domain.md#list-of-requirements)
-        - [Numeric Fluents](./reference/PDDL2.1/domain.md#numeric-fluents)
-        - [Durative Actions](./reference/PDDL2.1/domain.md#durative-actions)
-            - [:parameters](./reference/PDDL2.1/domain.md#parameters)
-            - [:duration](./reference/PDDL2.1/domain.md#duration)
-            - [:condition](./reference/PDDL2.1/domain.md#condition)
-            - [:effect](./reference/PDDL2.1/domain.md#effect)
-    - [Problem](./reference/PDDL2.1/problem.md)
-        - [Numeric Fluents](./reference/PDDL2.1/problem.md#numeric-fluents)
-        - [Metric](./reference/PDDL2.1/problem.md#metric)
-        - [Length (Deprecated)](./reference/PDDL2.1/problem.md#length)
-- [PDDL 2.2](./reference/PDDL2.2/main.md)
-    - [Domain](./reference/PDDL2.2/domain.md)
-        - [Requirements](./reference/PDDL2.2/domain.md#requirements)
-            - [List of PDDL 2.2 Requirements](./reference/PDDL2.2/domain.md#list-of-requirements)
-        - [Derived Predicates](./reference/PDDL2.2/domain.md#derived-predicates)
-    - [Problem](./reference/PDDL2.2/problem.md)
-        - [Timed initial literals](./reference/PDDL2.2/problem.md#timed-initial-literals)
-- [PDDL 3.0](./reference/PDDL3.0/main.md)
-    - [Domain](./reference/PDDL3.0/domain.md)
-        - [Requirements](./reference/PDDL3.0/domain.md#requirements)
-        - [Constraints](./reference/PDDL3.0/domain.md#constraints)
-            - [always](./reference/PDDL3.0/domain.md#always)
-            - [sometime](./reference/PDDL3.0/domain.md#sometime)
-            - [within](./reference/PDDL3.0/domain.md#within)
-            - [at-most-once](./reference/PDDL3.0/domain.md#at-most-once)
-            - [sometime-after](./reference/PDDL3.0/domain.md#sometime-after)
-            - [sometime-before](./reference/PDDL3.0/domain.md#sometime-before)
-            - [always-within](./reference/PDDL3.0/domain.md#always-within)
-            - [hold-during](./reference/PDDL3.0/domain.md#hold-during)
-            - [hold-after](./reference/PDDL3.0/domain.md#hold-after)
-    - [Problem](./reference/PDDL3.0/problem.md)
-        - [Preferences](./reference/PDDL3.0/problem.md#preferences)
-            - [always](./reference/PDDL3.0/problem.md#always)
-            - [sometime](./reference/PDDL3.0/problem.md#sometime)
-            - [within](./reference/PDDL3.0/problem.md#within)
-            - [at-most-once](./reference/PDDL3.0/problem.md#at-most-once)
-            - [sometime-after](./reference/PDDL3.0/problem.md#sometime-after)
-            - [sometime-before](./reference/PDDL3.0/problem.md#sometime-before)
-            - [always-within](./reference/PDDL3.0/problem.md#always-within)
-            - [hold-during](./reference/PDDL3.0/problem.md#hold-during)
-            - [hold-after](./reference/PDDL3.0/problem.md#hold-after)
-        - [Metric](./reference/PDDL3.0/problem.md#metric)
-- [PDDL+](./reference/PDDL+/main.md)
-    - [Domain](./reference/PDDL+/domain.md)
-        - [Requirements](./reference/PDDL+/domain.md#requirements)
-        - [Processes](./reference/PDDL+/domain.md#processes)
-        - [Events](./reference/PDDL+/domain.md#events)
-- Other PDDL Flavours & Syntaxing
-#### Planners
-- [A-Z of Planners](./reference/planners/atoz.md)
-- [All tags](./reference/planners/alltags.md)
-    - Classical Planners
-    - Temporal Planners
-    - Probabilistic Planners
-- How to submit a planner to this guide
-
-<!-- 
-- [OPTIC](./reference/planners/OPTIC/main.md)
-- [POPF](./reference/planners/POPF/main.md)
-- [ENHSP](./reference/planners/ENHSP/main.md)
-- [Dino](./reference/planners/DiNo/main.md)
-- [SMTPlan+](./reference/planners/SMTPlan/main.md)
-- [MetricFF](./reference/planners/MetricFF/main.md)
-- [COLIN](./reference/planners/COLIN/main.md)
-- [PaaS - Planning as a Service](http://solver.planning.domains/)
-- LPRPG-P
-- UPMurphi
--->
-### Examples (Coming Soon)
 ### FAQ
 
 ## Additional Resources

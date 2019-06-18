@@ -1,6 +1,14 @@
+---
+layout: page
+title: PDDL 2.2
+has_children: true
+parent: Reference
+permalink: /ref/pddl22
+nav_order: 2
+---
 # PDDL 2.2
 
-[return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+Contributors: {% git_author %}
 
 ## Introduction
 
@@ -21,15 +29,6 @@ Bottom line, Timed Initial Literals add a simple yet powerful new aspect to plan
 PDDL 2.2 also reintroduces Axioms as derived predicates, with a different simpler syntax to them. To be clear, these features are the same but consist of different syntax, typically planners support the newer syntax.
 
 *This is speculative.
-
-## Contents
-
-- [Domain](./domain.md)
-    - [Requirements](./domain.md#requirements)
-        - [List of PDDL 2.2 Requirements](./domain.md#list-of-requirements)
-    - [Derived Predicates](./domain.md#derived-predicates)
-- [Problem](./problem.md)
-    - [Timed initial literals](./problem.md#timed-initial-literals)
 
 ## References
 

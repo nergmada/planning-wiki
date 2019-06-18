@@ -1,5 +1,13 @@
+---
+layout: page
+title: What is PDDL?
+parent: Guide
+permalink: /guide/whatis/pddl
+---
 # What is Planning Domain Definition Language (PDDL)?
-[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+
+Contributors: {% git_author %}
+
 ## Introduction
 Planning Domain Definition Language (PDDL) is a family of languages which allow us to define a planning problem. As planning has evolved, so to has the language used to describe it and as such there are now many versions of PDDL available with different levels of expressivity. 
 

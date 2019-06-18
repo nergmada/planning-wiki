@@ -1,12 +1,20 @@
+---
+layout: page
+title: PDDL Problem
+parent: PDDL
+grand_parent: Reference
+permalink: /ref/pddl/problem
+---
 # Problem
+{: .no_toc  }
 
-[return to homepage](../../readme.md) | [return to PDDL main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+Contributors: {% git_author %}
 
 A problem forms the other half of a planning problem. In the domain we express the global "worldly" aspects of a problem, such as what actions we can perform and what types of objects exist in the world we're planning in.
 
 The problem then solidifies this expression by define exactly what objects exist, and what is true about them and then finally what the end goal is. What state we want the world to be in once the plan is finished.
 
-```LISP
+```cl
 (define
     (problem buildingahouse)
     (:domain construction)
@@ -32,63 +40,80 @@ The problem then solidifies this expression by define exactly what objects exist
 ```
 
 ## Contents
+{: .no_toc .text-delta }
 
-- [Problem Name](#problem-name)
-- [Domain](#domain)
-- [Situation](#situation)
-- [Objects](#objects)
-- [Init (Initial State)](#init)
-- [Goal](#goal)
+- TOC
+{:toc }
 
 ## Problem Name
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>  
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }  
+Usage: High
+{: .label .label-green }
 
-`(problem <name>)`
+```cl
+    (problem <name>)
+```
 
 Each problem is given a name, typically this is a unique identifier. This is to allow for usage of the `situation` keyword which allows a problem to be extended. However whilst the name is commonly included in most problems, the use of situation to extend problems is not. Most problem names are unimaginative like `prob1` or `p1`.
 
-`(problem buildingahouse)`
+```cl
+    (problem buildingahouse)
+```
 
 ## Domain
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>  
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-`(:domain <domain_name>)`
+```cl
+    (:domain <domain_name>)
+```
 
 The domain argument refers to the domain in which the problem exists (see [Domain](./domain) for details of what a domain is). Although often defined in problem files, this argument is typically redundant as most planners take the domain and problem file from the command line and assume that the domain defined in one corresponds to the problem defined in the other. This is not always the case so it is worth specifying the domain name anyway.
 
-`(:domain construction)`
+```cl
+    (:domain construction)
+```
 
 ## Situation
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Low</span>  
-Usage: <span style="color:red">Rare</span>
+Support: Poor
+{: .label .label-red }  
+Usage: Rare/None
+{: .label .label-purple }
 
-`(:situation <parent_problem_name>)`
+```cl
+    (:situation <parent_problem_name>)
+```
 
 A `situation` argument inherits qualities from another problem file. In some cases all of our problems may have common features which we can express as part of a `situation` file. An example might be that all of our problems have two `site`s, a storage depot and a construction site. We could therefore express this as part of a situation and then within our problem file express only the aspects which are unique to the specific problem we're looking at.
 
 The use of situation is not very common and most problem files will define even common elements across each file. It is also not a fully supported feature in some more modern planners.
 
-`(:situation generalbuildingproblem)`
+```cl
+    (:situation generalbuildingproblem)
+```
 
 ## Objects
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>  
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-```LISP
+```cl
 (:objects
     object_name_1 ... object_name_n - some_object_type
     ...
@@ -98,7 +123,7 @@ Usage: <span style="color:green">High</span>
 
 The objects block allows us to declare a set of objects which exist within our problem. each object name must be unique, and should be typed. If not typed then they will typically take on the properties of the base type `object` (see [Domain - Object Types](./domain#Object%20Types) for details)
 
-```LISP
+```cl
 (:objects
     s1 s2 s3 - site
     ba bb bc - bricks
@@ -109,7 +134,7 @@ The objects block allows us to declare a set of objects which exist within our p
 
 Note that whilst conventionally we would just use an abbreviation followed by a number, we are not required to, and can use even ridiculously unhelpful names (as shown above).
 
-```LISP
+```cl
 (:objects 
     s1 - site 
     b - bricks 
@@ -122,10 +147,12 @@ Note that whilst conventionally we would just use an abbreviation followed by a 
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>  
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-```LISP
+```cl
 (:init
     <predicate>
     ...
@@ -135,7 +162,7 @@ Usage: <span style="color:green">High</span>
 
 The initial state (init) defines specifically what predicates are true at the start of the problem. This is **not** a logical expression because it is simply a list of predicates which are true. Unless the planner or domain specify otherwise all problems have the "closed world" assumption applied meaning anything not specified as true is considered false. Therefore we only need to list things which are true.
 
-```LISP
+```cl
 (:init
     (on-site b s1)
     (on-site c s1)
@@ -149,10 +176,12 @@ In the case of our domain and problem, the only facts which are true are that th
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>  
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-```LISP
+```cl
 (:goal logical_expression)
 ```
 
@@ -160,7 +189,7 @@ The goal is a logical expression of predicates which must be satisfied in order 
 
 Note that all standard logical operators such as `or` and `forall` are available as part of the goal, which means we can express multiple different goal states all of which are acceptable.
 
-```LISP
+```cl
 (:goal (and
         (walls-built ?s1)
         (cables-installed ?s1)
@@ -172,52 +201,76 @@ Note that all standard logical operators such as `or` and `forall` are available
 Typically most goals are just conjunctions and negations as there is only one desirable state at the end of the plan.
 
 #### And
+{: .no_toc }
 
-`(and (predicate_1) ... (predicate_n))`
+```cl
+    (and (predicate_1) ... (predicate_n))
+```
 
 A conjunction of predicates, expressing that all values must be true in order to evaluate to true. e.g.
 
-`(and (walls-built ?s) (windows-fitted ?s))`
+```cl
+    (and (walls-built ?s) (windows-fitted ?s))
+```
 
 #### Or
+{: .no_toc }
 
-`(or (predicate_1) ... (predicate_n))`
+```cl
+    (or (predicate_1) ... (predicate_n))
+```
 
 A disjunction of predicates, expressing at least one of the values must be true in order to evaluate true. e.g.
 
-`(or (windows-fitted ?s) (cables-installed ?s))`
+```cl
+    (or (windows-fitted ?s) (cables-installed ?s))
+```
 
 #### Imply
+{: .no_toc }
 
-`(imply (antecedent_predicate) (consequent_predicate))`
+```cl
+    (imply (antecedent_predicate) (consequent_predicate))
+```
 
 An implies across an antecedent predicate and a consequence predicate. An implies evaluates true whenever the antecedent is false, or the antecedent and consequent are true. e.g.
 
-`(imply (walls-built ?s) (foundations-set ?s))`
+```cl
+    (imply (walls-built ?s) (foundations-set ?s))
+```
 
 #### Not
+{: .no_toc }
 
-`(not (logical_expression/predicate_name))`
+```cl
+    (not (logical_expression/predicate_name))
+```
 
 Not negates a predicate value or logical expression. In a precondition it expresses that some predicate value or logical expression is false. In an effect it assigns false to a predicate value.
 
-`(not (material-used ?b))`
+```cl
+    (not (material-used ?b))
+```
 
 #### Forall
+{: .no_toc }
 
-`(forall (argument) logical_expression)`
+```cl
+    (forall (argument) logical_expression)
+```
 
 Forall takes an argument and expresses that some logical expression holds true across it. In this case that all brick objects in the domain have not been used.
 
-```LISP
+```cl
 (forall (?b - bricks) 
     (not (material-used ?b))
 )
 ```
 
 ##### When
+{: .no_toc }
 
-```LISP
+```cl
 (forall (argument) 
     when (inclusion_expression)
         logical expression
@@ -228,7 +281,7 @@ When extends a forall condition to specify an inclusion condition. Essentially i
 
 e.g.
 
-```LISP
+```cl
 (forall (?c - bricks) 
     when (on-site ?c ?s)
         (material-used ?c)
@@ -238,14 +291,17 @@ e.g.
 Is expressing that `forall` bricks, that meet the condition `on-site ?c ?s` they must also meet the condition that they've been used `material-used ?c`.
 
 #### Exists
+{: .no_toc }
 
-`(exists (argument) logical_expression)`
+```cl
+    (exists (argument) logical_expression)
+```
 
 Exists expresses the same as `forall` except rather than expressing that every object of a given type meet a logical expression, it expresses that at least one meets the logical expression.
 
 e.g.
 
-```LISP
+```cl
 (exists
     (?c - bricks)
         (not (material-used ?c))

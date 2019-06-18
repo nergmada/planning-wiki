@@ -1,4 +1,13 @@
+---
+layout: page
+title: Additional Resources
+permalink: /extras
+nav_order: 4
+---
 # Additional Resources
+
+Contributors: {% git_author %}
+
 To help make this guide as complete and comprehensive as possible for all things planning, below you can find a wide variety of additional resources to help with your PDDL and planning ambitions. 
 
 For inclusion in this additional resources section please [file an issue](https://github.com/nergmada/pddl-reference/issues/new/choose) detailing the resource you believe should be added. Please mark this issue as new content. 

@@ -1,6 +1,13 @@
+---
+layout: page
+title: DiNo
+parent: Planners
+permalink: /ref/planners/dino
+nav_order: 5
+---
 # DiNo: Discrete Non-linear Heuristic Planner
-[return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
+Page Contributors: {% git_author %}
 
 Year Published: 2016
 

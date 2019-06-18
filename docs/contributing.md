@@ -1,5 +1,13 @@
+---
+layout: page
+title: Contributing
+permalink: /contribute
+nav_order: 3
+---
 # Contributing
-[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+
+Contributors: {% git_author %}
+
 ## Introduction
 Contributing to the PDDL reference guide is similar to contributing to other open source projects. You have two options. If you're keen to contribute to this guide a lot, drop me an email at adam.green@kcl.ac.uk, if you're looking to add a single or a few pages, or minor changes, you should instead consider forking the repository, pushing the changes to your fork and filing a pull request with this repo.
 
@@ -27,7 +35,7 @@ TL;DR - There are two ways to contribute
 ## Contributing
 Contributing offers more flexibility in how quickly your corrections or additions are approved. It also gives you the ability to review other contributions and help improve them. 
 
-### Contributing
+### Contributing by writing
 1. Get contributors access by emailing adam.green@kcl.ac.uk or filing an issue
 
 2. Clone the repo to your machine
@@ -38,7 +46,7 @@ Contributing offers more flexibility in how quickly your corrections or addition
 
 5. Create a pull request, another contributor will have to verify your pull request and then commit it
 
-### Reviewing Pull Requests
+### Contribute by reviewing
 When you are viewing/using/adding to the reference guide, make sure to double check for any outstanding pull requests from other contributors. Reviewing and approving pull requests means that quality is maintained and improved. 
 
 You can review pull requests by clicking on the pull requests tab of the repo.

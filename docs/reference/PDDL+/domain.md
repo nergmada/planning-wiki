@@ -1,9 +1,18 @@
+---
+layout: page
+title: PDDL+ Domain
+parent: PDDL+
+grand_parent: Reference
+permalink: /ref/pddlplus/domain
+---
 # Domain
-[return to homepage](../../readme.md) | [return to PDDL+ main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+{: .no_toc }
+
+Contributors: {% git_author %}
 
 PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively.
 
-```LISP
+```cl
 (define
     (domain ballphysics)
     (:requirements :time :typing)
@@ -45,38 +54,48 @@ PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes`
 ```
 
 ## Contents
+{: .no_toc .text-delta }
 
-- [Requirements](#requirements)
-- [Processes](#processes)
-- [Events](#events)
+- TOC
+{:toc}
 
 ## Requirements
 
 [back to contents](#contents)
 
-Support: <span style="color:green">Universal</span>
-Usage: <span style="color:green">High</span>
+Support: Universal
+{: .label .label-blue }
+Usage: High
+{: .label .label-green }
 
-`(:requirements <requirement_name>)`
+```cl
+    (:requirements <requirement_name>)
+```
 
 Requirements are similar to import/include statements in programming languages, however as PDDL is a kind of declarative language, it is a `:requirement` as a given planner is "required" to facilitate some aspect of the language.
 
 Multiple `:requirements` can be specified through a space separated list e.g.
 
-`(:requirements :strips :adl :typing)`
+```cl
+    (:requirements :strips :adl :typing)
+```
 
 Only one additional requirement is necessary in order to include **both** processes and events, this requirement is `:time`, as shown below
 
-`(:requirements :time)`
+```cl
+    (:requirements :time)
+```
 
 ## Processes
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
-Usage: <span style="color:orange">Low</span>
+Support: Medium
+{: .label .label-yellow }
+Usage: Low
+{: .label .label-red }
 
-```LISP
+```cl
 (:process FALLING
     :parameters (?b - ball)
     :precondition (and
@@ -90,7 +109,7 @@ Usage: <span style="color:orange">Low</span>
 )
 ```
 
-A process is defined in three sections, `:parameters`, `:precondition` and `:effect` which define what a process is acting upon, when a process is acting upon it and what effect that process has when it acts. These directly correspond with the definition of an [action](../PDDL/domain.md#actions) found in PDDL 1.2, but can include the expressivity of numerics as seen in PDDL 2.1.
+A process is defined in three sections, `:parameters`, `:precondition` and `:effect` which define what a process is acting upon, when a process is acting upon it and what effect that process has when it acts. These directly correspond with the definition of an [action](../pddl/domain#actions) found in PDDL 1.2, but can include the expressivity of numerics as seen in PDDL 2.1.
 
 Confusingly despite bearing similar behaviour to a durative action, a process conditions over it's duration, therefore the precondition can be thought of more like an `over all` condition in PDDL 2.1
 
@@ -100,10 +119,12 @@ Confusingly despite bearing similar behaviour to a durative action, a process co
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
-Usage: <span style="color:orange">Low</span>
+Support: Medium
+{: .label .label-yellow }
+Usage: Low
+{: .label .label-red }
 
-```LISP
+```cl
 (:event HIT-GROUND
     :parameters (?b - ball)
     :precondition (and

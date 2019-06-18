@@ -1,4 +1,15 @@
+---
+layout: page
+title: Planners by tag
+has_children: true
+parent: Planners
+permalink: /ref/planners/bytag
+nav_order: 0
+---
 # List of all Planner tags
+
+Contributors: {% git_author %}
+
 Planners work in many different ways solving a variety of planning problems. The way the work under-the-hood dictates the types of problem they're capable of handling. In some cases a planner capable of handing classical planning problems has no ability to reason with temporal problems. To help users of this guide find planners that meet their needs, we tag planners with tags related to their abilities and various other notable characteristics. 
 
 The following is a list of tags

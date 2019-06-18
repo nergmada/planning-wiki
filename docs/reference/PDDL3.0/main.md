@@ -1,6 +1,14 @@
+---
+layout: page
+title: PDDL 3
+has_children: true
+parent: Reference
+permalink: /ref/pddl3
+nav_order: 3
+---
 # PDDL 3.0
 
-[return to homepage](../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+Contributors: {% git_author %}
 
 ## Introduction
 PDDL 3.0 introduced soft goals to planning. As planning has grown to handle larger more complex problem, the way we express goals has had to change. In previous editions a goal was unavoidable. It had to be met in order for a a plan to be considered valid.
@@ -12,33 +20,6 @@ For each soft goal we express, we include a cost for not meeting it. This cost e
 PDDL 3.0 also introduced constraints, a form of strong goal, which essentially can use the same keywords as used for preferences, but instead must be met for the plan to be considered valid.
 
 This allows us to express things such as facts that must become true after another, or facts which must always be true. See the keywords included in the Constraints and Preferences sections below.
-
-## Contents
-
-- [Domain](./domain.md)
-    - [Requirements](./domain.md#requirements)
-    - [Constraints](./domain.md#constraints)
-        - [always](./domain.md#always)
-        - [sometime](./domain.md#sometime)
-        - [within](./domain.md#within)
-        - [at-most-once](./domain.md#at-most-once)
-        - [sometime-after](./domain.md#sometime-after)
-        - [sometime-before](./domain.md#sometime-before)
-        - [always-within](./domain.md#always-within)
-        - [hold-during](./domain.md#hold-during)
-        - [hold-after](./domain.md#hold-after)
-- [Problem](./problem.md)
-    - [Preferences](./problem.md#preferences)
-        - [always](./problem.md#always)
-        - [sometime](./problem.md#sometime)
-        - [within](./problem.md#within)
-        - [at-most-once](./problem.md#at-most-once)
-        - [sometime-after](./problem.md#sometime-after)
-        - [sometime-before](./problem.md#sometime-before)
-        - [always-within](./problem.md#always-within)
-        - [hold-during](./problem.md#hold-during)
-        - [hold-after](./problem.md#hold-after)
-    - [Metric](./problem.md#metric)
 
 ## Reference
 

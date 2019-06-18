@@ -1,12 +1,20 @@
+---
+layout: page
+title: PDDL 2.2 Problem
+parent: PDDL 2.2
+grand_parent: Reference
+permalink: /ref/pddl22/problem
+---
 # Problem
+{: .no_toc }
 
-[return to homepage](../../readme.md) | [return to PDDL2.2 main page](./main.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+Contributors: {% git_author %}
 
 The problem syntax in PDDL 2.2 is expanded very lightly in order to support Timed Initial Literals. The choice of keyword is an interesting one because `at` is a commonly used predicate name used to indicate that some locatable is in some location i.e. `(at Adam Bush-House)`.
 
 The way in which this keyword is used to define timed initial literals means however that it *should not* conflict with domains that make use of `at` as a predicate name. However, this is entirely dependent on how the planner parses a plan.
 
-```LISP
+```cl
 (define
     (problem trainplanning1)
     (:domain railways)
@@ -24,17 +32,23 @@ The way in which this keyword is used to define timed initial literals means how
 ```
 
 ## Contents
+{: .no_toc .text-delta }
 
-- Timed initial literals
+- TOC
+{:toc }
 
 ## Timed Initial Literals
 
 [back to contents](#contents)
 
-Support: <span style="color:orange">Medium</span>
-Usage: <span style="color:yellow">Medium</span>
+Support: Medium
+{: .label .label-yellow }
+Usage: Medium
+{: .label .label-yellow }
 
-`(at <time_value> <predicate>)`
+```cl
+    (at <time_value> <predicate>)
+```
 
 A timed initial literal is defined using the time keyword, followed by the value for the point in time which the predicate becomes true, followed by the predicate itself.
 
@@ -42,7 +56,9 @@ In planning, time is treated as just a number, and no assumptions are made about
 
 Ultimately it is the responsibility of the modelling user to determine what scale they wish to map their model to, and therefore the "resolution" they get for the accuracy of time.
 
-`(at 20 (train-not-in-use train2))`
+```cl
+    (at 20 (train-not-in-use train2))
+```
 
 The statement above expresses that at some time 20, the train `train2` will no longer be in use.
 
