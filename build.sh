@@ -1,3 +1,4 @@
+echo $CONTEXT
 if [$CONTEXT == "branch-deploy"] 
 then
     echo "deploy branch"
