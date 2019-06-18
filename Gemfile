@@ -18,6 +18,7 @@ gem "jekyll", "~> 3.8.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-gitauthors', '~> 0.4.0'
+  gem 'jekyll-relative-urls', '~> 0.0.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

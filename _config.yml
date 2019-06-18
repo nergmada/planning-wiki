@@ -37,6 +37,7 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-gitauthors
+  - jekyll-relative-urls
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
