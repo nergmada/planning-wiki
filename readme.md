@@ -4,6 +4,10 @@ title: Home
 permalink: /
 nav_order: 0
 ---
+{% if false %}
+If you can see this and want to view the reference guide, you're in the wrong place, the reference guide has been rebranded and moved here: https://planning.wiki
+{% endif %}
+
 # Planning.Wiki - The AI Planning & PDDL Wiki
 
 Contributors: {% git_author %} 
