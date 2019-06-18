@@ -6,3 +6,5 @@ vendor
 .sass-cache
 _site
 .jekyll-metadata
+
+*.lock
