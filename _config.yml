@@ -25,6 +25,7 @@ github_username:  nergmada
 
 search_enabled: true
 #color_scheme: dark
+
 aux_links:
   "Report an issue with this page":
     - "//github.com/nergmada/pddl-reference/issues/new/choose"
