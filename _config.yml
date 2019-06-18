@@ -36,6 +36,7 @@ markdown: kramdown
 theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-gitauthors
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

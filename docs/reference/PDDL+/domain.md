@@ -106,7 +106,7 @@ Usage: Low
 )
 ```
 
-A process is defined in three sections, `:parameters`, `:precondition` and `:effect` which define what a process is acting upon, when a process is acting upon it and what effect that process has when it acts. These directly correspond with the definition of an [action](../PDDL/domain.md#actions) found in PDDL 1.2, but can include the expressivity of numerics as seen in PDDL 2.1.
+A process is defined in three sections, `:parameters`, `:precondition` and `:effect` which define what a process is acting upon, when a process is acting upon it and what effect that process has when it acts. These directly correspond with the definition of an [action](../pddl/domain#actions) found in PDDL 1.2, but can include the expressivity of numerics as seen in PDDL 2.1.
 
 Confusingly despite bearing similar behaviour to a durative action, a process conditions over it's duration, therefore the precondition can be thought of more like an `over all` condition in PDDL 2.1
 

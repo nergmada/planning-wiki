@@ -1,3 +1,11 @@
+---
+layout: page
+title: Planners from A to Z
+has_children: true
+parent: Planners
+permalink: /ref/planners/atoz
+nav_order: 0
+---
 # A to Z of Planners
 The following is an A to Z of all known planners. This list is **not** a comprehensive list, but rather an attempt to aggregate different planners from as many known creators as possible. If you think a planner is missing, please [file an issue here](https://github.com/nergmada/pddl-reference/issues/new/choose) or submit a pull request with the correct changes. 
 
