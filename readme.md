@@ -1,12 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 title: Home
 permalink: /
 nav_order: 0
 ---
 # Planning.Wiki - The AI Planning & PDDL Wiki
+
+Contributors: {% git_author %}
 
 **[Join Planning & PDDL Group on Slack](https://join.slack.com/t/planningpddlgroup/shared_invite/enQtNjQyNDY0MTA0ODUyLTNlYWY3ODQ5ZTU0YWMyOGRiYzVmNmNlNjhmZThlZmU4MzQ0MTRlOTc1ZThmZjEyOWZjODBiMzEyYzg0MjIxNDc)**
 

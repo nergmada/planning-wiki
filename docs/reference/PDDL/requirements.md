@@ -8,6 +8,8 @@ permalink: /ref/pddl/requirements
 # Requirements (PDDL 1.2)
 {: .no_toc }
 
+Contributors: {% git_author %}
+
 The following page offers details of requirements defined in PDDL 1.2.
 
 ## Contents

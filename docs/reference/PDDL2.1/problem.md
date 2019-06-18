@@ -8,6 +8,8 @@ permalink: /ref/pddl21/problem
 # Problem
 {: .no_toc }
 
+Contributors: {% git_author %}
+
 The problem syntax in PDDL 2.1 has to be extended in order to complement the syntax of the domain file. One interesting extension to the syntax in PDDL 2.1 is the addition of a metric. A metric, which behaves like an optimisation function, defines a cost value for a plan. We then express whether we want this metric to be maximised (like in football) or minimised (like in golf).
 
 ```cl

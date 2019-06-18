@@ -7,6 +7,8 @@ permalink: /ref/pddl3/requirements
 ---
 # Requirements (PDDL 3.0)
 
+Contributors: {% git_author %}
+
 The following page offers details of requirements defined in PDDL 3.0.
 
 ## Preferences

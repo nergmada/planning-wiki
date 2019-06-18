@@ -7,6 +7,9 @@ permalink: /ref/pddl22/problem
 ---
 # Problem
 {: .no_toc }
+
+Contributors: {% git_author %}
+
 The problem syntax in PDDL 2.2 is expanded very lightly in order to support Timed Initial Literals. The choice of keyword is an interesting one because `at` is a commonly used predicate name used to indicate that some locatable is in some location i.e. `(at Adam Bush-House)`.
 
 The way in which this keyword is used to define timed initial literals means however that it *should not* conflict with domains that make use of `at` as a predicate name. However, this is entirely dependent on how the planner parses a plan.

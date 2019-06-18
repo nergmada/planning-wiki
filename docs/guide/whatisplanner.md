@@ -5,8 +5,10 @@ parent: Guide
 permalink: /guide/whatis/planner
 ---
 # What is a planner?
+
+Contributors: {% git_author %}
+
 ## Introduction
-[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
 An AI Planner is the other half of the proverbial planning equation. Where PDDL allows us to define an AI Planning problem, an AI Planner allows us to attempt to solve one. An AI planner reads in PDDL and uses it in order to decompose and solve the problem.
 
@@ -22,9 +24,13 @@ Almost all AI planners are built with linux based compilation in mind. Some plan
 
 Once you have a compiled binary for a planner, most planners are designed to be run on the command line. Most planners follow one of two syntaxes for inputting a domain and problem file
 
-`./<planner> <domain> <problem>`
+```
+    ./<planner> <domain> <problem>
+```
 
-`./<planner> -o <domain> -f <problem>`
+```
+    ./<planner> -o <domain> -f <problem>
+```
 
 The variance largely comes from the fact that the domain file at one point was considered to contain "operators" and the problem file contains "facts" hence the use of command line arguments "o" and "f".
 

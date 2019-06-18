@@ -7,6 +7,9 @@ permalink: /ref/pddl3/problem
 ---
 # Problem
 {: .no_toc }
+
+Contributors: {% git_author %}
+
 New syntax is added to PDDL problems in PDDL3. This syntax allows us to express preferences as part of the `:goal` section of a problem file.
 
 ```cl

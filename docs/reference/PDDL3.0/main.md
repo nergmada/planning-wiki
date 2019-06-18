@@ -7,6 +7,9 @@ permalink: /ref/pddl3
 nav_order: 3
 ---
 # PDDL 3.0
+
+Contributors: {% git_author %}
+
 ## Introduction
 PDDL 3.0 introduced soft goals to planning. As planning has grown to handle larger more complex problem, the way we express goals has had to change. In previous editions a goal was unavoidable. It had to be met in order for a a plan to be considered valid.
 

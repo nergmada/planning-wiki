@@ -7,6 +7,9 @@ permalink: /ref/pddlplus/domain
 ---
 # Domain
 {: .no_toc }
+
+Contributors: {% git_author %}
+
 PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively.
 
 ```cl

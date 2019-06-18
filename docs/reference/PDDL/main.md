@@ -8,6 +8,9 @@ nav_order: 0
 ---
 
 # PDDL 1.2
+
+Contributors: {% git_author %}
+
 ## Introduction
 
 PDDL 1.2 formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largely on concepts set out for STRIPS, a sort of precursor languages which used a similar design pattern for describing problems through the use of predicates and actions.

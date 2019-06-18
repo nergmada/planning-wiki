@@ -6,6 +6,9 @@ grand_parent: Reference
 permalink: /ref/pddl21/req
 ---
 # Requirements (PDDL 2.1)
+
+Contributors: {% git_author %}
+
 ## Numeric Fluents
 
 Support: High

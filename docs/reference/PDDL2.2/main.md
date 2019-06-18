@@ -7,6 +7,9 @@ permalink: /ref/pddl22
 nav_order: 2
 ---
 # PDDL 2.2
+
+Contributors: {% git_author %}
+
 ## Introduction
 
 PDDL 2.2 introduces a key new feature not previously considered in PDDL, Timed Initial Literals. In previous versions, we assumed that a predicate was either true or false at the start.

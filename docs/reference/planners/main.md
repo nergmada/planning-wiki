@@ -9,6 +9,8 @@ nav_order: 5
 
 # Planners
 
+Contributors: {% git_author %}
+
 An AI Planner is the other half of the proverbial planning equation. Where PDDL allows us to define an AI Planning problem, an AI Planner allows us to attempt to solve one. An AI planner reads in PDDL and uses it in order to decompose and solve the problem.
 
 As AI Planners have evolved alongside the languages they use, different planners have different levels of support for different syntaxes. Older planners do not support more expressive syntaxes such as PDDL3.0 or PDDL+. In some cases, however, older styles of syntax have been deprecated and as such some newer planners may not support certain variants of syntax. 

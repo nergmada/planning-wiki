@@ -6,6 +6,9 @@ has_children: true
 permalink: /guide
 ---
 # Guide
+
+Contributors: {% git_author %}
+
 The guide here provides an introduction designed for developers, undergraduates and post-graduates with no prior experience in the world of planning & scheduling and/or optimisation research. 
 
 It is not a substitute for a thorough academic course, or the copious amounts of academic literature written on planning but does provide a solid basis from which to understand and use planning.
