@@ -1,6 +1,13 @@
+---
+layout: page
+title: OPTIC
+parent: Planners
+permalink: /ref/planners/optic
+nav_order: 5
+---
 # OPTIC: Optimising Preferences and Time-Dependent Costs
-[return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
+Page Contributors: {% git_author %}
 
 Year Published: 2012
 

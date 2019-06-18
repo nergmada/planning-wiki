@@ -1,6 +1,13 @@
+---
+layout: page
+title: MetricFF
+parent: Planners
+permalink: /ref/planners/metricff
+nav_order: 5
+---
 # MetricFF: The Fast Forward Planner
-[return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
+Page Contributors: {% git_author %}
 
 Year Published: 2003
 

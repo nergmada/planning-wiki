@@ -1,6 +1,13 @@
+---
+layout: page
+title: ENHSP
+parent: Planners
+permalink: /ref/planners/enhsp
+nav_order: 5
+---
 # ENHSP: Expressive Numeric Heuristic Search Planner
-[return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
 
+Page Contributors: {% git_author %}
 
 Year Published: 2016
 

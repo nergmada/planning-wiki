@@ -1,6 +1,13 @@
-# SMTPlan+ 
-[return to homepage](../../../readme.md) | [Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)
+---
+layout: page
+title: SMTPlan+
+parent: Planners
+permalink: /ref/planners/smtplan
+nav_order: 5
+---
+# SMTPlan+
 
+Page Contributors: {% git_author %}
 
 Year Published: 2016
 
