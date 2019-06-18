@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A Wiki for Artificial Intelligence Planning and the language of it, PDDL. 
   Everything to get started in the world of AI Planning. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "." # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://planning.wiki" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thegreenwords
 github_username:  nergmada
 
