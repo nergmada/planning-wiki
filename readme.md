@@ -12,7 +12,7 @@ If you can see this and want to view the reference guide, you're in the wrong pl
 
 Contributors: {% git_author %} 
 
-**[Join Planning & PDDL Group on Slack](https://join.slack.com/t/planningpddlgroup/shared_invite/enQtNjQyNDY0MTA0ODUyLTNlYWY3ODQ5ZTU0YWMyOGRiYzVmNmNlNjhmZThlZmU4MzQ0MTRlOTc1ZThmZjEyOWZjODBiMzEyYzg0MjIxNDc)**
+**[Join The Planning Community on Slack](https://join.slack.com/t/theplanningcommunity/shared_invite/enQtNjQ0NTUwMTEzNDkwLTUwZjgwNzcwNDMxYzBjYTgyOTUyOGNmZjZiNzcxOWY5ODM1ZGVlNTA0YmQ2ZjlkMTFjM2Q4Yjc5MGVkZTAwYjA)**
 
 ## Help Wanted
 
