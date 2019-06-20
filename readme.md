@@ -10,7 +10,7 @@ If you can see this and want to view the reference guide, you're in the wrong pl
 
 # Planning.Wiki - The AI Planning & PDDL Wiki
 
-Contributors: {% git_author %} 
+Our Contributors: {% git_author_all %}, Jonathan Mounty
 
 **[Join The Planning Community on Slack](https://join.slack.com/t/theplanningcommunity/shared_invite/enQtNjQ0NTUwMTEzNDkwLTUwZjgwNzcwNDMxYzBjYTgyOTUyOGNmZjZiNzcxOWY5ODM1ZGVlNTA0YmQ2ZjlkMTFjM2Q4Yjc5MGVkZTAwYjA)**
 
