@@ -118,6 +118,7 @@ Below you can find a collection of resources for writing, learning and using PDD
 
 ## References
 
+- [An Introduction to the Planning Domain Definition Language](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1384) [Haslum, P. Lipovetzky, N. Magazzeni, D. Muise, C.]
 - [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
 - [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
 - [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]
