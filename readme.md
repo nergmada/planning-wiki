@@ -115,6 +115,7 @@ Below you can find a collection of resources for writing, learning and using PDD
     - [Introduction to AI Planning. Part II. (video)](https://www.youtube.com/watch?v=FS95UjrICy0)
 - Publicly Available PDDL Domains
     - [IPC PDDL Domains](https://github.com/potassco/pddl-instances)
+- Book: [An Introduction to the Planning Domain Definition Language](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1384)
 
 ## References
 
