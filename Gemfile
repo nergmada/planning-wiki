@@ -16,7 +16,6 @@ gem "jekyll", "~> 3.8.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-gitauthors', '~> 0.5.0'
   gem 'jekyll-relative-urls', '~> 0.0.2'
 end
