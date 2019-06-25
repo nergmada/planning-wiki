@@ -8,6 +8,10 @@ nav_order: 0
 If you can see this and want to view the reference guide, you're in the wrong place, the reference guide has been rebranded and moved here: https://planning.wiki
 {% endif %}
 
+{% if site.url == "https://nergmada.github.io/pddl-reference/" %}
+**WARNING** This is the old website, please use https://planning.wiki as this URL is closing 
+{% endif %}
+
 # Planning.Wiki - The AI Planning & PDDL Wiki
 
 Our Contributors: {% git_author_all %}Jonathan Mounty
