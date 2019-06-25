@@ -30,13 +30,12 @@ aux_links:
   "Report an issue with this page":
     - "//github.com/nergmada/pddl-reference/issues/new/choose"
 
-google_analytics: UA-78110061-2
+ga_tracking: UA-78110061-2
 
 # Build settings
 markdown: kramdown
 theme: just-the-docs
-plugins:
-  - jekyll-feed
+gems:
   - jekyll-gitauthors
   - jekyll-relative-urls
 
