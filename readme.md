@@ -8,7 +8,7 @@ nav_order: 0
 If you can see this and want to view the reference guide, you're in the wrong place, the reference guide has been rebranded and moved here: https://planning.wiki
 {% endif %}
 
-{% if site.url == "https://nergmada.github.io/pddl-reference/" %}
+{% if site.url == "https://nergmada.github.io/planning-wiki/" %}
 **WARNING** This is the old website, please use https://planning.wiki as this URL is closing 
 {% endif %}
 
