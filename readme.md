@@ -16,7 +16,7 @@ If you can see this and want to view the reference guide, you're in the wrong pl
 
 Our Contributors: {% git_author_all %}Jonathan Mounty
 
-**[Join The Planning Community on Slack](https://the-planning-community.herokuapp.com/)**
+**[Join The Planning Community on Slack](https://join.slack.com/t/theplanningcommunity/shared_invite/enQtNjg0MTIzNTE3MTY4LTQ4YTRiNjhjNmVlNmEwMGMxOTQwNTZlYWM2YTk1YjdkZmIyMTU5MzRjZjYzOWYxMjJkNGM3YTM2MWI0MmM2MGY)**
 
 ## Help Wanted
 
