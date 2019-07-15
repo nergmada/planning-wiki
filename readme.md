@@ -14,6 +14,8 @@ If you can see this and want to view the reference guide, you're in the wrong pl
 
 # Planning.Wiki - The AI Planning & PDDL Wiki
 
+> [An] online compendium of planners and pddl material - Dr Malte Helmert
+
 Our Contributors: {% git_author_all %}Jonathan Mounty
 
 **[Join The Planning Community on Slack](https://join.slack.com/t/theplanningcommunity/shared_invite/enQtNjg0MTIzNTE3MTY4LTQ4YTRiNjhjNmVlNmEwMGMxOTQwNTZlYWM2YTk1YjdkZmIyMTU5MzRjZjYzOWYxMjJkNGM3YTM2MWI0MmM2MGY)**
@@ -22,13 +24,13 @@ Our Contributors: {% git_author_all %}Jonathan Mounty
 
 ![](https://media3.giphy.com/media/l1AsUvwEEBorHpMpG/giphy.gif?cid=790b76115cda8f413467714645c3ac04&rid=giphy.gif)
 
-The PDDL reference guide needs your help
+Planning.wiki needs your help
 1. Upload and complete a [survey](https://forms.gle/maqWPvxaJFsQgYus9) on the PDDL you use
 2. Help us close issues and improve this guide, see [how to contribute](./guide/contributing.md)
 
 ## Introduction
 
-This reference and guide is here to provide easy access to resources related to the field of AI Planning. AI Planning is difficult to quantify under one roof, due to the variety of ongoing research in the field.
+This Wiki is here to provide easy access to resources related to the field of AI Planning. AI Planning is difficult to quantify under one roof, due to the variety of ongoing research in the field.
 
 The International Conference on Autonomous Planning and Scheduling has in the course of supporting AI Planning research created a competition for the AI Planning Software (Planners) that have been built to solve AI Planning problems.
 
@@ -40,7 +42,7 @@ For more details on PDDL, Planning, the history, the usage and the research, see
 
 ## Using This Guide
 
-This guide splits into three main sections, guide, reference and examples.
+This wiki splits into three main sections, guide, reference and examples.
 
 The guide section is here to help the uninitiated get an idea of what planning is and how it can be used. It glazes over technical details where they're complex and difficult to understand. *This is not intended to be a substitute to the copious academic literature written in the subject*.
 
@@ -71,19 +73,19 @@ Low
 Rare/None
 {: .label .label-purple }
 
-For planners, this reference will aim to provide indication of what features are supported by what planners. It also provide useful hints and notes about the quirks and specific issues certain planners have in running certain problems.
+For planners, this reference will aim to provide indication of what features are supported by what planners. It also provides useful hints and notes about the quirks and specific issues certain planners have in running certain problems.
 
 ## Community
 
-To help grow the community and support available to new and experienced users alike, we've launched a slack chat, to help connect people working and using planning & PDDL. [Drop in and say hello](https://join.slack.com/t/planningpddlgroup/shared_invite/enQtNjQyNDY0MTA0ODUyLTNlYWY3ODQ5ZTU0YWMyOGRiYzVmNmNlNjhmZThlZmU4MzQ0MTRlOTc1ZThmZjEyOWZjODBiMzEyYzg0MjIxNDc)
+To help grow the community and support available to new and experienced users alike, we work with The Planning Community slack, to help connect people working and using planning & PDDL. [Drop in and say hello](https://join.slack.com/t/theplanningcommunity/shared_invite/enQtNjg0MTIzNTE3MTY4LTQ4YTRiNjhjNmVlNmEwMGMxOTQwNTZlYWM2YTk1YjdkZmIyMTU5MzRjZjYzOWYxMjJkNGM3YTM2MWI0MmM2MGY)
 
 ## Contributions, Corrections and Feedback
 
 [Contributions](./guide/contributing.md) are always welcome!
 
-The best way to provide multiple contributions is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/pddl-reference). You can fork this repository to your GitHub, make changes and file a pull request.
+The best way to provide multiple contributions is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/planning-wiki). You can fork this repository to your GitHub, make changes and file a pull request.
 
-Alternatively, if you are not able to provide a contribution, but maybe think there is something this guide is missing or is incorrect, please add a new issue to [this repo](https://github.com/nergmada/pddl-reference), and a correction, or additional will be made based on priority. Please use the "[Report a problem with this guide](https://github.com/nergmada/pddl-reference/issues/new/choose)" button available on most pages.
+Alternatively, if you are not able to provide a contribution, but maybe think there is something this guide is missing or is incorrect, please add a new issue to [this repo](https://github.com/nergmada/planning-wiki), and a correction, or additional will be made based on priority. Please use the "[Report a problem with this guide](https://github.com/nergmada/planning-wiki/issues/new/choose)" button available on most pages.
 
 Finally, if you have a planner which you think should be included in this reference guide, please ask for collaborator access or fork the repository (if you're the creator of the planner), or create an issue (if you're a user) and we'll try to include it.
 
@@ -105,6 +107,7 @@ Below you can find a collection of resources for writing, learning and using PDD
     - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
     - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
     - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
+    - [Universal Planning Validator (Under Development)](https://github.com/aig-upf/universal-planning-validator)
 - PDDL Tools
     - [Visual Studio Code](https://code.visualstudio.com/)
         - [PDDL Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl)
