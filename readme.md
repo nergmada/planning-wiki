@@ -14,6 +14,8 @@ If you can see this and want to view the reference guide, you're in the wrong pl
 
 # Planning.Wiki - The AI Planning & PDDL Wiki
 
+> [An] online compendium of planners and pddl material - Dr Malte Helmert
+
 Our Contributors: {% git_author_all %}Jonathan Mounty
 
 **[Join The Planning Community on Slack](https://the-planning-community.herokuapp.com/)**
@@ -105,6 +107,7 @@ Below you can find a collection of resources for writing, learning and using PDD
     - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
     - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
     - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
+    - [Universal Planning Validator (Under Development)](https://github.com/aig-upf/universal-planning-validator)
 - PDDL Tools
     - [Visual Studio Code](https://code.visualstudio.com/)
         - [PDDL Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl)

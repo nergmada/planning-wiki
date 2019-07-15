@@ -33,6 +33,9 @@ It also links to education resources, and provides links to institutions that ar
 ### [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
 [ROSPlan](https://github.com/KCL-Planning/ROSPlan/) is a module for the Robotic Operating System (ROS) that allows for the integration of AI Planning into Robots that make use of ROS. ROSPlan allows for modelling of Robotic environments for the purpose of planning and executing tasks.
 
+### [Universal Planning Validator (Under Development)](https://github.com/aig-upf/universal-planning-validator)
+[Universal Planning Validator (Under Development)](https://github.com/aig-upf/universal-planning-validator) is a tool designed to validate planning domain and problems. Currently it can only support classical planning problems and domains, but the tool is intended to be expanded to include temporal and multi-agent domains. If you require a Validator that supports more advanced PDDL features than classical planning, then try VAL, the Planning Validator instead.
+
 ## PDDL Tools
 ### Visual Studio Code + PDDL Plugin
 [Visual Studio Code](https://code.visualstudio.com/) is a text editor developed by microsoft with a plethora of fantastic integrations. A fantastically helpful [PDDL plugin](https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl) allows for the development of PDDL with syntax highlighting and then in-editor execution of the domain and problem file on pre-installed planners.
