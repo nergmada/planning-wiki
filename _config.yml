@@ -30,7 +30,7 @@ aux_links:
   "Report an issue with this page":
     - "//github.com/nergmada/pddl-reference/issues/new/choose"
 
-ga_tracking: UA-78110061-2
+ga_tracking: UA-78110061-3
 
 # Build settings
 markdown: kramdown
