@@ -22,9 +22,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://planning.wiki" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thegreenwords
 github_username:  nergmada
+highlighter: rouge
+color_scheme: "dark"
 
 search_enabled: true
-#color_scheme: dark
 
 aux_links:
   "Report an issue with this page":
