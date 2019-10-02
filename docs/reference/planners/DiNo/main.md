@@ -1,5 +1,4 @@
 ---
-layout: page
 title: DiNo
 parent: Planners
 permalink: /ref/planners/dino

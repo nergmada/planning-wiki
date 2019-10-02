@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Contributing
 permalink: /contribute
 nav_order: 3

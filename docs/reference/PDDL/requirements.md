@@ -1,5 +1,4 @@
 ---
-layout: page
 title: PDDL Requirements
 parent: PDDL
 grand_parent: Reference
