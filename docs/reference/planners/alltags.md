@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Planners by tag
 has_children: true
 parent: Planners

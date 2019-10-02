@@ -1,4 +1,5 @@
 ---
+layout: default
 title: OPTIC
 parent: Planners
 permalink: /ref/planners/optic

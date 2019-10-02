@@ -36,7 +36,7 @@ ga_tracking: UA-78110061-3
 # Build settings
 markdown: kramdown
 theme: just-the-docs
-gems:
+plugins:
   - jekyll-gitauthors
   - jekyll-relative-urls
   - jekyll-redirect-from

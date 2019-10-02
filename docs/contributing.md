@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Contributing
 permalink: /contribute
 nav_order: 3

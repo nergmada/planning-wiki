@@ -1,4 +1,5 @@
 ---
+layout: default
 title: PDDL 2.2 Problem
 parent: PDDL 2.2
 grand_parent: Reference
