@@ -26,7 +26,7 @@ Our Contributors: {% git_author_all %}Jonathan Mounty
 
 Planning.wiki needs your help
 1. Upload and complete a [survey](https://forms.gle/maqWPvxaJFsQgYus9) on the PDDL you use
-2. Help us close issues and improve this guide, see [how to contribute](./guide/contributing.md)
+2. Help us close issues and improve this guide, see [how to contribute](./contributing)
 
 ## Introduction
 
