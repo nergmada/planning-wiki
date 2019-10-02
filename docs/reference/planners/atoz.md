@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Planners from A to Z
 parent: Planners
 permalink: /ref/planners/atoz

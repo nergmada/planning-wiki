@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Planners
 has_children: true
 parent: Reference

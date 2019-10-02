@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: PDDL+ Domain
 parent: PDDL+
 grand_parent: Reference

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: What is AI Planning?
 parent: Guide
 permalink: /guide/whatis/aip

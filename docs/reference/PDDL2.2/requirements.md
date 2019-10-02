@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: PDDL 2.2 Requirements
 parent: PDDL 2.2
 grand_parent: Reference

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: What is a planner?
 parent: Guide
 permalink: /guide/whatis/planner

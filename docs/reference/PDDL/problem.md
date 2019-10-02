@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: PDDL Problem
 parent: PDDL
 grand_parent: Reference

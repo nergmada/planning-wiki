@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: SMTPlan+
 parent: Planners
 permalink: /ref/planners/smtplan

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: ENHSP
 parent: Planners
 permalink: /ref/planners/enhsp

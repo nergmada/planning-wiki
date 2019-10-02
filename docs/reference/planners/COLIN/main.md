@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: COLIN
 parent: Planners
 permalink: /ref/planners/colin

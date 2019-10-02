@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: PDDL 2.2
 has_children: true
 parent: Reference
