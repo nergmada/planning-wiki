@@ -1,5 +1,4 @@
 ---
-layout: page
 title: MetricFF
 parent: Planners
 permalink: /ref/planners/metricff

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: POPF
 parent: Planners
 permalink: /ref/planners/popf

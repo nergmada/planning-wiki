@@ -1,5 +1,4 @@
 ---
-layout: page
 title: What is PDDL?
 parent: Guide
 permalink: /guide/whatis/pddl

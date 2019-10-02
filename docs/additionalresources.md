@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Additional Resources
 permalink: /extras
 nav_order: 4

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: OPTIC
 parent: Planners
 permalink: /ref/planners/optic

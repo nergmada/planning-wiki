@@ -1,5 +1,4 @@
 ---
-layout: page
 title: PDDL 3
 has_children: true
 parent: Reference
