@@ -26,7 +26,7 @@ Our Contributors: {% git_author_all %}Jonathan Mounty
 
 Planning.wiki needs your help
 1. Upload and complete a [survey](https://forms.gle/maqWPvxaJFsQgYus9) on the PDDL you use
-2. Help us close issues and improve this guide, see [how to contribute](./contribute)
+2. Help us close issues and improve this guide, see [how to contribute](/contribute)
 
 ## Introduction
 
@@ -81,7 +81,7 @@ To help grow the community and support available to new and experienced users al
 
 ## Contributions, Corrections and Feedback
 
-[Contributions](./guide/contributing.md) are always welcome!
+[Contributions](/contribute) are always welcome!
 
 The best way to provide multiple contributions is to request collaborator access to this repository, either via emailing adam.green@kcl.ac.uk or by filing an issue on [this repo](https://github.com/nergmada/planning-wiki). You can fork this repository to your GitHub, make changes and file a pull request.
 
@@ -100,7 +100,7 @@ This site breaks down into two major content sections
 ### FAQ
 
 ## Additional Resources
-Below you can find a collection of resources for writing, learning and using PDDL and planning. For more information on what these tools and resources are and how they can help, please visit the [additional resources](./guide/additionalresources.md) page.
+Below you can find a collection of resources for writing, learning and using PDDL and planning. For more information on what these tools and resources are and how they can help, please visit the [additional resources](/extras) page.
 
 - [Planning.Domains](http://planning.domains/)
 - Planner Tools

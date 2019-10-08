@@ -91,11 +91,11 @@ Multiple `:requirements` can be specified through a space separated list e.g.
 
 The following is a list of requirements that were added by PDDL2.1 to the language of PDDL.
 
-- [:fluents](./requirements#numeric-fluents)
-- [:durative-actions](./requirements#durative-actions)
-- [:durative-inequalities](./requirements#durative-inequalities)
-- [:continuous-effects](./requirements#continuous-effects)
-- [:negative-preconditions](./requirements#negative-preconditions)
+- [:fluents](/ref/pddl21/req#numeric-fluents)
+- [:durative-actions](/ref/pddl21/req#durative-actions)
+- [:durative-inequalities](/ref/pddl21/req#durative-inequalities)
+- [:continuous-effects](/ref/pddl21/req#continuous-effects)
+- [:negative-preconditions](/ref/pddl21/req#negative-preconditions)
 
 ## Numeric Fluents
 
