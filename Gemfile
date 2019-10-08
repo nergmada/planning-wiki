@@ -28,7 +28,3 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 #gem theme for the website
 gem "just-the-docs"
-
-# HTML Proof reading for dead links
-gem 'rake'
-gem 'html-proofer'

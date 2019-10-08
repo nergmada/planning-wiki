@@ -35,7 +35,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | Cerberus-gl                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | CFDP                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | cGamer                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| COLIN                          |             | [Guide Page](./ref/planners/colin) \| [Home Page](https://nms.kcl.ac.uk/planning/software/colin.html) \| Paper        |      |
+| COLIN                          |             | [Guide Page](/ref/planners/colin) \| [Home Page](https://nms.kcl.ac.uk/planning/software/colin.html) \| Paper        |      |
 | Complementary1                 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Complementary2                 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Conformant-SOGBOFA-B-IPC18     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
@@ -50,11 +50,11 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | DecStar                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Delfi1                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Delfi2                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Dino                           |             | [Guide Page](./ref/planners/dino) \| [Home Page](http://kcl-planning.github.io/DiNo/) \| Paper                        |      |
+| Dino                           |             | [Guide Page](/ref/planners/dino) \| [Home Page](http://kcl-planning.github.io/DiNo/) \| Paper                        |      |
 | DPMPlan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Dynamic-Gamer                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **E**                          |             |                                                                                                                  |      |
-| ENHSP                          |             | [Guide Page](./ref/planners/enhsp) \| [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| Paper          |      |
+| ENHSP                          |             | [Guide Page](/ref/planners/enhsp) \| [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| Paper          |      |
 | **F**                          |             |                                                                                                                  |      |
 | Fast Downward Autotune-1       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Fast Downward Autotune-2       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
@@ -108,7 +108,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | mercury2014                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Merge and Shrink               |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | MERWIN                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| MetricFF                       |             | [Guide Page](./ref/planners/metricff) \| [Home Page](https://fai.cs.uni-saarland.de/hoffmann/metric-ff.html) \| Paper |      |
+| MetricFF                       |             | [Guide Page](/ref/planners/metricff) \| [Home Page](https://fai.cs.uni-saarland.de/hoffmann/metric-ff.html) \| Paper |      |
 | Metis1                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Metis2                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | MIPlan                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
@@ -118,14 +118,14 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | NuCeLar                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **O**                          |             |                                                                                                                  |      |
 | OLCFF                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| OPTIC                          |             | [Guide Page](./ref/planners/optic) \| [Home Page](https://nms.kcl.ac.uk/planning/software/optic.html) \| Paper        |      |
+| OPTIC                          |             | [Guide Page](/ref/planners/optic) \| [Home Page](https://nms.kcl.ac.uk/planning/software/optic.html) \| Paper        |      |
 | **P**                          |             |                                                                                                                  |      |
 | PaaS                           |             | Guide Page \| [Home Page](http://solver.planning.domains/) \| Paper                                              |      |
 | PHSFF                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Planets                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Planning-PDBs                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | PopCorm                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| POPF                           |             | [Guide Page](./ref/planners/popf) \| [Home Page](https://nms.kcl.ac.uk/planning/software/popf.html) \| Paper          |      |
+| POPF                           |             | [Guide Page](/ref/planners/popf) \| [Home Page](https://nms.kcl.ac.uk/planning/software/popf.html) \| Paper          |      |
 | PROBE                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Prost-DD-1                     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Prost-DD-2                     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
@@ -144,7 +144,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | Selective Max                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Sharaabi                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | SIW                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| SMTPlan+                       |             | [Guide Page](./ref/planners/smtplan) \| [Home Page](http://kcl-planning.github.io/SMTPlan/) \| Paper                  |      |
+| SMTPlan+                       |             | [Guide Page](/ref/planners/smtplan) \| [Home Page](http://kcl-planning.github.io/SMTPlan/) \| Paper                  |      |
 | SPM&S                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | SymBA*-1                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | SymBA*-2                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |

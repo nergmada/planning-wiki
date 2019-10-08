@@ -41,6 +41,7 @@ plugins:
   - jekyll-relative-urls
   - jekyll-redirect-from
 
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
