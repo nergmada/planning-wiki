@@ -13,11 +13,10 @@ The following is an A to Z of all known planners. This list is **not** a compreh
 
 If _your_ planner is missing from this list, please fork this repository, correct this page and file a pull request with the main repo. Please see our page on how to add a planner to this guide.
 
-| Planner                        | Description | Links                                                                                                            | tags |
-|--------------------------------|-------------|------------------------------------------------------------------------------------------------------------------|------|
-| **A**                          |             |                                                                                                                  |      |
-| ACOPlan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| ACOPlan2                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Planner | Links | tags |
+|---------|-------|------|
+| **A**   |       |      |
+| ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
 | AIIPACA                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | alien                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Arvand                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
