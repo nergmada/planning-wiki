@@ -17,7 +17,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 |---------|-------|------|
 | **A**   |       |      |
 | ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
-| AIIPACA                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| AIIPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| Paper [Not Found] | [IPC2014](/ref/planners/tags/ipc2014), Optimal |
 | alien                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Arvand                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Arvandherd 1                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |

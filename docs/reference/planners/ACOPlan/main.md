@@ -9,9 +9,9 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
-tags: [IPC2011](/ref/planners/tags/ipc2011), Satisfycing
+tags: [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing)
 
-Planner Quality: [15.9 out of 100](/ref/planners/rating)
+Planner Quality: [14.9 out of 100](/ref/planners/rating)
 
 Year Published: 2009
 
