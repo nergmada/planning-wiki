@@ -13,7 +13,7 @@ Contributors: {% git_author %}
 
 For user convenience we rank planners according to a Quality Assurance metric detailed below. This metric, scores planners between 0 and 100, not based solely on their competitive performance, but rather by a number of factors, with a strong emphasis focused on end user experience.
 
-Such a metric [was highly controversial](https://github.com/nergmada/planning-wiki/issues/59) when first proposed, and so this metric comes with a caveat, that not all planning researchers agree or support this metric. Over time we aim to fine tune this metric to better capture the elements end users of planning value. 
+Such a metric [was highly controversial](https://github.com/nergmada/planning-wiki/issues/59) when first proposed, and so this metric comes with a caveat, that planning researchers have not agreed to or support this metric. Over time we aim to fine tune this metric to better capture the elements end users of planning value. 
 
 We welcome debate and further input on this system, so if you have any feedback or wish to voice an opinion, a dedicated issue has been opened to discuss this [here](https://github.com/nergmada/planning-wiki/issues/59)
 
@@ -42,3 +42,4 @@ We welcome debate and further input on this system, so if you have any feedback 
 | Planner | Links | Score |
 |---------|-------|-------|
 | ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) | 15.9 |
+| AllPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| [Paper](https://helios.hud.ac.uk/scommv/IPC-14/repository/booklet2014.pdf) | 31.2 |
