@@ -1,0 +1,24 @@
+- **5 points** for classical coverage
+Awarded 5
+- **5 points** for classical optimal coverage
+Awarded 4 (near optimal planner)
+- **10 points** for temporal-numeric coverage
+Awarded 0
+- **5 points** for expressive features coverage (TILs, Action Costs, Processes, Events)
+Awarded 5 (supports Action costs)
+- **10 points** for a code publication on a popular public source control system (GitHub, BitBucket, Mercurial etc.)
+Awarded 10
+- **5 points** for including a readme in text/markdown format on how to compile the code for a defined system (e.g. here's how to compile in on Ubuntu/Fedora/MacOS/Windows etc)
+Awarded 2 (readme is poor but present)
+- **5 points** for including an automated script that is guaranteed to work on a developer defined base system with no pre-requisites installed
+Awarded 1 (not guaranteed to work but does include a makefile and singularity option)
+- **5 points** for clear updates and bug reporting and patching processes 
+Awarded 0
+- **5 points** for a readme detailing the major contribution of the planner, and how to use it (e.g. command line/UI instructions)
+Awarded 0
+- **10 points** for an extended readme detailing supported PDDL features, as defined in this wiki or on the eviscerator testing tool - or equivalent table of support attached clearly to the planner or the software repo
+Awarded 0
+- **10 points** for code documentation that outlines structure and implementation of the code
+Awarded 10
+- **25 points** for IPC competitve ranking
+Award 1.1 (ranked 23rd out of 23, ergo (23 - 22) / 23 * 25 = 1.1)
