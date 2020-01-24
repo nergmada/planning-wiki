@@ -13,17 +13,14 @@ The following is an A to Z of all known planners. This list is **not** a compreh
 
 If _your_ planner is missing from this list, please fork this repository, correct this page and file a pull request with the main repo. Please see our page on how to add a planner to this guide.
 
-| Planner                        | Description | Links                                                                                                            | tags |
-|--------------------------------|-------------|------------------------------------------------------------------------------------------------------------------|------|
-| **A**                          |             |                                                                                                                  |      |
-| ACOPlan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| ACOPlan2                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| AIIPACA                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| alien                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Arvand                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Arvandherd 1                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Arvandherd 2                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| A2C-Plan                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Planner | Links | tags |
+|---------|-------|------|
+| **A**   |       |      |
+| ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
+| AIIPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| Paper [Not Found] | [IPC2014](/ref/planners/tags/ipc2014), Optimal |
+| Alien | [Guide Page](/ref/planners/alien) \| Home Page [Not Found] \| [Paper](https://ipc2018-classical.bitbucket.io/planner-abstracts/team33.pdf) | [IPC2018](/ref/planners/tags/ipc2018), [Satisfycing](/ref/planners/tags/satisfycing) |
+| Arvand | [Guide Page](/ref/planners/arvand) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/arvand-art-of-random-walks.pdf) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
+| Arvandherd | [Guide Page](/ref/planners/arvandherd) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/2011/2011-arvandherd-IPC-booklet.pdf) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
 | **B**                          |             |                                                                                                                  |      |
 | BiFD                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | BJOLP                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
