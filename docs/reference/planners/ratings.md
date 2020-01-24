@@ -43,4 +43,5 @@ We welcome debate and further input on this system, so if you have any feedback 
 |---------|-------|-------|
 | Alien | [Guide Page](/ref/planners/alien) \| Home Page [Not Found] \| [Paper](https://ipc2018-classical.bitbucket.io/planner-abstracts/team33.pdf) | 38.1 |
 | AllPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| [Paper](https://helios.hud.ac.uk/scommv/IPC-14/repository/booklet2014.pdf) | 31.2 |
+| Arvand | [Guide Page](/ref/planners/arvand) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/arvand-art-of-random-walks.pdf) | 22.6 |
 | ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) | 15.9 |
