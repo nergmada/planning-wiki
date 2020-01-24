@@ -20,8 +20,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | AIIPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| Paper [Not Found] | [IPC2014](/ref/planners/tags/ipc2014), Optimal |
 | Alien | [Guide Page](/ref/planners/alien) \| Home Page [Not Found] \| [Paper](https://ipc2018-classical.bitbucket.io/planner-abstracts/team33.pdf) | [IPC2018](/ref/planners/tags/ipc2018), [Satisfycing](/ref/planners/tags/satisfycing) |
 | Arvand | [Guide Page](/ref/planners/arvand) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/arvand-art-of-random-walks.pdf) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
-| Arvandherd 1                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Arvandherd 2                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Arvandherd | [Guide Page](/ref/planners/arvandherd) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/2011/2011-arvandherd-IPC-booklet.pdf) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
 | A2C-Plan                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **B**                          |             |                                                                                                                  |      |
 | BiFD                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
