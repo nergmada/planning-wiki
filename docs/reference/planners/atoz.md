@@ -18,8 +18,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **A**   |       |      |
 | ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
 | AIIPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| Paper [Not Found] | [IPC2014](/ref/planners/tags/ipc2014), Optimal |
-| alien                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Arvand                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Alien | [Guide Page](/ref/planners/alien) \| Home Page [Not Found] \| [Paper](https://ipc2018-classical.bitbucket.io/planner-abstracts/team33.pdf) | [IPC2018](/ref/planners/tags/ipc2018), [Satisfycing](/ref/planners/tags/satisfycing) |
+| Arvand | [Guide Page](/ref/planners/arvand) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/arvand-art-of-random-walks.pdf) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
 | Arvandherd 1                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Arvandherd 2                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | A2C-Plan                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
