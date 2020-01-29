@@ -9,6 +9,8 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
+{% planner_tag temporal numeric %}
+
 Year Published: 2012
 
 Paper: [Temporal Planning with Preferences and Time-Dependent Continuous Costs](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS12/paper/view/4699/4708) [Benton, J. Coles, A. Coles, A.]

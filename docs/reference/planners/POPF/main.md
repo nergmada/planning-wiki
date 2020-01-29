@@ -9,6 +9,8 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
+{% planner_tag temporal numeric %}
+
 Year Published: 2010
 
 Paper: [Forward-Chaining Partial-Order Planning](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS10/paper/view/1421/1527) [ Coles,A. J. Coles, A. I. Fox, M. Long, D.]

@@ -9,6 +9,8 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
+{% planner_tag temporal numeric %}
+
 Year Published: 2003
 
 Paper: [The MetricFF Planning System: Translating "Ignoring Delete Lists" to Numeric State Variables](https://jair.org/index.php/jair/article/view/10360/24783) [Hoffmann, J.]
