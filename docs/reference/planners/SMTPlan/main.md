@@ -9,6 +9,8 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
+{% planner_tag temporal numeric %}
+
 Year Published: 2016
 
 Paper: [A Compilation of the Full PDDL+ Language into SMT](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13101/12664) [Cashmore, M. Fox, M. Long, D. Magazzeni, D.]

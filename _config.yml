@@ -22,8 +22,10 @@ ga_tracking: UA-78110061-3
 markdown: kramdown
 theme: just-the-docs
 plugins:
+  - jekyll-plannertags
   - jekyll-gitauthors
   - jekyll-redirect-from
+
 
   
 # Exclude from processing.

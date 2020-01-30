@@ -9,7 +9,7 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
-tags: [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing)
+{% planner_tag ipc2011 satisfycing %}
 
 Planner Quality: [30 out of 100](/ref/planners/rating)
 

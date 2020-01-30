@@ -9,6 +9,8 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
+{% planner_tag temporal numeric %}
+
 Year Published: 2016
 
 Paper: [Interval-Based Relaxation for General Numeric Planning](https://pdfs.semanticscholar.org/ba88/832bb0d1feddd7032282f3a2837f93a7117e.pdf) [Scala, E. Haslum, P. Thiebaux, S. Ramirez, M.]

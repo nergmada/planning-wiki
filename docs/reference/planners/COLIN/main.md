@@ -9,6 +9,8 @@ nav_order: 5
 
 Page Contributors: {% git_author %}
 
+{% planner_tag temporal numeric %}
+
 Year Published: 2009
 
 Paper: [Temporal Planning in Domains with Linear Processes](https://www.ijcai.org/Proceedings/09/Papers/279.pdf) [ Coles, A. J. Coles, A. I. Fox, M. Long, D.]
