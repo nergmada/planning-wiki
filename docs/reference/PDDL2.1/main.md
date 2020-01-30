@@ -12,7 +12,7 @@ Contributors: {% git_author %}
 
 ## Introduction
 
-PDDL 2.1 was the language of the 2002 AIPS Competition and built upon the syntax defined for [PDDL 1.2](/ref/pddl). In the 2002 Competition, planners were set the challenge of considering more complicated domains and problems which feature both temporal and numeric considerations (scheduling and resources). As a result, additions the language were necessary to facilitate modelling time and numbers.
+PDDL 2.1 {% cite pddl212003 %} was the language of the 2002 AIPS Competition and built upon the syntax defined for [PDDL 1.2](/ref/pddl) {% cite pddl1998 %}. In the 2002 Competition, planners were set the challenge of considering more complicated domains and problems which feature both temporal and numeric considerations (scheduling and resources). As a result, additions the language were necessary to facilitate modelling time and numbers.
 
 This guide will only show features that have been changed or added to PDDL 1.2 in order to form 2.1
 
@@ -94,9 +94,4 @@ This guide will only show features that have been changed or added to PDDL 1.2 i
 )
 ```
 
-## References
-
-- [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
-- [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
-- [PDDL Examples](https://github.com/yarox/pddl-examples)
-- [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
+{% bibliography --cited %}

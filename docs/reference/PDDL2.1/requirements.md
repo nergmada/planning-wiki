@@ -94,10 +94,3 @@ Usage: High
 Allows the use of `not` in preconditions. The way some planners model actions mean they are not capable of handling negative preconditions. This is more an inconvenience that a serious design flaw as for every predicate their is an opposing predicate which is true when it's false. I.e.
 
 `rover-charged` and `rover-not-charged` are mutually exclusive. In the event where negative preconditions are not support we can introduce a second predicate which represents the negation of the predicate we want to express a negative precondition on.
-
-## References
-
-- [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
-- [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
-- [PDDL Examples](https://github.com/yarox/pddl-examples)
-- [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)

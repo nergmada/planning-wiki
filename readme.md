@@ -20,13 +20,7 @@ Our Contributors: {% git_author_all %}Jonathan Mounty
 
 **[Join The Planning Community on Slack](https://join.slack.com/t/theplanningcommunity/shared_invite/enQtNjg0MTIzNTE3MTY4LTQ4YTRiNjhjNmVlNmEwMGMxOTQwNTZlYWM2YTk1YjdkZmIyMTU5MzRjZjYzOWYxMjJkNGM3YTM2MWI0MmM2MGY)**
 
-## Help Wanted
 
-![](https://media3.giphy.com/media/l1AsUvwEEBorHpMpG/giphy.gif?cid=790b76115cda8f413467714645c3ac04&rid=giphy.gif)
-
-Planning.wiki needs your help
-1. Upload and complete a [survey](https://forms.gle/maqWPvxaJFsQgYus9) on the PDDL you use
-2. Help us close issues and improve this guide, see [how to contribute](/contribute)
 
 ## Introduction
 
@@ -34,9 +28,9 @@ This Wiki is here to provide easy access to resources related to the field of AI
 
 The International Conference on Autonomous Planning and Scheduling has in the course of supporting AI Planning research created a competition for the AI Planning Software (Planners) that have been built to solve AI Planning problems.
 
-This competition, dating from 1998, has defined a general purpose definition language, Planning Domain Definition Language (PDDL), which is designed to be capable of specifying any planning or scheduling problem you could come across.
+This competition, dating from 1998, has defined a general purpose definition language, Planning Domain Definition Language (PDDL) {% cite pddl1998 %}, which is designed to be capable of specifying any planning or scheduling problem you could come across.
 
-In reality, PDDL since it's first incarnation in 1998 has had serious modifications to make it capable of handling the complex tasks we expect of modern autonomous planning and scheduling techniques.
+In reality, PDDL since it's first incarnation in 1998 has had serious modifications to make it capable of handling the complex tasks we expect of modern autonomous planning and scheduling techniques. {% cite pddl212003 pddlplus2003 pddl222004 pddl32005 %}
 
 For more details on PDDL, Planning, the history, the usage and the research, see the guide.
 
@@ -80,6 +74,8 @@ For planners, this reference will aim to provide indication of what features are
 To help grow the community and support available to new and experienced users alike, we work with The Planning Community slack, to help connect people working and using planning & PDDL. [Drop in and say hello](https://join.slack.com/t/theplanningcommunity/shared_invite/enQtNjg0MTIzNTE3MTY4LTQ4YTRiNjhjNmVlNmEwMGMxOTQwNTZlYWM2YTk1YjdkZmIyMTU5MzRjZjYzOWYxMjJkNGM3YTM2MWI0MmM2MGY)
 
 ## Contributions, Corrections and Feedback
+
+![](https://media0.giphy.com/media/sOQ4Fil9Kh9e/giphy.gif?cid=790b76113afc9b4be0680ad083455794202737fe174b33a8&rid=giphy.gif)
 
 [Contributions](/contribute) are always welcome!
 
@@ -126,18 +122,9 @@ Below you can find a collection of resources for writing, learning and using PDD
 
 ## References
 
-- [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
+{% bibliography %}
+
+## Non Academic References
 - [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
-- [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]
-- [PDDL2.1: An Extension to PDDL for Expressing Temporal Planning Domains](https://jair.org/index.php/jair/article/view/10352/24759), [Fox, M. Long, D.]
 - [PDDL Examples](https://github.com/yarox/pddl-examples)
-- [PDDL2.2: The Language for the Classical Part of the 4th International Planning Competition](https://pdfs.semanticscholar.org/4b3c/0706d2673d817cc7c33e580858e65b134ba2.pdf) [Edelkamp, S. Hoffmann, J.]
-- [Plan Constraints and Preferences in PDDL 3](http://www.cs.yale.edu/homes/dvm/papers/pddl-ipc5.pdf) [Gerevini, A. Long, D.]
-- [BNF Description of PDDL 3.0](http://cs-www.cs.yale.edu/homes/dvm/papers/pddl-bnf.pdf) [Gerevini, A. Long, D.]
-- [Temporal Planning with Preferences and Time-Dependent Continuous Costs](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS12/paper/view/4699/4708) [Benton, J. Coles, A. Coles, A.]
-- [Temporal Planning in Domains with Linear Processes](https://www.ijcai.org/Proceedings/09/Papers/279.pdf) [ Coles, A. J. Coles, A. I. Fox, M. Long, D.]
-- [Heuristic Planning for PDDL+ Domains](https://www.ijcai.org/Proceedings/16/Papers/455.pdf) [Piotrowski, W. Fox, M. Long, D. Magazzeni, D. Mercorio, F.]
-- [Interval-Based Relaxation for General Numeric Planning](https://pdfs.semanticscholar.org/ba88/832bb0d1feddd7032282f3a2837f93a7117e.pdf) [Scala, E. Haslum, P. Thiebaux, S. Ramirez, M.]
-- [The MetricFF Planning System: Translating "Ignoring Delete Lists" to Numeric State Variables](https://jair.org/index.php/jair/article/view/10360/24783) [Hoffmann, J.]
-- [Forward-Chaining Partial-Order Planning](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS10/paper/view/1421/1527) [ Coles,A. J. Coles, A. I. Fox, M. Long, D.]
-- [A Compilation of the Full PDDL+ Language into SMT](https://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13101/12664) [Cashmore, M. Fox, M. Long, D. Magazzeni, D.]
+- [BNF Description of PDDL 3.0](/_citedpapers/pddl3bnf.pdf) [Gerevini, A. Long, D.]

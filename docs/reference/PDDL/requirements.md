@@ -10,7 +10,7 @@ permalink: /ref/pddl/requirements
 
 Contributors: {% git_author %}
 
-The following page offers details of requirements defined in PDDL 1.2.
+The following page offers details of requirements defined in PDDL 1.2 {% cite pddl1998 %}.
 
 ## Contents
 {: .no_toc .text-delta }
@@ -393,7 +393,4 @@ UCPOP is a super requirement which adds the following requirements
 - `:domain-axioms`
 - `:safety-constraints`
 
-## References
-
-- [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
-- [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
+{% bibliography --cited %}
