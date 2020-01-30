@@ -13,7 +13,7 @@ Contributors: {% git_author %}
 
 ## Introduction
 
-PDDL 1.2 formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largely on concepts set out for STRIPS, a sort of precursor languages which used a similar design pattern for describing problems through the use of predicates and actions.
+PDDL 1.2 {% cite pddl1998 %} formed the basis of the 1998 AIPS Competition. PDDL 1.2 is based largely on concepts set out for STRIPS, a sort of precursor languages which used a similar design pattern for describing problems through the use of predicates and actions.
 
 Problems in PDDL are defined in two parts, a domain and a problem file. The following sections divide respectively, representing constituent parts of the domain and the problem.
 
@@ -107,7 +107,4 @@ Problems in PDDL are defined in two parts, a domain and a problem file. The foll
 )
 ```
 
-## References
-
-- [PDDL - The Planning Domain Definition Language](http://www.cs.cmu.edu/~mmv/planning/readings/98aips-PDDL.pdf), [Ghallab, M. Howe, A. Knoblock, C. McDermott, D. Ram, A. Veloso, M. Weld, D. Wilkins, D.]
-- [OPTIC - Optimising Preferences and Time Dependent Costs](https://nms.kcl.ac.uk/planning/software/optic.html)
+{% bibliography --cited %}

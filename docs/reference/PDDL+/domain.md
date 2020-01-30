@@ -10,7 +10,7 @@ permalink: /ref/pddlplus/domain
 
 Contributors: {% git_author %}
 
-PDDL+ introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively.
+PDDL+ {% cite pddlplus2005 %} introduces two new constructs to domains in PDDL, the first is `Processes` and the second is `Events`, both can essentially be thought of as uncontrollable durative actions, and uncontrollable instantaneous actions respectively.
 
 ```cl
 (define
@@ -144,6 +144,4 @@ Note that the distinctive nature of an event is that whilst it can occur more th
 
 In the case above we see that the condition of hitting the ground is that velocity is greater than 0, and the effect is that velocity is negated, which ensures that - at least for a period - this event cannot run again.
 
-## Reference
-
-- [PDDL+: Modelling Continuous Time Dependent Effects](https://pdfs.semanticscholar.org/d391/59cb5dfcc21aafd3049002d854ec341037a7.pdf) [Fox, M. Long, D.]
+{% bibliography --cited %}
