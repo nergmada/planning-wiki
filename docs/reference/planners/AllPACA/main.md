@@ -9,7 +9,7 @@ nav_order: 12
 
 Page Contributors: {% git_author %}
 
-{% planner_tag IPC2014 Optimal %}
+{% planner_tag IPC2014 Optimising %}
 
 Planner Quality: [31.2 out of 100](/ref/planners/rating)
 
