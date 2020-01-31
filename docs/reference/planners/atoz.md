@@ -18,11 +18,11 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **A**   |       |      |
 | {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} | {% planner_tag IPC2018 Satisfycing %} |
-| {% planner Guide Page AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimal %} |
+| {% planner AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimal %} |
 | {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **B**   |       |      |
-| {% planner Guide Page BiFD %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %} | {% planner_tag IPC2014 Satisfycing %} |
+| {% planner BiFD %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %} | {% planner_tag IPC2014 Satisfycing %} |
 | {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
 | {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **C**                          |             |                                                                                                                  |      |
