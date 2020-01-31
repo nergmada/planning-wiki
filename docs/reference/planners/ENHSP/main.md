@@ -3,7 +3,7 @@ layout: default
 title: ENHSP
 parent: Planners
 permalink: /ref/planners/enhsp
-nav_order: 29
+nav_order: 33
 ---
 # ENHSP: Expressive Numeric Heuristic Search Planner
 
