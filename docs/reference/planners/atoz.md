@@ -44,15 +44,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner DPMPlan %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 23 %} | {% planner_tag IPC2014 Optimising %} |
 | **E**   |       |      |
 | {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} | {% planner_tag temporal numeric %} |
-| **F**                          |             |                                                                                                                  |      |
-| Fast Downward Autotune-1       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downward Autotune-2       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downward Cedalion         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downwards Remix           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downwards Stone Soup 2018 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downward Uniform          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| FDMS1                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| FDMS2                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **F**   |       |      |
+| The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
 | Fork Uniform                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Freelunch                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | freelunch-doubly-relaxed       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
