@@ -3,7 +3,11 @@ layout: default
 title: DiNo
 parent: Planners
 permalink: /ref/planners/dino
+<<<<<<< HEAD
 nav_order: 28
+=======
+nav_order: 30
+>>>>>>> origin
 ---
 # DiNo: Discrete Non-linear Heuristic Planner
 
@@ -13,7 +17,7 @@ Page Contributors: {% git_author %}
 
 Year Published: 2016
 
-Paper: [Heuristic Planning for PDDL+ Domains](https://www.ijcai.org/Proceedings/16/Papers/455.pdf) [Piotrowski, W. Fox, M. Long, D. Magazzeni, D. Mercorio, F.]
+Paper: {% paper_link Heuristic Planning for PDDL+ Domains planners/dino 1 %} [Piotrowski, W. Fox, M. Long, D. Magazzeni, D. Mercorio, F.]
 
 Preceded By: UPMurphi
 
