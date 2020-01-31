@@ -18,18 +18,16 @@ Planner Quality: -
 
 Year Published: 2011
 
-Paper: {% paper_link IPC 2011 Booklet ipcbooklets/2011 17 %} [ Alcazar, V. Veloso, M. ] 
+Paper: {% paper_link IPC 2011 Booklet ipcbooklets/2011 21 %} [ Fuentetaja, R. ] 
 
-Preceded By: Fast Downward
+Preceded By: -
 
-This planner is a Rapidly-exploring Random Tree (RRT) adapted to automated planning that employs Fast-Downward as the base planner. The novelty in this case is that it does not sample the search space in a random way; rather, it estimates which propositions are more likely to be achieved along some solution plan and uses that estimation (called bias) in order to sample more relevant intermediates states. The bias is computed using a message passing algorithm on the planning graph with landmarks as support.
-
-Random search, and random search with bias has been shown to have varying levels of success in planning, see our page on random search.
+CBP performs heuristic search in the state space using several heuristics. On one hand it uses look-ahead states based on relaxed plans to speed-up the search; on the other hand the search is also guided using a numerical heuristic and a selection of actions extracted from a relaxed planning graph. The relaxed planning graph is built taking into account action costs. The search algorithm is a modified Best-First Search (BFS) performing Branch and Bound (B&B) to improve the last solution found.
 
 ## Support
 
-BRT has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. BRT appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
+CBP has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. CBP appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
 
-## Downloading and Compiling BRT
+## Downloading and Compiling CBP
 
-No Source code could be located for BRT
+No Source code could be located for CBP

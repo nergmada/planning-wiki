@@ -21,7 +21,7 @@ Preceded By: Fast Downward
 
 This planner is a Rapidly-exploring Random Tree (RRT) adapted to automated planning that employs Fast-Downward as the base planner. The novelty in this case is that it does not sample the search space in a random way; rather, it estimates which propositions are more likely to be achieved along some solution plan and uses that estimation (called bias) in order to sample more relevant intermediates states. The bias is computed using a message passing algorithm on the planning graph with landmarks as support.
 
-Random search, and random search with bias has been shown to have varying levels of success in planning, see our page on random search.
+Random search, and random search with bias has been shown to have varying levels of success in planning, see our page on random search. [In Progress]
 
 ## Support
 

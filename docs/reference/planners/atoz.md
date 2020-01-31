@@ -25,9 +25,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner BiFD %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %} | {% planner_tag IPC2014 Satisfycing %} |
 | {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
 | {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} | {% planner_tag IPC2011 Satisfycing %} |
-| **C**                          |             |                                                                                                                  |      |
-| CBP                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| CBP2                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **C**   |       |      |
+| {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link IPC 2011 Booklet ipcbooklets/2011 21 %} | {% planner_tag IPC2011 Satisfycing %} |
 | Cerberus                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Cerberus-gl                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | CFDP                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
