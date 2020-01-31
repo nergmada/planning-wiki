@@ -1,35 +1,34 @@
 ---
 layout: default
 #Check me
-title: Freelunch
+title: Gamer
 parent: Planners
 #And Me
-permalink: /ref/planners/freelunch
+permalink: /ref/planners/gamer
 #And me
-nav_order: 35
+nav_order: 36
 ---
 # The Freelunch Planning System
 
 Page Contributors: {% git_author %}
 
-{% planner_tag IPC2014 Satisfycing %}
+{% planner_tag IPC2008 Optimising %}
 
 Planner Quality: -
 
-Year Published: 2014
+Year Published: 2008
 
-Paper: {% paper_link IPC 2014 Booklet ipcbooklets/2014 43 %} [ Balyo, T. ]
+Paper: {% paper_link GAMER: Bridging Planning and General Game Playing with Symbolic Search planners/gamer 1 %} [ Edelkamp, S. Kissmann, P. ]
 
-Preceded By: Fast Downward [Link Needed]
+Preceded By: -
 
-Freelunch is an open-source planning system written in Java. It takes input in the multivalued SAS+ format, which can be obtained from PDDL by the Fast Downward translation tool. Freelunch also provides a Java API to makeits use in Java applications convenient. The philosophy
-of Freelunch is to first find a plan of arbitrary quality and then improve it using post planning optimization techniques. Several algorithms are implemented in Freelunch, many of them are based on translation of planning problems into satisfiability (SAT) and using a SAT solver.
+Gamer solves domain-independent action planning problems cost optimally with Binary Decision Diagrams.
 
 ## Support
 
-Freelunch has not been tested with eviscerator yet. Freelunch is designed for classical domains and so most likely does not support temporal numeric planning.
+Gamer has not been tested with eviscerator yet. Gamer is designed for classical domains and so most likely does not support temporal numeric planning.
 
-## Downloading and Compiling Delfi
+## Downloading and Compiling Gamer
 
-Source code for Freelunch can be found in a [Zip](https://helios.hud.ac.uk/scommv/IPC-14/repo_planners/seq-sat.zip) of submissions from IPC 2014
+Source code for Gamer can be found in a [Zip](http://icaps-conference.org/ipc2008/deterministic/data/planners/seq-opt-gamer.tar.bz2) from IPC 2008
 

@@ -29,7 +29,7 @@ of Freelunch is to first find a plan of arbitrary quality and then improve it us
 
 Freelunch has not been tested with eviscerator yet. Freelunch is designed for classical domains and so most likely does not support temporal numeric planning.
 
-## Downloading and Compiling Delfi
+## Downloading and Compiling Freelunch
 
 Source code for Freelunch can be found in a [Zip](https://helios.hud.ac.uk/scommv/IPC-14/repo_planners/seq-sat.zip) of submissions from IPC 2014
 

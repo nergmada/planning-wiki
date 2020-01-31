@@ -47,8 +47,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **F**   |       |      |
 | {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
 | {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} | {% planner_tag IPC2014 Satisfycing %} |
-| **G**                          |             |                                                                                                                  |      |
-| Gamer                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **G**   |       |      |
+| {% planner Gamer %} | Home page [Not Found] \| {% paper_link Paper planners/gamer 1 %} | {% planner_tag IPC2008 Optimising %} |
 | **H**                          |             |                                                                                                                  |      |
 | hflow                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | hpp                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
