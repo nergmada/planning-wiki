@@ -22,3 +22,5 @@ In temporal planning the goal is to find a satisfycing plan, which maintaining t
 | {% planner COLIN %} | Home Page [Not Found] \| {% paper_link Paper planners/colin 1 %} |
 | {% planner CP4TP %} | Home Page [Not Found] \| {% paper_link Paper planners/cp4tp 1 %} |
 | {% planner CPT %} (& 2, 3 & 4) | [Home Page](http://v.vidal.free.fr/onera/#cpt) \| {% paper_link Paper (CPT) planners/cpt 1 %}, {% paper_link Paper (CPT 2) planners/cpt2 1 %}, {% paper_link Paper (CPT 4) ipcbooklets/2011 25 %} |
+| **D**   |       |
+| {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} |
