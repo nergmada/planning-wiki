@@ -24,3 +24,5 @@ Arguably optimising planners are a subset of satisfycing planners, because a pla
 |---------|-------|
 | **A**   |       |      
 | {% planner Guide Page AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} |
+| **B**   |       |
+| {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} |

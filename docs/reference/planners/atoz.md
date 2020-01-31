@@ -23,7 +23,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **B**   |       |      |
 | {% planner Guide Page BiFD %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %} | {% planner_tag IPC2014 Satisfycing %} |
-| BJOLP                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
 | BRT                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **C**                          |             |                                                                                                                  |      |
 | CBP                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
