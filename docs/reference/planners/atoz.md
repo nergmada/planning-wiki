@@ -40,7 +40,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} | {% planner_tag IPC2011 Satisfycing Temporal %} |
 | {% planner DecStar %} | Home Page [Not Found] \| {% paper_link Paper planners/decstar 1 %} | {% planner_tag IPC2018 Optimising %} |
 | {% planner Delfi %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %} | {% planner_tag IPC2018 Optimising %} |
-| Dino                           |             | [Guide Page](/ref/planners/dino) \| [Home Page](http://kcl-planning.github.io/DiNo/) \| Paper                        |      |
+| {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %} | {% planner_tag temporal numeric %} |
 | DPMPlan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Dynamic-Gamer                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **E**                          |             |                                                                                                                  |      |
