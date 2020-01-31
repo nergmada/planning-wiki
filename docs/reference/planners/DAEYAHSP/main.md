@@ -20,7 +20,7 @@ Year Published: 2011
 
 Paper: {% paper_link Divide-and-Evolve: the Marriage of Descartes and Darwin planners/daeyahsp 1 %} [ Dreo, J. Saveant, P. Schoenauer, M. Vidal, V. ]
 
-Preceded By: DAE, YAHSP
+Preceded By: DAE, YAHSP [Link Needed]
 
 DAE-YAHSP is a kind of Portfolio planner, which initially starts by allowing YAHSP to attempt to find solutions to a planning problem quickly, before allowing DAE (Divide and Evolve) to take over and optimise the solution. DAE is based on Evolutionary Computation. For more information on the individual components, see their respective pages.
 
