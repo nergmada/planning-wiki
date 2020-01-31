@@ -18,7 +18,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **A**   |       |      |
 | {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} | {% planner_tag IPC2018 Satisfycing %} |
-| {% planner AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimal %} |
+| {% planner AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimising %} |
 | {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **B**   |       |      |
@@ -36,14 +36,12 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner CoPlan %} (styled Co-Plan) | Home Page [Not Found] \| {% paper_link Paper planners/coplan 1 %} | {% planner_tag IPC2008 Optimising %} |
 | {% planner CP4TP %} | Home Page [Not Found] \| {% paper_link Paper planners/cp4tp 1 %} | {% planner_tag IPC2018 Satisfycing Temporal %} |
 | {% planner CPT %} (& 2, 3 & 4) | [Home Page](http://v.vidal.free.fr/onera/#cpt) \| {% paper_link Paper (CPT) planners/cpt 1 %}, {% paper_link Paper (CPT 2) planners/cpt2 1 %}, {% paper_link Paper (CPT 4) ipcbooklets/2011 25 %} | {% planner_tag IPC2004 IPC2006 IPC2011 Optimising Temporal %} |
-| **D**                          |             |                                                                                                                  |      |
-| DAE-YAHSP                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| DecStar                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Delfi1                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Delfi2                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Dino                           |             | [Guide Page](/ref/planners/dino) \| [Home Page](http://kcl-planning.github.io/DiNo/) \| Paper                        |      |
-| DPMPlan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Dynamic-Gamer                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **D**   |       |      |
+| {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} | {% planner_tag IPC2011 Satisfycing Temporal %} |
+| {% planner DecStar %} | Home Page [Not Found] \| {% paper_link Paper planners/decstar 1 %} | {% planner_tag IPC2018 Optimising %} |
+| {% planner Delfi %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %} | {% planner_tag IPC2018 Optimising %} |
+| {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %} | {% planner_tag temporal numeric %} |
+| {% planner DPMPlan %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 23 %} | {% planner_tag IPC2014 Optimising %} |
 | **E**                          |             |                                                                                                                  |      |
 | ENHSP                          |             | [Guide Page](/ref/planners/enhsp) \| [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| Paper          |      |
 | **F**                          |             |                                                                                                                  |      |
