@@ -1,11 +1,14 @@
 ---
 layout: default
-title: BRT
+#Check me
+title: CBP
 parent: Planners
-permalink: /ref/planners/brt
-nav_order: 17
+#And Me
+permalink: /ref/planners/cbp
+#And me
+nav_order: 18
 ---
-# BRT: Biased Rapidly-exploring Tree
+# CBP: Cost Based planner
 
 Page Contributors: {% git_author %}
 
