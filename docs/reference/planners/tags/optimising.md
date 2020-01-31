@@ -29,3 +29,4 @@ Arguably optimising planners are a subset of satisfycing planners, because a pla
 | **C**   |       |
 | {% planner CFDP %} | Home Page [Not Found] \| {% paper_link Paper planners/cfdp 1 %} |
 | {% planner cGamer %} | Home page [Not Found] \| {% paper_link Paper ipcbooklets/2014 84 %} |
+| {% planner Complementary %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/complementary1 1 %}, {% paper_link Paper planners/complementary2 1 %} |
