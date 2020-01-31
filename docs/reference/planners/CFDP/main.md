@@ -22,7 +22,7 @@ Paper: {% paper_link CFDP:  an approach to Cost-Optimal Planning based on FDP pl
 
 Preceded By: FDP
 
-CFDP is a planning system based on the paradigm of planning as constraint satisfaction, that searches for costoptimal plans. It uses an Iterative Deepening Depth First Search procedure. CFDP works directly on a structure related to Graphplan’s planning graph: given a fixed bound on the length of the plan, the structure is incrementally build. Each time the structure is extended, a search for cost-optimal sequential plans is made.
+CFDP is a planning system based on the paradigm of planning as constraint satisfaction, that searches for cost optimal plans. It uses an Iterative Deepening Depth First Search procedure. CFDP works directly on a structure related to Graphplan’s planning graph: given a fixed bound on the length of the plan, the structure is incrementally build. Each time the structure is extended, a search for cost-optimal sequential plans is made.
 
 ## Support
 
