@@ -6,7 +6,7 @@ parent: Planners
 #And Me
 permalink: /ref/planners/freelunch
 #And me
-nav_order: 30
+nav_order: 35
 ---
 # The Freelunch Planning System
 
