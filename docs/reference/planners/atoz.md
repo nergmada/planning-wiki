@@ -16,15 +16,15 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | Planner | Links | tags |
 |---------|-------|------|
 | **A**   |       |      |
-| ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
-| AIIPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| Paper [Not Found] | [IPC2014](/ref/planners/tags/ipc2014), Optimal |
-| Alien | [Guide Page](/ref/planners/alien) \| Home Page [Not Found] \| [Paper](https://ipc2018-classical.bitbucket.io/planner-abstracts/team33.pdf) | [IPC2018](/ref/planners/tags/ipc2018), [Satisfycing](/ref/planners/tags/satisfycing) |
-| Arvand | [Guide Page](/ref/planners/arvand) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/arvand-art-of-random-walks.pdf) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
-| Arvandherd | [Guide Page](/ref/planners/arvandherd) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/2011/2011-arvandherd-IPC-booklet.pdf) | [IPC2011](/ref/planners/tags/ipc2011), [Satisfycing](/ref/planners/tags/satisfycing) |
-| **B**                          |             |                                                                                                                  |      |
-| BiFD                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| BJOLP                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| BRT                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %} | {% planner_tag IPC2011 Satisfycing %} |
+| {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} | {% planner_tag IPC2018 Satisfycing %} |
+| {% planner AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimal %} |
+| {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} | {% planner_tag IPC2011 Satisfycing %} |
+| {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} | {% planner_tag IPC2011 Satisfycing %} |
+| **B**   |       |      |
+| {% planner BiFD %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %} | {% planner_tag IPC2014 Satisfycing %} |
+| {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
+| {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **C**                          |             |                                                                                                                  |      |
 | CBP                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | CBP2                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |

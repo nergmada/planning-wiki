@@ -4,7 +4,7 @@ title: Planners by rating
 has_children: true
 parent: Planners
 permalink: /ref/planners/rating
-nav_order: 1
+nav_order: 2
 ---
 
 # Planners by Rating
