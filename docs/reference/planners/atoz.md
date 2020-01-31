@@ -46,12 +46,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} | {% planner_tag temporal numeric %} |
 | **F**   |       |      |
 | {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
-| Fork Uniform                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Freelunch                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| freelunch-doubly-relaxed       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| freelunch-madagascar           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| fs-blind                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| fs-sim                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} | {% planner_tag IPC2014 Satisfycing %} |
 | **G**                          |             |                                                                                                                  |      |
 | Gamer                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **H**                          |             |                                                                                                                  |      |

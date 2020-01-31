@@ -36,3 +36,4 @@ This page makes no distinction between classically satisfycing planners and temp
 | {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} |
 | **F**   |       |
 | {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} |
+| {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} |
