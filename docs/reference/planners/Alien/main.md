@@ -15,7 +15,7 @@ Planner Quality: [38.1 out of 100](/ref/planners/rating)
 
 Year Published: 2018
 
-Paper: [Alien: Return of Alien Technology to Classical Planning](https://ipc2018-classical.bitbucket.io/planner-abstracts/team33.pdf) [ Asai, M. ]
+Paper: {% paper_link Alien: Return of Alien Technology to Classical Planning alien 1 %} [ Asai, M. ]
 
 Preceded By: -
 

@@ -15,7 +15,7 @@ Planner Quality: [22.6 out of 100](/ref/planners/rating)
 
 Year Published: 2011
 
-Paper: [Arvand: The Art of Random Walks](https://webdocs.cs.ualberta.ca/~mmueller/ps/arvand-art-of-random-walks.pdf) [ Nakhost, H. Muller, M. Valenzano, R. Xie, F. ]
+Paper: {% paper_link Arvand: The Art of Random Walks arvand 1 %} [ Nakhost, H. Muller, M. Valenzano, R. Xie, F. ]
 
 Preceded By: Fast Downward
 

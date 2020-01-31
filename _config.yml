@@ -26,8 +26,7 @@ theme: just-the-docs
 include: [_citedpapers]
 
 plugins:
-  - jekyll-plannertags
-  - jekyll-gitauthors
+  - jekyll-planningwikiplugins
   - jekyll-redirect-from
   - jekyll-scholar
 

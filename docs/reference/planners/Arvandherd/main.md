@@ -15,7 +15,7 @@ Planner Quality: [30 out of 100](/ref/planners/rating)
 
 Year Published: 2011
 
-Paper: [ArvandHerd: Parallel Planning with Portfolios](https://webdocs.cs.ualberta.ca/~mmueller/ps/2011/2011-arvandherd-IPC-booklet.pdf) [ Nakhost, H. Muller, M. Valenzano, R. Schaeffer, J. Sturtevant, N. ]
+Paper:  {% paper_link ArvandHerd: Parallel Planning with Portfolios arvandherd 1 %} [ Nakhost, H. Muller, M. Valenzano, R. Schaeffer, J. Sturtevant, N. ]
 
 Preceded By: Fast Downward
 

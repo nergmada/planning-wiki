@@ -15,7 +15,7 @@ Planner Quality: [14.9 out of 100](/ref/planners/rating)
 
 Year Published: 2009
 
-Paper: [ACOPlan: Planning with Ants](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) [ Baioletti, M.  Milani, A. Poggioni, V. Rossi, F ]
+Paper: {% paper_link ACO Plan: Planning with Ants acoplan 1 %} [ Baioletti, M.  Milani, A. Poggioni, V. Rossi, F ]
 
 Preceded By: -
 
@@ -24,7 +24,6 @@ ACOPlan is a planner based on the ant colony optimization framework, in which a 
 ## Support
 
 ACOPlan has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. ACOPlan appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
-
 
 ## Downloading and Compiling ACOPlan
 

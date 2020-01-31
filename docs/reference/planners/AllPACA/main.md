@@ -15,7 +15,7 @@ Planner Quality: [31.2 out of 100](/ref/planners/rating)
 
 Year Published: 2014
 
-Paper: Not found, please see the [IPC 2014 booklet](https://helios.hud.ac.uk/scommv/IPC-14/repository/booklet2014.pdf) for details on AllPACA
+Paper: {% paper_link IPC 2014 Booklet ipcbooklet2014 81 %} [ Malitsky, Y. Wang, D. Karpas, E. ]
 
 Preceded By: Fast Downward
 
