@@ -26,8 +26,8 @@ For the learning track, AllPACA can also learn to predict planner performance on
 
 ## Support
 
-AllPACA has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. Fast Downward forms the base planner of AllPACA, please refer to the Fast Downward [Link Needed] page for an idea of the supported features in this planner
+AllPACA has not been tested with eviscerator as we couldn't get the source code to compile. Fast Downward forms the base planner of AllPACA, please refer to the Fast Downward [Link Needed] page for an idea of the supported features in this planner
 
 ## Downloading and Compiling AllPACA
 
-No Source code could be located for AllPACA
+Source code for AllPACA was zipped with all IPC 2014 submissions [here](https://helios.hud.ac.uk/scommv/IPC-14/repo_planners/seq-opt.zip)

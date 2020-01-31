@@ -23,7 +23,7 @@ ArvandHerd is a satisficing parallel planner that has been entered in the 2011 I
 
 ## Support
 
-Arvandherd has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. Arvandherd appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
+Arvandherd has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. Fast Downward forms the base planner of Arvandherd, please refer to the Fast Downward [Link Needed] page for an idea of the supported features in this planner.
 
 ## Downloading and Compiling Arvandherd
 

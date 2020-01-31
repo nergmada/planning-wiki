@@ -23,7 +23,7 @@ Arvand is a stochastic planner that uses Monte Carlo random walks (MRW) planning
 
 ## Support
 
-Arvand has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. Arvand appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
+Arvand has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. Fast Downward forms the base planner of Arvand, please refer to the Fast Downward [Link Needed] page for an idea of the supported features in this planner
 
 ## Downloading and Compiling Arvand
 
