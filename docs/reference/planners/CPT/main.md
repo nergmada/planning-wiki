@@ -6,7 +6,7 @@ parent: Planners
 #And Me
 permalink: /ref/planners/cpt
 #And me
-nav_order: 25
+nav_order: 26
 ---
 # CPT (2, 3 & 4): Constraint Programming Temporal Planner
 
