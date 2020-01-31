@@ -3,7 +3,7 @@ layout: default
 title: DPMPlan & MIPlan
 parent: Planners
 permalink: /ref/planners/dpmplan
-nav_order: 31
+nav_order: 32
 ---
 # DPMPlan & MIPlan
 

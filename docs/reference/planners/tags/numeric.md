@@ -22,3 +22,5 @@ In numeric planning the goal is to find a satisfycing plan, which maintaining nu
 | {% planner COLIN %} | Home Page [Not Found] \| {% paper_link Paper planners/colin 1 %} |
 | **D**   |       |
 | {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %} |
+| **E**   |       |
+| {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} |

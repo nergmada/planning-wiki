@@ -42,8 +42,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner Delfi %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %} | {% planner_tag IPC2018 Optimising %} |
 | {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %} | {% planner_tag temporal numeric %} |
 | {% planner DPMPlan %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 23 %} | {% planner_tag IPC2014 Optimising %} |
-| **E**                          |             |                                                                                                                  |      |
-| ENHSP                          |             | [Guide Page](/ref/planners/enhsp) \| [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| Paper          |      |
+| **E**   |       |      |
+| {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} | {% planner_tag temporal numeric %} |
 | **F**                          |             |                                                                                                                  |      |
 | Fast Downward Autotune-1       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Fast Downward Autotune-2       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
