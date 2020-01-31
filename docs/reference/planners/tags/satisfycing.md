@@ -28,4 +28,5 @@ This page makes no distinction between classically satisfycing planners and temp
 | **B**   |       |
 | {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} |
 | **C**   |       |      |
-| {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link IPC 2011 Booklet ipcbooklets/2011 21 %} |
+| {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 21 %} |
+| {$ planner Cerberus %} (& Cerberus-gl) | {% paper_link Paper planners/cerberus 1 %} |

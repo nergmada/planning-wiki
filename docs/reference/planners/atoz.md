@@ -26,9 +26,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
 | {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **C**   |       |      |
-| {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link IPC 2011 Booklet ipcbooklets/2011 21 %} | {% planner_tag IPC2011 Satisfycing %} |
-| Cerberus                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Cerberus-gl                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 21 %} | {% planner_tag IPC2011 Satisfycing %} |
+| {$ planner Cerberus %} (& Cerberus-gl) | {% paper_link Paper planners/cerberus 1 %} | {% planner_tag IPC2018 Satisfycing %} |
 | CFDP                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | cGamer                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | COLIN                          |             | [Guide Page](/ref/planners/colin) \| [Home Page](https://nms.kcl.ac.uk/planning/software/colin.html) \| Paper        |      |
