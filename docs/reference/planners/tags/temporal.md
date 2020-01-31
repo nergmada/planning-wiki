@@ -25,3 +25,5 @@ In temporal planning the goal is to find a satisfycing plan, which maintaining t
 | **D**   |       |
 | {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} |
 | {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %} |
+| **E**   |       |
+| {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} |
