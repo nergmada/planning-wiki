@@ -3,19 +3,19 @@ layout: default
 title: BiFD
 parent: Planners
 permalink: /ref/planners/bifd
-nav_order: 5
+nav_order: 15
 ---
 # BiFD - Bi-directional Fast Downwards
 
 Page Contributors: {% git_author %}
 
-{% planner_tag ipc2014 satisfycing %}
+{% planner_tag IPC2014 Satisfycing %}
 
 Planner Quality: -
 
 Year Published: 2014
 
-Paper: {% paper_link IPC 2014 Booklet ipcbooklet2014 18 %} [ Alcazar, V. Fernandez, S. Borrajo, D. ]
+Paper: {% paper_link IPC 2014 Booklet ipcbooklets/2014 18 %} [ Alcazar, V. Fernandez, S. Borrajo, D. ]
 
 Preceded By: Fast Downward
 

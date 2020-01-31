@@ -21,7 +21,7 @@ This page makes no distinction between classically satisfycing planners and temp
 | Planner | Links |
 |---------|-------|
 | **A**   |       |      
-| ACOPlan & ACOPlan 2 | [Guide Page](/ref/planners/acoplan) \| Home Page [Not Found] \| [Paper](https://www.aaai.org/ocs/index.php/FLAIRS/2009/paper/download/116/276) |
-| Alien | [Guide Page](/ref/planners/alien) \| Home Page [Not Found] \| [Paper](https://ipc2018-classical.bitbucket.io/planner-abstracts/team33.pdf) |
-| Arvand | [Guide Page](/ref/planners/arvand) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/arvand-art-of-random-walks.pdf) |
-| Arvandherd | [Guide Page](/ref/planners/arvandherd) \| Home Page [Not Found] \| [Paper](https://webdocs.cs.ualberta.ca/~mmueller/ps/2011/2011-arvandherd-IPC-booklet.pdf) |
+| {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %} |
+| {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} |
+| {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} |
+| {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} |

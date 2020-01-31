@@ -3,19 +3,19 @@ layout: default
 title: AllPACA
 parent: Planners
 permalink: /ref/planners/allpaca
-nav_order: 5
+nav_order: 12
 ---
 # The AllPACA Planner: All Planners Automatic Choice Algorithm
 
 Page Contributors: {% git_author %}
 
-{% planner_tag ipc2014 optimal %}
+{% planner_tag IPC2014 Optimal %}
 
 Planner Quality: [31.2 out of 100](/ref/planners/rating)
 
 Year Published: 2014
 
-Paper: {% paper_link IPC 2014 Booklet ipcbooklet2014 81 %} [ Malitsky, Y. Wang, D. Karpas, E. ]
+Paper: {% paper_link IPC 2014 Booklet ipcbooklets/2014 81 %} [ Malitsky, Y. Wang, D. Karpas, E. ]
 
 Preceded By: Fast Downward
 

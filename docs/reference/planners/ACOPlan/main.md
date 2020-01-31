@@ -3,19 +3,19 @@ layout: default
 title: ACOPlan
 parent: Planners
 permalink: /ref/planners/acoplan
-nav_order: 5
+nav_order: 10
 ---
 # Ant Colony Optimisation (ACO) Plan
 
 Page Contributors: {% git_author %}
 
-{% planner_tag ipc2011 satisfycing %}
+{% planner_tag IPC2011 Satisfycing %}
 
 Planner Quality: [14.9 out of 100](/ref/planners/rating)
 
 Year Published: 2009
 
-Paper: {% paper_link ACO Plan: Planning with Ants acoplan 1 %} [ Baioletti, M.  Milani, A. Poggioni, V. Rossi, F ]
+Paper: {% paper_link ACO Plan: Planning with Ants planners/acoplan 1 %} [ Baioletti, M.  Milani, A. Poggioni, V. Rossi, F ]
 
 Preceded By: -
 

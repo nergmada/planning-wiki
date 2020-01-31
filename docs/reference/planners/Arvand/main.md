@@ -3,19 +3,19 @@ layout: default
 title: Arvand
 parent: Planners
 permalink: /ref/planners/arvand
-nav_order: 5
+nav_order: 13
 ---
 # Arvand Planner
 
 Page Contributors: {% git_author %}
 
-{% planner_tag ipc2011 satisfycing %}
+{% planner_tag IPC2011 Satisfycing %}
 
 Planner Quality: [22.6 out of 100](/ref/planners/rating)
 
 Year Published: 2011
 
-Paper: {% paper_link Arvand: The Art of Random Walks arvand 1 %} [ Nakhost, H. Muller, M. Valenzano, R. Xie, F. ]
+Paper: {% paper_link Arvand: The Art of Random Walks planners/arvand 1 %} [ Nakhost, H. Muller, M. Valenzano, R. Xie, F. ]
 
 Preceded By: Fast Downward
 

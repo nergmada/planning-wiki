@@ -3,19 +3,19 @@ layout: default
 title: Alien
 parent: Planners
 permalink: /ref/planners/alien
-nav_order: 5
+nav_order: 11
 ---
 # Alien Planner
 
 Page Contributors: {% git_author %}
 
-{% planner_tag ipc2018 satisfycing %}
+{% planner_tag IPC2018 Satisfycing %}
 
 Planner Quality: [38.1 out of 100](/ref/planners/rating)
 
 Year Published: 2018
 
-Paper: {% paper_link Alien: Return of Alien Technology to Classical Planning alien 1 %} [ Asai, M. ]
+Paper: {% paper_link Alien: Return of Alien Technology to Classical Planning planners/alien 1 %} [ Asai, M. ]
 
 Preceded By: -
 

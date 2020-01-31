@@ -23,4 +23,4 @@ Arguably optimising planners are a subset of satisfycing planners, because a pla
 | Planner | Links |
 |---------|-------|
 | **A**   |       |      
-| AllPACA | [Guide Page](/ref/planners/allpaca) \| Home Page [Not Found] \| [Paper](https://helios.hud.ac.uk/scommv/IPC-14/repository/booklet2014.pdf) |
+| {% planner Guide Page AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} |

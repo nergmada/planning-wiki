@@ -3,19 +3,19 @@ layout: default
 title: Arvandherd
 parent: Planners
 permalink: /ref/planners/arvandherd
-nav_order: 5
+nav_order: 14
 ---
 # Arvandherd Planner
 
 Page Contributors: {% git_author %}
 
-{% planner_tag ipc2011 satisfycing %}
+{% planner_tag IPC2011 Satisfycing %}
 
 Planner Quality: [30 out of 100](/ref/planners/rating)
 
 Year Published: 2011
 
-Paper:  {% paper_link ArvandHerd: Parallel Planning with Portfolios arvandherd 1 %} [ Nakhost, H. Muller, M. Valenzano, R. Schaeffer, J. Sturtevant, N. ]
+Paper:  {% paper_link ArvandHerd: Parallel Planning with Portfolios planners/arvandherd 1 %} [ Nakhost, H. Muller, M. Valenzano, R. Schaeffer, J. Sturtevant, N. ]
 
 Preceded By: Fast Downward
 
