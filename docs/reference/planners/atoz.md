@@ -30,8 +30,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner Cerberus %} (& Cerberus-gl) | Home Page [Not Found] \| {% paper_link Paper planners/cerberus 1 %} | {% planner_tag IPC2018 Satisfycing %} |
 | {% planner CFDP %} | Home Page [Not Found] \| {% paper_link Paper planners/cfdp 1 %} | {% planner_tag IPC2008 Optimising %} |
 | {% planner cGamer %} | Home page [Not Found] \| {% paper_link Paper ipcbooklets/2014 84 %} | {% planner_tag IPC2014 Optimising %} |
-
-| COLIN                          |             | [Guide Page](/ref/planners/colin) \| [Home Page](https://nms.kcl.ac.uk/planning/software/colin.html) \| Paper        |      |
+| {% planner COLIN %} | Home Page [Not Found] \| {% paper_link Paper planners/colin 1 %} | {% planner_tag Temporal Numeric %} |
 | Complementary1                 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Complementary2                 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Conformant-SOGBOFA-B-IPC18     |             | Guide Page \| Home Page \| Paper                                                                                 |      |

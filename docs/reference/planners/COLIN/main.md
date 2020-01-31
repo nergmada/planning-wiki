@@ -3,17 +3,17 @@ layout: default
 title: COLIN
 parent: Planners
 permalink: /ref/planners/colin
-nav_order: 5
+nav_order: 22
 ---
 # COLIN: COntinuous LINear planner
 
 Page Contributors: {% git_author %}
 
-{% planner_tag temporal numeric %}
+{% planner_tag Temporal Numeric %}
 
 Year Published: 2009
 
-Paper: [Temporal Planning in Domains with Linear Processes](https://www.ijcai.org/Proceedings/09/Papers/279.pdf) [ Coles, A. J. Coles, A. I. Fox, M. Long, D.]
+Paper: {% paper_link Temporal Planning in Domains with Linear Processes planners/colin 1 %} [ Coles, A. J. Coles, A. I. Fox, M. Long, D.]
 
 Preceded By: Crikey3
 
