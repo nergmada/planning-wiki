@@ -6,7 +6,7 @@ parent: Planners
 #And Me
 permalink: /ref/planners/cp4tp
 #And me
-nav_order: 25
+nav_order: 26
 ---
 # CP4TP: Classical Planning for Temporal Planning Portfolio
 

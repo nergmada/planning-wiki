@@ -6,7 +6,7 @@ parent: Planners
 #And Me
 permalink: /ref/planners/coplan
 #And me
-nav_order: 24
+nav_order: 25
 ---
 # Co-Plan
 

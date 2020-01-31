@@ -6,7 +6,7 @@ parent: Planners
 #And Me
 permalink: /ref/planners/cfdp
 #And me
-nav_order: 20
+nav_order: 21
 ---
 # CFDP: Cost Optimal Planning based on FDP
 

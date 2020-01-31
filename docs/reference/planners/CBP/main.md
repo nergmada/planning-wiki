@@ -6,7 +6,7 @@ parent: Planners
 #And Me
 permalink: /ref/planners/cbp
 #And me
-nav_order: 18
+nav_order: 19
 ---
 # CBP: Cost Based planner
 

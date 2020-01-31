@@ -3,7 +3,7 @@ layout: default
 title: COLIN
 parent: Planners
 permalink: /ref/planners/colin
-nav_order: 22
+nav_order: 23
 ---
 # COLIN: COntinuous LINear planner
 

@@ -26,6 +26,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
 | {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **C**   |       |      |
+| {% planner C3 %} | Home page [Not Found] \| {% paper_link Paper planners/c3 1 %} | {% planner_tag IPC2008 Satisfycing %} |
 | {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 21 %} | {% planner_tag IPC2011 Satisfycing %} |
 | {% planner Cerberus %} (& Cerberus-gl) | Home Page [Not Found] \| {% paper_link Paper planners/cerberus 1 %} | {% planner_tag IPC2018 Satisfycing %} |
 | {% planner CFDP %} | Home Page [Not Found] \| {% paper_link Paper planners/cfdp 1 %} | {% planner_tag IPC2008 Optimising %} |
@@ -35,7 +36,6 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner CoPlan %} (styled Co-Plan) | Home Page [Not Found] \| {% paper_link Paper planners/coplan 1 %} | {% planner_tag IPC2008 Optimising %} |
 | {% planner CP4TP %} | Home Page [Not Found] \| {% paper_link Paper planners/cp4tp 1 %} | {% planner_tag IPC2018 Satisfycing Temporal %} |
 | {% planner CPT %} (& 2, 3 & 4) | [Home Page](http://v.vidal.free.fr/onera/#cpt) \| {% paper_link Paper (CPT) planners/cpt 1 %}, {% paper_link Paper (CPT 2) planners/cpt2 1 %}, {% paper_link Paper (CPT 4) ipcbooklets/2011 25 %} | {% planner_tag IPC2004 IPC2006 IPC2011 Optimising Temporal %} |
-| C^3                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **D**                          |             |                                                                                                                  |      |
 | DAE-YAHSP                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | DecStar                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |

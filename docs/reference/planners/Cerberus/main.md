@@ -6,7 +6,7 @@ parent: Planners
 #And Me
 permalink: /ref/planners/cerberus
 #And me
-nav_order: 19
+nav_order: 20
 ---
 # Cerberus: Red Black Planning with Mutex Detection and Novelty Heuristic
 
