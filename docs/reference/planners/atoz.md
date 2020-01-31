@@ -32,7 +32,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner cGamer %} | Home page [Not Found] \| {% paper_link Paper ipcbooklets/2014 84 %} | {% planner_tag IPC2014 Optimising %} |
 | {% planner COLIN %} | Home Page [Not Found] \| {% paper_link Paper planners/colin 1 %} | {% planner_tag Temporal Numeric %} |
 | {% planner Complementary %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/complementary1 1 %}, {% paper_link Paper planners/complementary2 1 %} | {% planner_tag IPC2018 Optimising %} |
-| co-plan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| {% planner CoPlan } (styled Co-Plan) | Home Page [Not Found] \| {% paper_link Paper planners/coplan 1 %} | {% planner_tag IPC2008 Optimising %} |
 | CPT3                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | CPT4                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | CP4TP                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
