@@ -37,4 +37,4 @@ Arguably optimising planners are a subset of satisfycing planners, because a pla
 | {% planner Delfi %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %} |
 | {% planner DPMPlan %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 23 %} |
 | **F**   |       |
-| The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} |
+| {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} |

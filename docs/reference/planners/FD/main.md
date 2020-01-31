@@ -71,7 +71,7 @@ Fast Downward Merge-and-Shrink uses the optimized, efficient implementation of t
 
 Year Published: 2018
 
-Paper: {% Fast Downward Remix planners/fdremix 1 %} [ Seipp, J. ]
+Paper: {% paper_link Fast Downward Remix planners/fdremix 1 %} [ Seipp, J. ]
 
 FD Remix is an offline portfolio planner than pre-calculates the configuration of the portfolio in a preprocessing phase.
 

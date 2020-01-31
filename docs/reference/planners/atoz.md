@@ -45,7 +45,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **E**   |       |      |
 | {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} | {% planner_tag temporal numeric %} |
 | **F**   |       |      |
-| The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
+| {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
 | Fork Uniform                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Freelunch                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | freelunch-doubly-relaxed       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
