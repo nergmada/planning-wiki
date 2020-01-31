@@ -3,7 +3,7 @@ layout: default
 title: DiNo
 parent: Planners
 permalink: /ref/planners/dino
-nav_order: 5
+nav_order: 28
 ---
 # DiNo: Discrete Non-linear Heuristic Planner
 
