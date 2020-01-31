@@ -25,3 +25,5 @@ This page makes no distinction between classically satisfycing planners and temp
 | {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} |
 | {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} |
 | {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} |
+| **B**   |       |
+| {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} |

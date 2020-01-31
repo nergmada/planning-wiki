@@ -25,6 +25,6 @@ Bi-directional Fast Downward is a 2-portfolio planner comprising of Fast Downwar
 
 BiFD has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. BiFD appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
 
-## Downloading and Compiling Arvandherd
+## Downloading and Compiling BiFD
 
 No Source code could be located for BiFD

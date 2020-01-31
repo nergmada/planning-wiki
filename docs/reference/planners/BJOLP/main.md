@@ -25,6 +25,6 @@ BJOLP, The Big Joint Optimal Landmarks Planner uses landmarks to derive an admis
 
 BJOLP has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. BJOLP appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
 
-## Downloading and Compiling Arvandherd
+## Downloading and Compiling BJOLP
 
 No Source code could be located for BJOLP
