@@ -38,9 +38,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner CPT %} (& 2, 3 & 4) | [Home Page](http://v.vidal.free.fr/onera/#cpt) \| {% paper_link Paper (CPT) planners/cpt 1 %}, {% paper_link Paper (CPT 2) planners/cpt2 1 %}, {% paper_link Paper (CPT 4) ipcbooklets/2011 25 %} | {% planner_tag IPC2004 IPC2006 IPC2011 Optimising Temporal %} |
 | **D**   |       |      |
 | {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} | {% planner_tag IPC2011 Satisfycing Temporal %} |
-| {% planner DecStar %} | Home Page \| {% paper_link Paper planners/decstar 1 %} | {% planner_tag IPC2018 Optimising %} |
-| Delfi1                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Delfi2                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| {% planner DecStar %} | Home Page [Not Found] \| {% paper_link Paper planners/decstar 1 %} | {% planner_tag IPC2018 Optimising %} |
+| {% planner Delfi %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %} | {% planner_tag IPC2018 Optimising %} |
 | Dino                           |             | [Guide Page](/ref/planners/dino) \| [Home Page](http://kcl-planning.github.io/DiNo/) \| Paper                        |      |
 | DPMPlan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Dynamic-Gamer                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
