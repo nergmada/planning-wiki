@@ -18,57 +18,37 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **A**   |       |      |
 | {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} | {% planner_tag IPC2018 Satisfycing %} |
-| {% planner AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimal %} |
+| {% planner AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimising %} |
 | {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} | {% planner_tag IPC2011 Satisfycing %} |
 | **B**   |       |      |
 | {% planner BiFD %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %} | {% planner_tag IPC2014 Satisfycing %} |
 | {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
 | {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} | {% planner_tag IPC2011 Satisfycing %} |
-| **C**                          |             |                                                                                                                  |      |
-| CBP                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| CBP2                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Cerberus                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Cerberus-gl                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| CFDP                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| cGamer                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| COLIN                          |             | [Guide Page](/ref/planners/colin) \| [Home Page](https://nms.kcl.ac.uk/planning/software/colin.html) \| Paper        |      |
-| Complementary1                 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Complementary2                 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Conformant-SOGBOFA-B-IPC18     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Conformant-SOGBOFA-F-IPC18     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| co-plan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| CPT3                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| CPT4                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| CP4TP                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| C^3                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **D**                          |             |                                                                                                                  |      |
-| DAE-YAHSP                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| DecStar                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Delfi1                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Delfi2                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Dino                           |             | [Guide Page](/ref/planners/dino) \| [Home Page](http://kcl-planning.github.io/DiNo/) \| Paper                        |      |
-| DPMPlan                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Dynamic-Gamer                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **E**                          |             |                                                                                                                  |      |
-| ENHSP                          |             | [Guide Page](/ref/planners/enhsp) \| [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| Paper          |      |
-| **F**                          |             |                                                                                                                  |      |
-| Fast Downward Autotune-1       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downward Autotune-2       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downward Cedalion         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downwards Remix           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downwards Stone Soup 2018 |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fast Downward Uniform          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| FDMS1                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| FDMS2                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Fork Uniform                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Freelunch                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| freelunch-doubly-relaxed       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| freelunch-madagascar           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| fs-blind                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| fs-sim                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **G**                          |             |                                                                                                                  |      |
-| Gamer                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **C**   |       |      |
+| {% planner C3 %} | Home page [Not Found] \| {% paper_link Paper planners/c3 1 %} | {% planner_tag IPC2008 Satisfycing %} |
+| {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 21 %} | {% planner_tag IPC2011 Satisfycing %} |
+| {% planner Cerberus %} (& Cerberus-gl) | Home Page [Not Found] \| {% paper_link Paper planners/cerberus 1 %} | {% planner_tag IPC2018 Satisfycing %} |
+| {% planner CFDP %} | Home Page [Not Found] \| {% paper_link Paper planners/cfdp 1 %} | {% planner_tag IPC2008 Optimising %} |
+| {% planner cGamer %} | Home page [Not Found] \| {% paper_link Paper ipcbooklets/2014 84 %} | {% planner_tag IPC2014 Optimising %} |
+| {% planner COLIN %} | Home Page [Not Found] \| {% paper_link Paper planners/colin 1 %} | {% planner_tag Temporal Numeric %} |
+| {% planner Complementary %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/complementary1 1 %}, {% paper_link Paper planners/complementary2 1 %} | {% planner_tag IPC2018 Optimising %} |
+| {% planner CoPlan %} (styled Co-Plan) | Home Page [Not Found] \| {% paper_link Paper planners/coplan 1 %} | {% planner_tag IPC2008 Optimising %} |
+| {% planner CP4TP %} | Home Page [Not Found] \| {% paper_link Paper planners/cp4tp 1 %} | {% planner_tag IPC2018 Satisfycing Temporal %} |
+| {% planner CPT %} (& 2, 3 & 4) | [Home Page](http://v.vidal.free.fr/onera/#cpt) \| {% paper_link Paper (CPT) planners/cpt 1 %}, {% paper_link Paper (CPT 2) planners/cpt2 1 %}, {% paper_link Paper (CPT 4) ipcbooklets/2011 25 %} | {% planner_tag IPC2004 IPC2006 IPC2011 Optimising Temporal %} |
+| **D**   |       |      |
+| {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} | {% planner_tag IPC2011 Satisfycing Temporal %} |
+| {% planner DecStar %} | Home Page [Not Found] \| {% paper_link Paper planners/decstar 1 %} | {% planner_tag IPC2018 Optimising %} |
+| {% planner Delfi %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %} | {% planner_tag IPC2018 Optimising %} |
+| {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %} | {% planner_tag temporal numeric %} |
+| {% planner DPMPlan %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 23 %} | {% planner_tag IPC2014 Optimising %} |
+| **E**   |       |      |
+| {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} | {% planner_tag temporal numeric %} |
+| **F**   |       |      |
+| {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
+| {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} | {% planner_tag IPC2014 Satisfycing %} |
+| **G**   |       |      |
+| {% planner Gamer %} | Home page [Not Found] \| {% paper_link Paper planners/gamer 1 %} | {% planner_tag IPC2008 Optimising %} |
 | **H**                          |             |                                                                                                                  |      |
 | hflow                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | hpp                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |

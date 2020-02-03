@@ -23,7 +23,7 @@ Bi-directional Fast Downward is a 2-portfolio planner comprising of Fast Downwar
 
 ## Support
 
-BiFD has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. BiFD appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
+BiFD has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. Fast Downward forms the base planner of BiFD, please refer to the Fast Downward [Link Needed] page for an idea of the supported features in this planner.
 
 ## Downloading and Compiling BiFD
 

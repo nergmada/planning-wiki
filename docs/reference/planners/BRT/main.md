@@ -1,9 +1,9 @@
 ---
 layout: default
-title: BJOLP
+title: BRT
 parent: Planners
 permalink: /ref/planners/brt
-nav_order: 16
+nav_order: 17
 ---
 # BRT: Biased Rapidly-exploring Tree
 
@@ -21,11 +21,11 @@ Preceded By: Fast Downward
 
 This planner is a Rapidly-exploring Random Tree (RRT) adapted to automated planning that employs Fast-Downward as the base planner. The novelty in this case is that it does not sample the search space in a random way; rather, it estimates which propositions are more likely to be achieved along some solution plan and uses that estimation (called bias) in order to sample more relevant intermediates states. The bias is computed using a message passing algorithm on the planning graph with landmarks as support.
 
-Random search, and random search with bias has been shown to have varying levels of success in planning, see our page on random search.
+Random search, and random search with bias has been shown to have varying levels of success in planning, see our page on random search. [In Progress]
 
 ## Support
 
-BRT has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. BRT appears to be targeted to solving classical planning problems, so likely does not support any temporal or numeric features in PDDL.
+BRT has not been tested with eviscerator as we could not find source code for the planner, or we couldn't get the source code to compile. Fast Downward forms the base planner of BRT, please refer to the Fast Downward [Link Needed] page for an idea of the supported features in this planner
 
 ## Downloading and Compiling BRT
 

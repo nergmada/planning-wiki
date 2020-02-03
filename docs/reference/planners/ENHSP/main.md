@@ -3,7 +3,7 @@ layout: default
 title: ENHSP
 parent: Planners
 permalink: /ref/planners/enhsp
-nav_order: 5
+nav_order: 33
 ---
 # ENHSP: Expressive Numeric Heuristic Search Planner
 
@@ -13,7 +13,7 @@ Page Contributors: {% git_author %}
 
 Year Published: 2016
 
-Paper: [Interval-Based Relaxation for General Numeric Planning](https://pdfs.semanticscholar.org/ba88/832bb0d1feddd7032282f3a2837f93a7117e.pdf) [Scala, E. Haslum, P. Thiebaux, S. Ramirez, M.]
+Paper: {% paper_link Interval-Based Relaxation for General Numeric Planning planners/enhsp 1 %} [Scala, E. Haslum, P. Thiebaux, S. Ramirez, M.]
 
 ENHSP, which stands for Expressive Numeric Heuristic Planner is a forward heuristic search planner. It supports the following 
 
