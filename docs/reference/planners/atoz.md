@@ -49,10 +49,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} | {% planner_tag IPC2014 Satisfycing %} |
 | **G**   |       |      |
 | {% planner Gamer %} | Home page [Not Found] \| {% paper_link Paper planners/gamer 1 %} | {% planner_tag IPC2008 Optimising %} |
-| **H**                          |             |                                                                                                                  |      |
-| hflow                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| hpp                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| hppce                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **H**   |       |      |
+| {% planner HPlanP %} (styled HPlan-P) | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC2006 Optimising %} |
 | hsp                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | **I**                          |             |                                                                                                                  |      |
 | IBaCoP-2018                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
