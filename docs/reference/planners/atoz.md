@@ -51,7 +51,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner Gamer %} | Home page [Not Found] \| {% paper_link Paper planners/gamer 1 %} | {% planner_tag IPC2008 Optimising %} |
 | **H**   |       |      |
 | {% planner HPlanP %} (styled HPlan-P) | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC2006 Optimising %} |
-| {% planner HSP %} | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC1998 IPC2000 Optimising %} |
+| {% planner HSP %} | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC1998 IPC2000 Satisfycing %} |
 | **I**                          |             |                                                                                                                  |      |
 | IBaCoP-2018                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | IBaCoP2-2018                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |

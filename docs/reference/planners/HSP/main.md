@@ -12,7 +12,7 @@ nav_order: 38
 
 Page Contributors: {% git_author %}
 
-{% planner_tag IPC1998 IPC2000 Optimising %}
+{% planner_tag IPC1998 IPC2000 Satisfycing %}
 
 Planner Quality: -
 
