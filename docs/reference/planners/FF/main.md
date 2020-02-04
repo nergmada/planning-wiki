@@ -9,7 +9,7 @@ nav_order: 34.5
 
 Page Contributors: {% git_author %}
 
-{% planner_tag IPC2000 Optimising %}
+{% planner_tag IPC2000 Satisfycing %}
 
 Paper: {% paper_link The Fast-Forward Planning System planners/ff 1 %} [ Hoffmann, J. ]
 
