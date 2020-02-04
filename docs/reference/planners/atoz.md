@@ -46,14 +46,13 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} | {% planner_tag temporal numeric %} |
 | **F**   |       |      |
 | {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
+| {% planner FF %} The Fast Forward Planning System (and all other FF brand planners) | [Home Page](https://fai.cs.uni-saarland.de/hoffmann/ff.html) \| {% paper_link Paper planners/ff 1 %} | {% planner_tag IPC2000 Optimising %} |
 | {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} | {% planner_tag IPC2014 Satisfycing %} |
 | **G**   |       |      |
 | {% planner Gamer %} | Home page [Not Found] \| {% paper_link Paper planners/gamer 1 %} | {% planner_tag IPC2008 Optimising %} |
-| **H**                          |             |                                                                                                                  |      |
-| hflow                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| hpp                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| hppce                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| hsp                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **H**   |       |      |
+| {% planner HPlanP %} (styled HPlan-P) | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC2006 Optimising %} |
+| {% planner HSP %} | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC1998 IPC2000 Satisfycing %} |
 | **I**                          |             |                                                                                                                  |      |
 | IBaCoP-2018                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | IBaCoP2-2018                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
