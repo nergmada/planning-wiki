@@ -18,7 +18,7 @@ Planner Quality: -
 
 Year Published: 2018
 
-Paper: {% paper_link Delfi: Online Planner Selection for Cost-Optimal Planning planners/delfi 1 %} [ Katz, M. Sohrabi, S. Horst Samulowitz, H. ]
+Paper: {% paper_link Delfi: Online Planner Selection for Cost-Optimal Planning planners/delfi 1 %} [ Katz, M. Sohrabi, S. Horst Samulowitz, H. Sievers, S. ]
 
 Preceded By: Fast Downward [Link Needed]
 
