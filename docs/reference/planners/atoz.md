@@ -53,6 +53,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **H**   |       |      |
 | {% planner HPlanP %} (styled HPlan-P) | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC2006 Optimising %} |
 | {% planner HSP %} | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC1998 IPC2000 Satisfycing %} |
+| HyperTensioN                   |             | Guide Page \| [Home Page](https://github.com/Maumagnaguagno/HyperTensioN) \| Paper                                                                                 |      |
 | **I**                          |             |                                                                                                                  |      |
 | IBaCoP-2018                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | IBaCoP2-2018                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
@@ -62,6 +63,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | **J**                          |             |                                                                                                                  |      |
 | Jasper                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | JavaFF                         |             | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/javaff.html) \| Paper                          |      |
+| JSHOP2                         |             | Guide Page \| [Home Page](https://github.com/mas-group/jshop2) \| Paper                                                                                 |      |
 | **K**                          |             |                                                                                                                  |      |
 | **L**                          |             |                                                                                                                  |      |
 | LAMA-2011                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
@@ -97,6 +99,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | OPTIC                          |             | [Guide Page](/ref/planners/optic) \| [Home Page](https://nms.kcl.ac.uk/planning/software/optic.html) \| Paper        |      |
 | **P**                          |             |                                                                                                                  |      |
 | PaaS                           |             | Guide Page \| [Home Page](http://solver.planning.domains/) \| Paper                                              |      |
+| Panda                          |             | Guide Page \| [Home Page](https://www.uni-ulm.de/en/in/ki/research/software/panda/panda-planning-system/) \| Paper                                              |      |
 | PHSFF                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Planets                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Planning-PDBs                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
@@ -119,6 +122,8 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | Scorpion                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Selective Max                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Sharaabi                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
+| SHOP/SHOP2                     |             | Guide Page \| [Home Page](https://www.cs.umd.edu/projects/shop/description.html) \| Paper                                                                                 |      |
+| SHOP3                          |             | Guide Page \| [Home Page](https://shop-planner.github.io) \| Paper                                                                                 |      |
 | SIW                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
 | SMTPlan+                       |             | [Guide Page](/ref/planners/smtplan) \| [Home Page](http://kcl-planning.github.io/SMTPlan/) \| Paper                  |      |
 | SPM&S                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
