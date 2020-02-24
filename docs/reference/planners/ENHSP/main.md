@@ -29,7 +29,7 @@ ENHSP, which stands for Expressive Numeric Heuristic Planner is a forward heuris
 ENHSP requires `:typing` in all domains it runs on, which makes it incompatible with [Eviscerator](https://www.github.com/nergmada/eviscerator). No support table has been generated. 
 
 ## Downloading and Compiling ENHSP
-For more information on how to download, compile and use ENHSP, visit its [GitLab page here](https://gitlab.com/enricos83/ENHSP-Public). The planner is mantained by Enrico Scala (enricos83@gmail.com for any question).
+For more information on how to download, compile and use ENHSP, visit its [GitLab page here](https://gitlab.com/enricos83/ENHSP-Public) or ENHSP website [here](https://sites.google.com/view/enhsp/). The planner is mantained by Enrico Scala (enricos83@gmail.com for any question).
 
 ## Additional Notes
 - ENHSP grounding is not optimised; this can become a bottleneck when your action schema induce several even trivial groundings.
