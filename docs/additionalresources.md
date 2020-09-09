@@ -33,6 +33,9 @@ It also links to education resources, and provides links to institutions that ar
 ### [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
 [ROSPlan](https://github.com/KCL-Planning/ROSPlan/) is a module for the Robotic Operating System (ROS) that allows for the integration of AI Planning into Robots that make use of ROS. ROSPlan allows for modelling of Robotic environments for the purpose of planning and executing tasks.
 
+### [Plansys2 - Planning in ROS2](https://github.com/IntelligentRoboticsLabs/ros2_planning_system)
+[Plansys2](https://github.com/IntelligentRoboticsLabs/ros2_planning_system) is a project for the new version of Robotic Operating System, **ROS2**, that integrates Planning and Robotics. It aims to be a framework where different planners can be easily integrated to make robots perform tasks. Actions are implemented using [Behavior Trees](https://github.com/BehaviorTree/BehaviorTree.CPP), and there are a bunch of [examples](https://github.com/IntelligentRoboticsLabs/ros2_planning_system_examples/) in the repo.
+
 ### [Universal Planning Validator (Under Development)](https://github.com/aig-upf/universal-planning-validator)
 [Universal Planning Validator (Under Development)](https://github.com/aig-upf/universal-planning-validator) is a tool designed to validate planning domain and problems. Currently it can only support classical planning problems and domains, but the tool is intended to be expanded to include temporal and multi-agent domains. If you require a Validator that supports more advanced PDDL features than classical planning, then try VAL, the Planning Validator instead.
 

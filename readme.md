@@ -102,6 +102,7 @@ Below you can find a collection of resources for writing, learning and using PDD
 - Planner Tools
     - [VAL - The Plan Validator](https://nms.kcl.ac.uk/planning/software/val.html)
     - [ROSPlan - Planning in ROS](https://github.com/KCL-Planning/ROSPlan/)
+    - [PlanSys2 - Planning in ROS2](https://github.com/IntelligentRoboticsLabs/ros2_planning_system)
     - [Eviscerator - The Planner tester](https://www.github.com/nergmada/eviscerator)
     - [Universal Planning Validator (Under Development)](https://github.com/aig-upf/universal-planning-validator)
 - PDDL Tools
