@@ -365,7 +365,7 @@ expresses that `at start` the given `rover` is `at` the `from-waypoint`. Confusi
 An expression or predicate with `at end` prefixed to it, means that the condition must be true at the end of the action in order for the action to be applied e.g.
 
 ```cl
-(at end (>= (battery-amount ?rover) 0)
+(at end (>= (battery-amount ?rover) 0))
 ```
 
 In essence we are saying that whilst this fact doesn't have to be true at the start or during the action, it must be true at the end. In this case, we're expressing that the battery amount at the end of the action must be greater than zero.
@@ -399,9 +399,9 @@ Temporal expressions, such as `at start` and `at end` are available, however, `o
 :effect
     (and
         (at start (not (at ?rover ?from-waypoint)))
-        (at start (decrease (battery-amount ?rover) 8)))
+        (at start (decrease (battery-amount ?rover) 8))
         (at end (at ?rover ?to-waypoint))
-        (at end (been-at ?rover ?to-waypoint))
+        (at end (been-at ?rover ?to-waypoint)))
 ```
 
 The above effect is saying that `at start` the rover can no longer be considered as being at the `from` waypoint, and that `at end` it can now be considered as being at the `to` waypoint. It also adds a second predicate `been-at` which indicates that at some point the rover has visited the given waypoint.
@@ -439,8 +439,8 @@ Lets say that our recharge action is half way through being applied and by that 
 Without Continuous effects (plan length: 15)
 
 b=0
-    |--(recharge[10])--|      |--(drive[5]--| 
-                    (b+=10) (b>5)         (b-=5)
+    |--(recharge[10])--|      |--(drive[5])--| 
+                    (b+=10) (b>5)          (b-=5)
 
 With Continuous effects (plan length: 10)
 
