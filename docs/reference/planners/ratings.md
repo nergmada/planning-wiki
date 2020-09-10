@@ -3,6 +3,7 @@ layout: default
 title: Planners by rating
 has_children: true
 parent: Planners
+grand_parent: Reference
 permalink: /ref/planners/rating
 nav_order: 2
 ---
