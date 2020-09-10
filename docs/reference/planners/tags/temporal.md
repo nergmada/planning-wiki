@@ -6,7 +6,7 @@ grand_parent: Planners
 permalink: /ref/planners/tags/temporal
 nav_order: 5
 ---
-# Optimising Planners
+# Temporal Planners
 
 Page Contributors: {% git_author %}
 

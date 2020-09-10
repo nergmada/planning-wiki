@@ -6,7 +6,7 @@ grand_parent: Planners
 permalink: /ref/planners/tags/numeric
 nav_order: 5
 ---
-# Optimising Planners
+# Numeric Planners
 
 Page Contributors: {% git_author %}
 
