@@ -2,6 +2,7 @@
 layout: default
 title: Planners from A to Z
 parent: Planners
+grand_parent: Reference
 permalink: /ref/planners/atoz
 nav_order: 0
 ---

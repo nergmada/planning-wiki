@@ -3,6 +3,7 @@ layout: default
 title: Planners by tag
 has_children: true
 parent: Planners
+grand_parent: Reference
 permalink: /ref/planners/tags
 nav_order: 1
 ---
