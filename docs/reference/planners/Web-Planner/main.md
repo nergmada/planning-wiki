@@ -13,7 +13,7 @@ Page Contributors: {% git_author %}
 
 Year Published: 2017
 
-Paper: [WEB PLANNER: A Tool to Develop Classical Planning Domains and Visualize Heuristic State-Space Search](http://icaps17.icaps-conference.org/workshops/UISP/uisp17proceedings.pdf#page=36) [Magnaguagno, M. Pereira, R. Móre, M. and Meneguzzi, F.]
+Paper: [WEB PLANNER: A Tool to Develop Classical Planning Domains and Visualize Heuristic State-Space Search](http://icaps17.icaps-conference.org/workshops/UISP/uisp17proceedings.pdf#page=36) [Magnaguagno, M. Pereira, R. More, M. and Meneguzzi, F.]
 
 Similar to [Planning.Domains](#planning.domains), it is a planner in the cloud with editing, verification, validation and visualization capabilities.
 Web-Planner is available at https://web-planner.herokuapp.com/
