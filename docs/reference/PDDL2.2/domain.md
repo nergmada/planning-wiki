@@ -104,4 +104,4 @@ Note, that a derived predicate is declared similarly to actions, in that we use 
 )
 ```
 
-The example above specifies that a train is only usable if it has a train and a driver.
+The example above specifies that a train is only usable if it has a guard and a driver.
