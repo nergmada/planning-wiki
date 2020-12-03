@@ -14,139 +14,139 @@ The following is an A to Z of all known planners. This list is **not** a compreh
 
 If _your_ planner is missing from this list, please fork this repository, correct this page and file a pull request with the main repo. Please see our page on how to add a planner to this guide.
 
-| Planner | Links | tags |
-|---------|-------|------|
-| **A**   |       |      |
-| {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %} | {% planner_tag IPC2011 Satisfycing %} |
-| {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} | {% planner_tag IPC2018 Satisfycing %} |
-| {% planner AllPACA %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %} | {% planner_tag IPC2014 Optimising %} |
-| {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} | {% planner_tag IPC2011 Satisfycing %} |
-| {% planner Arvandherd %} | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %} | {% planner_tag IPC2011 Satisfycing %} |
-| **B**   |       |      |
-| {% planner BiFD %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %} | {% planner_tag IPC2014 Satisfycing %} |
-| {% planner BJOLP %} | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %} | {% planner_tag IPC2011 Optimising %} |
-| {% planner BRT %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %} | {% planner_tag IPC2011 Satisfycing %} |
-| **C**   |       |      |
-| {% planner C3 %} | Home page [Not Found] \| {% paper_link Paper planners/c3 1 %} | {% planner_tag IPC2008 Satisfycing %} |
-| {% planner CBP %} (& CBP2) | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 21 %} | {% planner_tag IPC2011 Satisfycing %} |
-| {% planner Cerberus %} (& Cerberus-gl) | Home Page [Not Found] \| {% paper_link Paper planners/cerberus 1 %} | {% planner_tag IPC2018 Satisfycing %} |
-| {% planner CFDP %} | Home Page [Not Found] \| {% paper_link Paper planners/cfdp 1 %} | {% planner_tag IPC2008 Optimising %} |
-| {% planner cGamer %} | Home page [Not Found] \| {% paper_link Paper ipcbooklets/2014 84 %} | {% planner_tag IPC2014 Optimising %} |
-| {% planner COLIN %} | Home Page [Not Found] \| {% paper_link Paper planners/colin 1 %} | {% planner_tag Temporal Numeric %} |
+| Planner                        | Links                                                                                                            | tags |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------|------|
+| **A**                          |                                                                                                                  |      |
+| {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %}                                          | {% planner_tag IPC2011 Satisfycing %} |
+| {% planner Alien %}            | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %}                                                 | {% planner_tag IPC2018 Satisfycing %} |
+| {% planner AllPACA %}          | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 81 %}                                              | {% planner_tag IPC2014 Optimising %} |
+| {% planner Arvand %}           | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %}                                                | {% planner_tag IPC2011 Satisfycing %} |
+| {% planner Arvandherd %}       | Home Page [Not Found] \| {% paper_link Paper planners/arvandherd 1 %}                                            | {% planner_tag IPC2011 Satisfycing %} |
+| **B**                          |                                                                                                                  |      |
+| {% planner BiFD %}             | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 18 %}                                              | {% planner_tag IPC2014 Satisfycing %} |
+| {% planner BJOLP %}            | Home Page [Not Found] \| {% paper_link Paper planners/bjolp 1 %}                                                 | {% planner_tag IPC2011 Optimising %} |
+| {% planner BRT %}              | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 17 %}                                              | {% planner_tag IPC2011 Satisfycing %} |
+| **C**                          |                                                                                                                  |      |
+| {% planner C3 %}               | Home page [Not Found] \| {% paper_link Paper planners/c3 1 %}                                                    | {% planner_tag IPC2008 Satisfycing %} |
+| {% planner CBP %} (& CBP2)     | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2011 21 %}                                              | {% planner_tag IPC2011 Satisfycing %} |
+| {% planner Cerberus %} (& Cerberus-gl) | Home Page [Not Found] \| {% paper_link Paper planners/cerberus 1 %}                                      | {% planner_tag IPC2018 Satisfycing %} |
+| {% planner CFDP %}             | Home Page [Not Found] \| {% paper_link Paper planners/cfdp 1 %}                                                  | {% planner_tag IPC2008 Optimising %} |
+| {% planner cGamer %}           | Home page [Not Found] \| {% paper_link Paper ipcbooklets/2014 84 %}                                              | {% planner_tag IPC2014 Optimising %} |
+| {% planner COLIN %}            | Home Page [Not Found] \| {% paper_link Paper planners/colin 1 %}                                                 | {% planner_tag Temporal Numeric %} |
 | {% planner Complementary %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/complementary1 1 %}, {% paper_link Paper planners/complementary2 1 %} | {% planner_tag IPC2018 Optimising %} |
-| {% planner CoPlan %} (styled Co-Plan) | Home Page [Not Found] \| {% paper_link Paper planners/coplan 1 %} | {% planner_tag IPC2008 Optimising %} |
-| {% planner CP4TP %} | Home Page [Not Found] \| {% paper_link Paper planners/cp4tp 1 %} | {% planner_tag IPC2018 Satisfycing Temporal %} |
+| {% planner CoPlan %} (styled Co-Plan) | Home Page [Not Found] \| {% paper_link Paper planners/coplan 1 %}                                         | {% planner_tag IPC2008 Optimising %} |
+| {% planner CP4TP %}            | Home Page [Not Found] \| {% paper_link Paper planners/cp4tp 1 %}                                                 | {% planner_tag IPC2018 Satisfycing Temporal %} |
 | {% planner CPT %} (& 2, 3 & 4) | [Home Page](http://v.vidal.free.fr/onera/#cpt) \| {% paper_link Paper (CPT) planners/cpt 1 %}, {% paper_link Paper (CPT 2) planners/cpt2 1 %}, {% paper_link Paper (CPT 4) ipcbooklets/2011 25 %} | {% planner_tag IPC2004 IPC2006 IPC2011 Optimising Temporal %} |
-| **D**   |       |      |
-| {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} | {% planner_tag IPC2011 Satisfycing Temporal %} |
-| {% planner DecStar %} | Home Page [Not Found] \| {% paper_link Paper planners/decstar 1 %} | {% planner_tag IPC2018 Optimising %} |
-| {% planner Delfi %} (1 & 2) | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %} | {% planner_tag IPC2018 Optimising %} |
-| {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %} | {% planner_tag temporal numeric %} |
-| {% planner DPMPlan %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 23 %} | {% planner_tag IPC2014 Optimising %} |
-| **E**   |       |      |
-| {% planner ENHSP %} | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %} | {% planner_tag temporal numeric %} |
-| **F**   |       |      |
+| **D**                          |                                                                                                                  |      |
+| {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %}                                   | {% planner_tag IPC2011 Satisfycing Temporal %} |
+| {% planner DecStar %}          | Home Page [Not Found] \| {% paper_link Paper planners/decstar 1 %}                                               | {% planner_tag IPC2018 Optimising %} |
+| {% planner Delfi %} (1 & 2)    | Home Page [Not Found] \| {% paper_link Paper planners/delfi 1 %}                                                 | {% planner_tag IPC2018 Optimising %} |
+| {% planner DiNo %} | [Home page](http://kcl-planning.github.io/DiNo/) \| {% paper_link Paper Domains planners/dino 1 %}                           | {% planner_tag temporal numeric %} |
+| {% planner DPMPlan %}          | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 23 %}                                              | {% planner_tag IPC2014 Optimising %} |
+| **E**                          |                                                                                                                  |      |
+| {% planner ENHSP %}            | [Home Page](https://bitbucket.org/enricode/the-enhsp-planner) \| {% paper_link Paper planners/enhsp 1 %}         | {% planner_tag temporal numeric %} |
+| **F**                          |                                                                                                                  |      |
 | {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} | {% planner_tag IPC2004 IPC2006 IPC2008 IPC2011 IPC2014 IPC2018 Optimising Satisfycing %} |
 | {% planner FF %} The Fast Forward Planning System (and all other FF brand planners) | [Home Page](https://fai.cs.uni-saarland.de/hoffmann/ff.html) \| {% paper_link Paper planners/ff 1 %} | {% planner_tag IPC2000 Satisfycing %} |
-| {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} | {% planner_tag IPC2014 Satisfycing %} |
-| **G**   |       |      |
-| {% planner Gamer %} | Home page [Not Found] \| {% paper_link Paper planners/gamer 1 %} | {% planner_tag IPC2008 Optimising %} |
-| **H**   |       |      |
-| {% planner HPlanP %} (styled HPlan-P) | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC2006 Optimising %} |
-| {% planner HSP %} | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} | {% planner_tag IPC1998 IPC2000 Satisfycing %} |
-| HyperTensioN                   |             | Guide Page \| [Home Page](https://github.com/Maumagnaguagno/HyperTensioN) \| Paper                                                                                 |      |
-| **I**                          |             |                                                                                                                  |      |
-| IBaCoP-2018                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| IBaCoP2-2018                   |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| IFork Init                     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Imitation-Net                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| ITSAT                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **J**                          |             |                                                                                                                  |      |
-| Jasper                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| JavaFF                         |             | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/javaff.html) \| Paper                          |      |
-| JSHOP2                         |             | Guide Page \| [Home Page](https://github.com/mas-group/jshop2) \| Paper                                                                                 |      |
-| **K**                          |             |                                                                                                                  |      |
-| **L**                          |             |                                                                                                                  |      |
-| LAMA-2011                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Lamar                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LAPKT-BFWS-Preference          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LAPKT-DFS+                     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LAPKT-DUAL-BFWS                |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LAPKT-POLYNOMIAL-BFWS          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LM-cut                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LMFork                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LMTD                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| LPRPG                          |             | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/lprpg.html) \| Paper                           |      |
-| LPRPG-P                        |             | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/lprpgp.html) \| Paper                          |      |
-| **M**                          |             |                                                                                                                  |      |
-| Madagascar                     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Madagascar-pC                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Marvin                         |             | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/marvin.html) \| Paper                          |      |
-| maplan-1                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| maplan-2                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| mercury2014                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Merge and Shrink               |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| MERWIN                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| MetricFF                       |             | [Guide Page](/ref/planners/metricff) \| [Home Page](https://fai.cs.uni-saarland.de/hoffmann/metric-ff.html) \| Paper |      |
-| Metis1                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Metis2                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| MIPlan                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Mips XXL                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| MSP                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **N**                          |             |                                                                                                                  |      |
-| NuCeLar                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **O**                          |             |                                                                                                                  |      |
-| OLCFF                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| OPTIC                          |             | [Guide Page](/ref/planners/optic) \| [Home Page](https://nms.kcl.ac.uk/planning/software/optic.html) \| Paper        |      |
-| **P**                          |             |                                                                                                                  |      |
-| PaaS                           |             | Guide Page \| [Home Page](http://solver.planning.domains/) \| Paper                                              |      |
-| Panda                          |             | Guide Page \| [Home Page](https://www.uni-ulm.de/en/in/ki/research/software/panda/panda-planning-system/) \| Paper                                              |      |
-| PHSFF                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Planets                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Planning-PDBs                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| PopCorm                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| POPF                           |             | [Guide Page](/ref/planners/popf) \| [Home Page](https://nms.kcl.ac.uk/planning/software/popf.html) \| Paper          |      |
-| PROBE                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Prost-DD-1                     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Prost-DD-2                     |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **Q**                          |             |                                                                                                                  |      |
-| **R**                          |             |                                                                                                                  |      |
-| Random-Bandit                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Randward                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Rational Lazy A*               |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| RIDA                           |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Roamer                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| RPT                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **S**                          |             |                                                                                                                  |      |
-| Saarplan                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| SATPLANLM-C                    |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Scorpion                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Selective Max                  |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Sharaabi                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| SHOP/SHOP2                     |             | Guide Page \| [Home Page](https://www.cs.umd.edu/projects/shop/description.html) \| Paper                                                                                 |      |
-| SHOP3                          |             | Guide Page \| [Home Page](https://shop-planner.github.io) \| Paper                                                                                 |      |
-| SIW                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| SMTPlan+                       |             | [Guide Page](/ref/planners/smtplan) \| [Home Page](http://kcl-planning.github.io/SMTPlan/) \| Paper                  |      |
-| SPM&S                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| SymBA*-1                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| SymBA*-2                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Symple-1                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Symple-2                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **T**                          |             |                                                                                                                  |      |
-| tBURTON                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| TemPorAl                       |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| Temporal Fast Downwards        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| TFLAP                          |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| TLP-GP                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| TSGP                           |             | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/tsgp.html) \| Paper                            |      |
-| **U**                          |             |                                                                                                                  |      |
-| UPMurphi                       |             | Guide Page \| [Home Page](https://github.com/gdellapenna/UPMurphi) \| Paper                                      |      |
-| Upwards                        |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| USE                            |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **V**                          |             |                                                                                                                  |      |
-| **W**                          |             |                                                                                                                  |      |
-| **X**                          |             |                                                                                                                  |      |
-| **Y**                          |             |                                                                                                                  |      |
-| YAHSP3                         |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| YAHSP3-MT                      |             | Guide Page \| Home Page \| Paper                                                                                 |      |
-| **Z**                          |             |                                                                                                                  |      |
+| {% planner Freelunch %}        | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %}                                              | {% planner_tag IPC2014 Satisfycing %} |
+| **G**                          |                                                                                                                  |      |
+| {% planner Gamer %}            | Home page [Not Found] \| {% paper_link Paper planners/gamer 1 %}                                                 | {% planner_tag IPC2008 Optimising %} |
+| **H**                          |                                                                                                                  |      |
+| {% planner HPlanP %} (styled HPlan-P) | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %}                                         | {% planner_tag IPC2006 Optimising %} |
+| {% planner HSP %}              | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %}                                                | {% planner_tag IPC1998 IPC2000 Satisfycing %} |
+| HyperTensioN                   | Guide Page \| [Home Page](https://github.com/Maumagnaguagno/HyperTensioN) \| Paper                               |      |
+| **I**                          |                                                                                                                  |      |
+| IBaCoP-2018                    | Guide Page \| Home Page \| Paper                                                                                 |      |
+| IBaCoP2-2018                   | Guide Page \| Home Page \| Paper                                                                                 |      |
+| IFork Init                     | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Imitation-Net                  | Guide Page \| Home Page \| Paper                                                                                 |      |
+| ITSAT                          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **J**                          |                                                                                                                  |      |
+| Jasper                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| JavaFF                         | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/javaff.html) \| Paper                          |      |
+| JSHOP2                         | Guide Page \| [Home Page](https://github.com/mas-group/jshop2) \| Paper                                          |      |
+| **K**                          |                                                                                                                  |      |
+| **L**                          |                                                                                                                  |      |
+| LAMA-2011                      | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Lamar                          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LAPKT-BFWS-Preference          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LAPKT-DFS+                     | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LAPKT-DUAL-BFWS                | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LAPKT-POLYNOMIAL-BFWS          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LM-cut                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LMFork                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LMTD                           | Guide Page \| Home Page \| Paper                                                                                 |      |
+| LPRPG                          | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/lprpg.html) \| Paper                           |      |
+| LPRPG-P                        | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/lprpgp.html) \| Paper                          |      |
+| **M**                          |                                                                                                                  |      |
+| Madagascar                     | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Madagascar-pC                  | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Marvin                         | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/marvin.html) \| Paper                          |      |
+| maplan-1                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| maplan-2                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| mercury2014                    | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Merge and Shrink               | Guide Page \| Home Page \| Paper                                                                                 |      |
+| MERWIN                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| MetricFF                       | [Guide Page](/ref/planners/metricff) \| [Home Page](https://fai.cs.uni-saarland.de/hoffmann/metric-ff.html) \| Paper |      |
+| Metis1                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Metis2                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| MIPlan                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Mips XXL                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| MSP                            | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **N**                          |                                                                                                                  |      |
+| NuCeLar                        | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **O**                          |                                                                                                                  |      |
+| OLCFF                          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| OPTIC                          | [Guide Page](/ref/planners/optic) \| [Home Page](https://nms.kcl.ac.uk/planning/software/optic.html) \| Paper    |      |
+| **P**                          |                                                                                                                  |      |
+| PaaS                           | Guide Page \| [Home Page](http://solver.planning.domains/) \| Paper                                              |      |
+| Panda                          | Guide Page \| [Home Page](https://www.uni-ulm.de/en/in/ki/research/software/panda/panda-planning-system/) \| Paper |      |
+| PHSFF                          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Planets                        | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Planning-PDBs                  | Guide Page \| Home Page \| Paper                                                                                 |      |
+| PopCorm                        | Guide Page \| Home Page \| Paper                                                                                 |      |
+| POPF                           | [Guide Page](/ref/planners/popf) \| [Home Page](https://nms.kcl.ac.uk/planning/software/popf.html) \| Paper      |      |
+| PROBE                          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Prost-DD-1                     | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Prost-DD-2                     | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **Q**                          |                                                                                                                  |      |
+| **R**                          |                                                                                                                  |      |
+| Random-Bandit                  | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Randward                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Rational Lazy A*               | Guide Page \| Home Page \| Paper                                                                                 |      |
+| RIDA                           | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Roamer                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| RPT                            | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **S**                          |                                                                                                                  |      |
+| Saarplan                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| SATPLANLM-C                    | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Scorpion                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Selective Max                  | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Sharaabi                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| SHOP/SHOP2                     | Guide Page \| [Home Page](https://www.cs.umd.edu/projects/shop/description.html) \| Paper                        |      |
+| SHOP3                          | Guide Page \| [Home Page](https://shop-planner.github.io) \| Paper                                               |      |
+| SIW                            | Guide Page \| Home Page \| Paper                                                                                 |      |
+| SMTPlan+                       | [Guide Page](/ref/planners/smtplan) \| [Home Page](http://kcl-planning.github.io/SMTPlan/) \| Paper              |      |
+| SPM&S                          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| SymBA*-1                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| SymBA*-2                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Symple-1                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Symple-2                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **T**                          |                                                                                                                  |      |
+| tBURTON                        | Guide Page \| Home Page \| Paper                                                                                 |      |
+| TemPorAl                       | Guide Page \| Home Page \| Paper                                                                                 |      |
+| Temporal Fast Downwards        | Guide Page \| Home Page \| Paper                                                                                 |      |
+| TFLAP                          | Guide Page \| Home Page \| Paper                                                                                 |      |
+| TLP-GP                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| TSGP                           | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/tsgp.html) \| Paper                            |      |
+| **U**                          |                                                                                                                  |      |
+| UPMurphi                       | Guide Page \| [Home Page](https://github.com/gdellapenna/UPMurphi) \| Paper                                      |      |
+| Upwards                        | Guide Page \| Home Page \| Paper                                                                                 |      |
+| USE                            | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **V**                          |                                                                                                                  |      |
+| **W**                          |                                                                                                                  |      |
+| **X**                          |                                                                                                                  |      |
+| **Y**                          |                                                                                                                  |      |
+| YAHSP3                         | Guide Page \| Home Page \| Paper                                                                                 |      |
+| YAHSP3-MT                      | Guide Page \| Home Page \| Paper                                                                                 |      |
+| **Z**                          |                                                                                                                  |      |
