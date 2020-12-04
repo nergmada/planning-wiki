@@ -20,7 +20,7 @@ This page makes no distinction between classically satisfycing planners and temp
 
 | Planner | Links |
 |---------|-------|
-| **A**   |       |      
+| **A**   |       |
 | {% planner ACOPlan %} (& ACOPlan 2) | Home Page [Not Found] \| {% paper_link Paper planners/acoplan 1 %} |
 | {% planner Alien %} | Home Page [Not Found] \| {% paper_link Paper planners/alien 0 %} |
 | {% planner Arvand %} | Home Page [Not Found] \| {% paper_link Paper planners/arvand 1 %} |
@@ -36,6 +36,7 @@ This page makes no distinction between classically satisfycing planners and temp
 | {% planner DAEYAHSP %} (styled DAE-YAHSP) | Home Page [Not Found] \| {% paper_link Paper planners/daeyahsp 1 %} |
 | **F**   |       |
 | {% planner FD %} The Fast Downward Planning System (and all other FD brand planners) | [Home Page](http://www.fast-downward.org/) \| {% paper_link Paper planners/fd 1 %} |
+| {% planner FF %} The Fast Forward Planning System (and all other FF brand planners) | [Home Page](https://fai.cs.uni-saarland.de/hoffmann/ff.html) \| {% paper_link Paper planners/ff 1 %} |
 | {% planner Freelunch %} | Home Page [Not Found] \| {% paper_link Paper ipcbooklets/2014 43 %} |
 | **H**   |       |
 | {% planner HSP %} | Home Page [Not Found] \| {% paper_link Paper planners/hplanp 1 %} |
