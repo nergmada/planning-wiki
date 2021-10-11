@@ -10,7 +10,7 @@ permalink: /ref/pddl3/domain
 
 Contributors: {% git_author %}
 
-As with all previous installations of PDDL, PDDL 3.0 introduces new requirements. It also introducing syntax for defining constraints. Constraints are form of goal which must be satisfied in all states of the plan.
+As with all previous installations of PDDL, PDDL 3.0 introduces new requirements. It also introduces syntax for defining constraints. Constraints are form of goal which must be satisfied in all states of the plan.
 
 As an additional curiosity note, whilst it may seem that a constraint adds more complexity to a state space, in general it allows us to reduce it significantly, by increasing the number of invalid states.
 
