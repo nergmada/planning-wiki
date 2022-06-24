@@ -10,7 +10,12 @@ permalink: /ref/pddl3/problem
 
 Contributors: {% git_author %}
 
-New syntax is added to PDDL problems in PDDL3. This syntax allows us to express preferences as part of the `:goal` section of a problem file.
+New syntax is added to PDDL problems in PDDL3. This syntax allows us to express preferences as part of the `:goal` or `:constraint` sections of a problem file.
+Preferences over state trajectory constraints are expressed in the `(:constraints ...)` field,\
+while preferences over goals are expressed in the `(:goal ...)` field.
+If a preference involves both a constraint and a goal, it is expressed in the
+`:constraints` field. Goal preferences expressed in the `:goal` field are implicitly interpreted under the
+`at end` modality.
 
 ```cl
 (define
@@ -26,11 +31,20 @@ New syntax is added to PDDL problems in PDDL3. This syntax allows us to express 
         ... omitted
     )
     (:goal
+        (at lorry1 glasgow)
+        (preference atl2l (at lorry1 london))
+        (preference atl2p (at lorry1 portsmouth))
+    )
+    (:constraints
         (preference visitLDNthenGLS
             (sometime-after (at lorry1 london) (at lorry1 glasgow))
         )
     )
-    (:metric (minimize (is-violated visitLDNthenGLS)))
+    (:metric (minimize (+
+        (* (is-violated atl2l) 1.2)
+        (* (is-violated atl2p) 1.3)
+        (* (is-violated visitLDNthenGLS) 3)
+    )))
 )
 ```
 
@@ -182,6 +196,18 @@ Note that this predicate must remain true, forever after the give point. This ma
 ```
 
 The above statement indicates that `lorry1` should be `empty` after `40` and remain empty.
+
+### at end
+
+```cl
+    at end <predicate>
+```
+
+The `at end` goal preference expresses that a predicate should hold true at the end of the plan.
+
+```cl
+    at end (at lorry1 london)
+```
 
 ## Metric
 
