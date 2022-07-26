@@ -374,7 +374,7 @@ ADL is a super requirement which adds the following requirements
 - `:disjunctive-preconditions`
 - `:equality`
 - `:quantified-preconditions`
-- `:condition-effects`
+- `:conditional-effects`
 
 ## UCPOP
 
