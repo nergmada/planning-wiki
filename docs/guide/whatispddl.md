@@ -47,7 +47,7 @@ PDDL 3,0 {% cite pddl32005 %} introduced soft constraints to AI planning. A soft
 It also assigns a cost to each preference, which is a measure of how much the plan quality decreases if the preference is not met. This allows the user to express Which of their preferences are more important (if any).
 
 ## PDDL+
-PDDL+ {$ cite pddlplus2003 $} introduced two core concepts, Processes and Events. Both are ways of expressing uncontrollable change in the world we are modelling. A process is something which always happens when it's preconditions are met and as such implements some effect on the domain. 
+PDDL+ {% cite pddlplus2003 %} introduced two core concepts, Processes and Events. Both are ways of expressing uncontrollable change in the world we are modelling. A process is something which always happens when it's preconditions are met and as such implements some effect on the domain. 
 
 In a physical model, a process might be the effect of gravity on a ball when the ball is not being held.
 
