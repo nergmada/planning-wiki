@@ -12,7 +12,7 @@ Contributors: {% git_author %}
 
 ## Introduction
 
-PDDL 2.2 {$ cite pddl222004 %} introduces a key new feature not previously considered in PDDL, Timed Initial Literals. In previous versions, we assumed that a predicate was either true or false at the start.
+PDDL 2.2 {% cite pddl222004 %} introduces a key new feature not previously considered in PDDL, Timed Initial Literals. In previous versions, we assumed that a predicate was either true or false at the start.
 
 This is not a realistic way of modelling because it fails to consider facts which may become true later. For example, in dynamic planning, where we are planning and re-planning as the world changes, we may wish to represent resources or states which are in the course of changing which we have no control over.
 
