@@ -315,7 +315,13 @@ Usage: Rare/None
     (:timeless (<predicate_name> <arguments>))
 ```
 
-A timeless predicate is a predicate which is always true and cannot be changed by any action in the domain. It's not clear why you would need to model something that is always true and never changes, but it was included in the spec. An example is provided below.
+A timeless predicate is a predicate which is always true and cannot be changed by any action in the domain. 
+Under the “closed world” assumption, anything not specified as true is considered false and timeless predicates are one possibility of including
+an otherwise unspecified fact to the domain.
+An alternative representation of the same fact could be to include the predicate in a problem's initial state;
+this however loses the notion of immutability.
+
+An example is provided below.
 
 ```cl
     (:timeless (foundations-set mainsite))
