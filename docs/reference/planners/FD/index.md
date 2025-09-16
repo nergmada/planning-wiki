@@ -116,7 +116,7 @@ This table has been calculated manually based on the main page on [PDDL Support]
 
 ## Downloading and Compiling Fast Downward (Main)
 
-For more information on how to download, compile and use Fast Downward, visit their [compilation page here](http://www.fast-downward.org/ObtainingAndRunningFastDownward). 
+For more information on how to download, compile and use Fast Downward, visit their [getting started page here](https://www.fast-downward.org/latest/documentation/quick-start/). 
 
 ## Additional Notes
 
