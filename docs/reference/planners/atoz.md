@@ -66,6 +66,7 @@ If _your_ planner is missing from this list, please fork this repository, correc
 | JavaFF                         | Guide Page \| [Home Page](https://nms.kcl.ac.uk/planning/software/javaff.html) \| Paper                          |      |
 | JSHOP2                         | Guide Page \| [Home Page](https://github.com/mas-group/jshop2) \| Paper                                          |      |
 | **K**                          |                                                                                                                  |      |
+| {% planner Kairos %}           | [Home Page](https://github.com/PlanSys2/kairos) \| Paper [Not yet]                                              | {% planner_tag temporal numeric %} |
 | **L**                          |                                                                                                                  |      |
 | LAMA-2011                      | Guide Page \| Home Page \| Paper                                                                                 |      |
 | Lamar                          | Guide Page \| Home Page \| Paper                                                                                 |      |
